@@ -1,0 +1,9 @@
+{
+  "service": "crossref",
+  "operation": "literature.search",
+  "params": {
+    "query": "exoplanet transmission spectroscopy",
+    "offset": 0
+  },
+  "limit": 5
+}

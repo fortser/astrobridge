@@ -1,0 +1,50 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments and package build output
+.venv/
+venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# AstroBridge runtime data, downloaded artifacts, and local caches
+workspace/
+cache/
+.cache/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+astrobridge.local.json
+*.local.json
+*.pem
+*.key
+
+# Logs, temporary files, and OS/editor state
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

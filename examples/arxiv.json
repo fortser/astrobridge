@@ -1,0 +1,6 @@
+{
+  "service": "arxiv",
+  "operation": "literature.search",
+  "params": {"query": "cat:astro-ph.EP AND all:atmosphere", "offset": 0},
+  "limit": 5
+}

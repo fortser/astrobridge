@@ -1,0 +1,15 @@
+{
+  "service": "horizons",
+  "operation": "horizons.query",
+  "params": {
+    "target": "1;",
+    "center": "500@10",
+    "start": "2026-01-01",
+    "stop": "2026-01-03",
+    "step": "1d",
+    "time_scale": "TDB",
+    "kind": "elements",
+    "ref_plane": "ECLIPTIC"
+  },
+  "limit": 5
+}

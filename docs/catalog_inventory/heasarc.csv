@@ -1,0 +1,1032 @@
+schema_name,table_name,description
+public,"""first""",Faint Images of the Radio Sky at Twenty cm (FIRST)
+MASTER_TABLE,"MASTER_TABLE.""time""",Time only queries
+MASTER_TABLE,MASTER_TABLE.indexview,View of metainfo table data as table
+MASTER_TABLE,MASTER_TABLE.pos_big,"Position only queries, > 1 degree FOV"
+MASTER_TABLE,MASTER_TABLE.pos_small,"Position only queries, <= 1 degree FOV"
+MASTER_TABLE,MASTER_TABLE.pos_time_big,"Position/time  queries, > 1 degree FOV"
+MASTER_TABLE,MASTER_TABLE.pos_time_small,"Position/time queries, <= 1 degree FOV"
+TAP_SCHEMA,TAP_SCHEMA.columns,Available columns
+TAP_SCHEMA,TAP_SCHEMA.key_columns,Key/Foreign key pairs -- usused
+TAP_SCHEMA,TAP_SCHEMA.keys,Joins between tables -- unused
+TAP_SCHEMA,TAP_SCHEMA.schemas,Available schemas
+TAP_SCHEMA,TAP_SCHEMA.tables,Available tables
+public,a1,HEAO 1 A1 X-Ray Source Catalog
+public,a1point,HEAO 1 A1 Lightcurves
+public,a2lcpoint,HEAO 1 A2 Pointed Lightcurves
+public,a2lcscan,HEAO 1 A2 Scanned Lightcurves
+public,a2led,HEAO 1 A2 LED Catalog
+public,a2pic,HEAO 1 A2 Piccinotti Catalog
+public,a2point,HEAO 1 A2 Pointing Catalog
+public,a2rtraw,HEAO 1 A2 Raw Rates
+public,a2specback,HEAO 1 A2 Spectra Background
+public,a2spectra,HEAO 1 A2 Spectra
+public,a3,HEAO 1 A3 MC LASS Catalog
+public,a4,HEAO 1 A4 Catalog of High-Energy X-Ray Sources
+public,a4spectra,HEAO 1 A4 Spectra
+public,aavsovsx,AAVSO International Variable Star Index
+public,abell,Abell Clusters
+public,abellzcat,Abell Clusters Measured Redshifts Catalog
+public,acceptcat,Archive of Chandra Cluster Entropy Profile Tables (ACCEPT) Catal
+public,acrs,Astrographic Catalog of Reference Stars
+public,actegsrcat,Atacama Cosmology Telescope 2008 Survey 148-GHz Extragalactic So
+public,actmadcows,ACT Massive and Distant Clusters of WISE Survey (MaDCoWS) Candid
+public,actsouth,Atacama Cosmology Telescope (ACT) Extragalactic Southern Sources
+public,actssrcat,Atacama Cosmology Telescope 2008 Southern Survey 148/218 GHz Sou
+public,actszclust,Atacama Cosmology Telescope DR5 Sunyaev-Zeldovich Cluster Catalo
+public,aegis20,All-Wavelength Extended Groth Strip Int. Survey (AEGIS) VLA 20-c
+public,aegis20id,All-Wavelength Extended Groth Strip Int. Survey (AEGIS) 20-cm Fu
+public,aegisx,AEGIS-X Chandra Extended Groth Strip X-Ray Point Source Catalog
+public,aegisxdcxo,AEGIS-X Deep Survey Chandra X-Ray Point Source Catalog
+public,agilecat,First AGILE Catalog of High-Confidence Gamma-Ray Sources
+public,agileupvar,Updated AGILE Catalog of Bright Gamma-Ray Sources and Variabilit
+public,agnsdssxm2,Sloan Digital Sky Survey/XMM-Newton Type1 AGN X-Ray and Radio Pr
+public,agnsdssxmm,Sloan Digital Sky Survey/XMM-Newton AGN Spectral Properties Cata
+public,akaribsc,"AKARI/FIS All-Sky Survey Bright Source Catalog, Version 1"
+public,akaripsc,"AKARI/IRC All-Sky Survey Point Source Catalog, Version 1"
+public,aknepdfcxo,Akari North Ecliptic Pole Deep Field Chandra X-Ray Point Source
+public,alfperxmm,Alpha Per Open Cluster XMM-Newton X-Ray Source Catalog
+public,allwiseagn,AllWISE Catalog of Mid-IR AGNs
+public,ami10c15gz,10C Survey at 15.7 GHz Radio Source Catalog
+public,amigps16gh,AMI Galactic Plane Survey 16-GHz Source Catalog
+public,ams02rates,AMS-02 All Particle Rates Catalog
+public,ams02spec,AMS-02 Spectral Results Catalog
+public,ansuvpscat,ANS Ultraviolet Photometry Catalog of Point Sources
+public,arcquincxo,Arches and Quintuplet Clusters Chandra X-Ray Point Source Catalo
+public,ariel3a,3rd Ariel-V SSI Catalog
+public,ariel5,Ariel V All-Sky Monitor
+public,arxa,Atlas of Radio/X-Ray Associations (ARXA)
+public,ascaegclus,ASCA Elliptical Galaxies and Galaxy Clusters Catalog
+public,ascagis,ASCA GIS Source Catalog (AMSS-I + AMSS-II)
+public,ascagps,ASCA Galactic Plane Survey of Faint X-Ray Sources
+public,ascalss,ASCA Large Sky Survey
+public,ascamaster,ASCA Master Catalog
+public,ascao,ASCA Proposals
+public,ascaprspec,ASCA Proposal Info & Abstracts
+public,ascasis,ASCA SIS Source Catalog
+public,asiagosn,Asiago Supernova Catalog (Dynamic Version)
+public,askapbeta,BETA Pilot Multi-Epoch Continuum Survey of Spitzer SPT Deep Fiel
+public,at20g,Australia Telescope 20-GHz (AT20G) Survey Catalog
+public,at20g1fgl,AT20G/Fermi 1FGL Source Catalog
+public,at20gbspol,Bright Extra-Galactic AT20G Sources Polarizations Catalog
+public,at20gbss,Australia Telescope 20-GHz Survey Bright Source Sample
+public,at20gharc,Australia Telescope 20-GHz (AT20G) High-Angular Resolution Catal
+public,at2fglus,Australia Telescope 2FGL Unassociated Sources Radio Source Catal
+public,atats,Allen Telescope Array Twenty-cm Survey (ATATS) Source Catalog
+public,atcaadfs20,Australia Telescope Compact Array AKARI Deep Field South 20-cm S
+public,atcdfsss82,Australia Telescope Chandra Deep Field-South and SDSS Stripe 82
+public,atesp1p4gh,Australia Telescope ESO Slice Project 1.4-GHz Source Catalog
+public,athdfs1p4g,Australia Telescope Hubble Deep Field-South 1.4-GHz Source Catal
+public,athdfs3frq,"Australia Telescope Hubble Deep Field-South 2.5, 5.2 and 8.7-GHz"
+public,athdfsccat,Australia Telescope Hubble Deep Field-South Combined Source Cata
+public,athdfsoid,Australia Telescope Hubble Deep Field-South Optical Identificati
+public,atlas2p3gh,AT Large Area Survey (ATLAS) ELAIS-S1 & CDF-S 2.3-GHz Source Cat
+public,atlas5p5gh,AT Large Area Survey (ATLAS) E-CDF-S 5.5-GHz Components Catalog
+public,atlascscpt,AT Large Area Survey (ATLAS) CDF-S/SWIRE 1.4-GHz Components Cata
+public,atlascsid,AT Large Area Survey (ATLAS) CDF-S/SWIRE ID and Classification C
+public,atlasd2cpt,AT Large Area Survey (ATLAS) CDF-S & ELAIS-S1 1.4-GHz DR2 Compon
+public,atlasescpt,AT Large Area Survey (ATLAS) ELAIS-S1/SWIRE 1.4-GHz Components C
+public,atlasesid,AT Large Area Survey (ATLAS) ELAIS-S1/SWIRE ID and Classificatio
+public,atlasspecz,AT Large Area Survey (ATLAS) Spectroscopic Classes & Redshifts C
+public,atlbs1p4gh,Australia Telescope Low-Brightness Survey Source Catalog
+public,atlgds2p1g,Australia Telescope Local Group Dwarf Spheroidals 2.1-GHz Compon
+public,atnfpulsar,ATNF Pulsar Catalog
+public,atpmncat,Australia Telescope-PMN Catalog of Southern Radio Sources
+public,axis,AXIS XMM-Newton Source Catalog
+public,bat5bgrbsp,CGRO/BATSE 5B Gamma-Ray Burst Spectral Catalog
+public,batse4b,CGRO/BATSE 4B Catalog
+public,batsedaily,CGRO/BATSE Daily Data
+public,batseeocat,CGRO/BATSE Earth Occultation Catalog of Low-Energy Gamma-Ray Sou
+public,batsegrb,CGRO/BATSE Gamma-Ray Burst Catalog
+public,batsegrbsp,CGRO/BATSE Complete Spectral Catalog of Bright GRBs
+public,batsepulsr,CGRO/BATSE Pulsar Observations
+public,batsetrigs,CGRO/BATSE Trigger Data
+public,baxgalclus,BAX X-Ray Galaxy Clusters and Groups Catalog
+public,bbxrt,BBXRT Archive
+public,bestars,Be Stars Catalog
+public,bhrfscid,Byurakan/Hamburg/ROSAT Catalog of Optical IDs
+public,bmwchancat,Brera Multi-scale Wavelet Chandra Source Catalog
+public,bmwhricat,Brera Multi-scale Wavelet ROSAT HRI Source Catalog
+public,bnmdspecat,Brightest M Dwarfs in the Northern Sky Spectroscopic Catalog
+public,boof153mhz,Bootes Field GMRT 153-MHz Source Catalog
+public,bootesdf,Bootes Deep Field WSRT 1.4-GHz Source Catalog
+public,bsc5p,Bright Star Catalog
+public,burcbmastr,BurstCube Master Observation Catalog
+public,caixa,Catalog of AGN in the XMM-Newton Archive
+public,calchdmstr,CALET CHarge Detector (CHD) Master Catalog
+public,calgbmmstr,CALET Gamma-Ray Burst Monitor (GBM) Master Catalog
+public,candelscxo,CANDELS H-Band Selected Chandra Source Catalog
+public,cargm31cxo,Carina Nebula Gum 31 Chandra X-Ray Point Source Catalog
+public,carinaclas,Carina Nebula Chandra X-Ray Point Source Classes
+public,carinacxo,Carina Nebula Chandra X-Ray Point Source Catalog
+public,carinaxmm,Carina OB1 Association XMM-Newton X-Ray Point Source Catalog
+public,cbatpicagn,CGRO BATSE-Observed Piccinotti Sample of Active Galactic Nuclei
+public,cbfgrxecxo,Chandra Bulge Field X-Ray Point Source Catalog
+public,ccalspec,CALET Calorimeter Results Catalog
+public,ccosmoscat,Chandra COSMOS (C-COSMOS) Survey X-Ray Point Source Catalog
+public,ccosmosoid,Chandra COSMOS (C-COSMOS) Survey Optical/IR Counterparts Catalog
+public,ccosmphotz,Chandra COSMOS (C-COSMOS) Survey Photometric Redshift Catalog
+public,ccosrssfag,Chandra COSMOS Radio-Selected Star-Forming Galaxies and AGN Cata
+public,cdfn2msnew,Chandra Deep Field North 2-Megasecond Improved Point Source Cata
+public,cdfn2msoi2,Chandra Deep Field North Updated Optical & IR Catalog
+public,cdfn2msoid,Chandra Deep Field North 2-Megasecond Optical & IR Catalog
+public,cdfsagncxo,Chandra Deep Field South AGN Spectral Properties Catalog
+public,cenacxo,Centaurus A Galaxy Chandra X-Ray Point Source Catalog
+public,cepaxmm,Cepheus A SFR XMM-Newton X-Ray Point Source Catalog
+public,cepbob3cxo,Cep B/OB3 Star-Forming Region Chandra X-Ray Point Source Catalog
+public,cepbob3oid,Cep B/OB3 Star-Forming Region Chandra Point Source Optical/IR ID
+public,cfa2s,CfA Redshift Survey: South Galactic Cap Data
+public,cfhtlsgxmm,XMM-Newton CFHTLS W1 Field Galaxy Groups Catalog
+public,cg12cxo,CG 12 Chandra X-Ray Point Source Catalog
+public,cgmw,Candidate Galaxies Behind the Milky Way
+public,cgpsngpcat,Canadian Galactic Plane Survey (CGPS) 1420-MHz Compact Source Ca
+public,cgrabs,Candidate Gamma-Ray Blazar Survey Source Catalog
+public,cgroprspec,CGRO Proposal Info & Abstracts
+public,cgrotl,CGRO Timeline
+public,chainthcxo,Chamaeleon I North Cloud Chandra X-Ray Point Source Catalog
+public,champhxagn,CHAMP (Chandra Multiwavelength Project) Hard X-Ray Emitting AGN
+public,champlane,Chandra Multiwavelength Plane Survey Optical ID Catalog
+public,champlanex,ChaMPlane Galactic Bulge and Center X-Ray Source Catalog
+public,champpsc,Chandra Multiwavelength Project (ChaMP) Point Source Catalog
+public,champsdssa,CHAMP/SDSS Nearby Low-Luminosity AGN Catalog
+public,chandfn1ms,Chandra Deep Field North 1-Megasecond Catalog
+public,chandfn2ms,Chandra Deep Field North 2-Megasecond Catalog
+public,chandfs1ms,Chandra Deep Field South 1-Megasecond Catalog
+public,chandfs2ms,Chandra Deep Field South 2-Megasecond Catalog
+public,chandfs4ms,Chandra Deep Field South 4-Megasecond Catalog
+public,chandfs7ms,Chandra Deep Field-South 7-Megasecond X-Ray Source Catalog
+public,chanextdfs,Chandra Extended Deep Field South Survey Point Source Catalog
+public,changalxrb,Chandra X-Ray Binary Catalog of SINGS Galaxies
+public,changbscat,Chandra Galactic Bulge Survey Full X-Ray Point Source Catalog
+public,chanmaster,Chandra Observations
+public,channsgpsc,Chandra Nearby Spiral Galaxies Point Source Catalog
+public,chansexagn,Chandra Serendipitous Extragalactic X-Ray Source ID (SEXSI)/Spit
+public,chansexoid,Chandra Serendipitous Extragalactic X-Ray Source ID (SEXSI) Opti
+public,chansexsi,Chandra Serendipitous Extragalactic X-Ray Source ID (SEXSI) Cata
+public,chansngcat,Chandra ACIS Survey for X-Ray AGN in Nearby Galaxies
+public,chantypgpr,Chandra Typical Galactic Plane Region Point Source Catalog
+public,chanulxcat,Chandra Archive Of Galaxies Ultraluminous X-Ray Source Catalog
+public,chanvguide,Chandra Variable Guide Star Catalog
+public,chasfrxray,ROSAT All-Sky Survey: Chamaeleon Star Forming Region Study
+public,chesscat,ChaMP Extended Stellar Survey (ChESS) X-Ray Catalog
+public,chicagocxo,ChIcAGO Survey Chandra X-Ray Source Catalog
+public,chngpscliu,Chandra ACIS Survey of Nearby Galaxies X-Ray Point Source Catalo
+public,chpngptsrc,Chandra Nearby Galaxies Point Source Catalog
+public,clans,Chandra Lockman Area North Survey (CLANS) X-Ray Source Catalog
+public,clansoid,Chandra Lockman Area North Survey (CLANS) Optical & IR Catalog
+public,class,HEASARC Object Classifications
+public,clasxs,Chandra Large-Area Synoptic X-Ray Survey of Lockman Hole-NW
+public,clasxsoid,Chandra Large-Area Synoptic X-Ray Survey Optical & IR Catalog
+public,clscat,Chandra Legacy Survey (CLS) Catalog
+public,cma,EXOSAT/CMA Sources (Unscreened)
+public,cmaimage,EXOSAT CMA Images for Each Pointing
+public,cmaob1nir,CMa OB1 XMM-Newton Point Source Near-Infrared Counterpart Proper
+public,cmaob1xmm,CMa OB1 XMM-Newton X-Ray Point Source Catalog
+public,cmar1xray,ROSAT PSPC Catalog of Canis Major R1 X-Ray Sources
+public,cmascreen,EXOSAT/CMA Sources (Screened for Quality)
+public,cmbmaster,LAMBDA Cosmic Microwave Background Experiments Master Catalog
+public,cns3,"Gliese Catalog of Nearby Stars, 3rd Edition"
+public,cocd,COCD: Catalog of Open Cluster Data
+public,cocdext1,COCD: Catalog of Open Cluster Data First Extension
+public,coll69oid,Collinder 69 Cluster Optical/IR Counterparts to XMM-Newton X-Ray
+public,coll69xmm,Collinder 69 Cluster XMM-Newton X-Ray Point Source Catalog
+public,comptel,CGRO/COMPTEL Low-Level Data and Maps
+public,corotexlog,CoRoT Stellar Targets for Exoplanet Detection Observation Log
+public,cosbmaps,COS-B Map Product Catalog
+public,cosbraw,COS-B Photon Events Catalog
+public,cosmosvlba,COSMOS Field VLBA Observations 1.4-GHz Source Catalog
+public,cosxfirmwc,COSMOS Field X-Ray & FIR Detected AGN Multiwavelength Properties
+public,coup,Chandra Orion Ultradeep Point Source Catalog
+public,cpstars,"Catalog of Ap, HgMn and Am Stars"
+public,cr261cxo,Collinder 261 Chandra X-Ray Point Source Catalog
+public,cr261oid,Collinder 261 Chandra X-Ray Source Optical Counterparts Catalog
+public,crabtime,Crab Pulsar Timing
+public,crates,CRATES Flat-Spectrum Radio Source Catalog
+public,cratesocrap,OCRA-p Survey of a Subset of CRATES Sources
+public,csc,"Chandra Source Catalog, v2.1.1"
+public,cscstack,"Chandra Source Catalog Stacked Observation Detections, v2.1.1"
+public,cvcat,Cataclysmic Variables Catalog (2006 Final Edition)
+public,cxogsgsrc,Chandra ACIS GSG Point-Like X-Ray Source Catalog
+public,cxoxassist,Chandra XAssist Source List
+public,cyder,Calan-Yale Deep Extragalactic Research Survey X-Ray Source Catal
+public,cygob2cxo,Cygnus OB2 Association Chandra X-Ray Point Source Catalog
+public,cygob2cxo2,Cygnus OB2 Association Chandra X-Ray Point Source Catalog 2
+public,cygob2xmm,Cygnus OB2 Association XMM-Newton X-Ray Point Source Catalog
+public,cygtevcxo,Cygnus TeV Source Chandra X-Ray Point Source Catalog
+public,denisigal,First DENIS I-Band Extragalactic Catalog
+public,dirbepsc,COBE DIRBE Point Source Catalog
+public,dixon,Dixon Master List of Radio Sources (Version 43)
+public,dncvobcat,Outburst Catalog of Dwarf Novae-type and Other Cataclysmic Varia
+public,duerbeck,Galactic Novae References Catalog
+public,dxrbs,ROSAT Deep X-Ray Radio Blazar Survey Catalog
+public,ecdfscxo,Extended Chandra Deep Field-South X-Ray Point Source Catalog
+public,ecdfsnew,Extended Chandra Deep Field South 250-ks Improved Point Source C
+public,ecdfsoid,Extended Chandra Deep Field-South Survey Optical Identifications
+public,ecdfsoid2,Extended Chandra Deep Field-South Optical and Near-IR Counterpar
+public,ecdfsrssam,Radio-Selected Extended Chandra Deep Field South Source Catalog
+public,efedshard,eROSITA eFEDS Hard X-Ray (2.3-5.0 keV) Source Catalog
+public,efedsmain,eROSITA eFEDS Main X-Ray (0.2-2.3 keV) Source Catalog
+public,egrcat,CGRO/EGRET Revised Catalog of Gamma-Ray Sources
+public,egret3,CGRO/EGRET Third Source Catalog
+public,egretdata,CGRO/EGRET Photon Lists and Maps
+public,eingalcat,Catalog of Galaxies Observed by the Einstein Observatory IPC & H
+public,eingalclus,Einstein Observatory Clusters of Galaxies Catalog
+public,einopslgal,Einstein Survey of Optically Selected Galaxies
+public,einstein2e,Einstein Observatory 2E Catalog of IPC X-Ray Sources
+public,elaiscxo,ELAIS N1 and N2 Fields Chandra X-Ray Point Source Catalog
+public,elaisfbmc,European Large-Area ISO Survey (ELAIS) Final Band-Merged Catalog
+public,elaiss1oid,ELAIS S1 Field X-Ray Source Optical/IR Identifications Catalog
+public,elaiss1xmm,ELAIS S1 Field XMM-Newton X-Ray Source Catalog
+public,emss,Einstein Catalog IPC EMSS Survey
+public,erass1hard,eROSITA All-Sky Survey (First 6 Months) Three-Band (2.3-5.0 keV)
+public,erass1main,eROSITA All-Sky Survey (First 6 Months) X-Ray (0.2-2.3 keV) Sour
+public,erassmastr,eROSITA All-Sky Survey Master Catalog
+public,erosmaster,eROSITA Observations Master Catalog
+public,erosxmm,Extremely Red Objects XMM-Newton Survey Catalog
+public,esouppsala,ESO-Uppsala ESO(B) Survey
+public,etachahard,Eta Chamaeleontis eROSITA EDR Field X-Ray (2.3-5.0 keV) Source C
+public,etachamain,Eta Chamaeleontis eROSITA EDR Field X-Ray (0.2-2.3 keV) Source C
+public,etgalcxo,Early-Type Galaxies Chandra X-Ray Point Source Catalog
+public,etgalxray,Early-Type Galaxies X-Ray Luminosities Catalog
+public,euv,Master EUV Catalog
+public,euvebsl,EUVE Bright Sources
+public,euvecat2,EUVE Second Source Catalog
+public,euvemaster,EUVE Archive and Observation Log
+public,euverap1,"EUVE Right Angle Program, 1st Catalog"
+public,euverap2,"EUVE Right Angle Program, 2nd Catalog"
+public,euverap3,"EUVE Right Angle Program, 3rd Catalog"
+public,euvexrtcat,All-Sky Catalog of Faint EUV Sources
+public,exgalemobj,Hewitt & Burbidge (1991) Catalog of Extragalactic Emission-Line
+public,exms,EXOSAT ME Slew Catalog
+public,exofot,EXOSAT Final Observation Tapes
+public,exogps,EXOSAT/ME Galactic Plane Survey
+public,exohgls,EXOSAT/CMA High Galactic Latitude Survey
+public,exolog,EXOSAT Observation Log
+public,exomaster,EXOSAT Master Observation List
+public,exoplanets,Extrasolar Planets Encyclopedia
+public,exoplanodb,Exoplanet Orbit Database
+public,exopubs,EXOSAT Bibliography
+public,exss,Einstein Extended Source Survey
+public,faust,Faust Far-UV Point Source Catalog
+public,fbsbsocat,First Byurakan Survey Blue Stellar Objects Catalog
+public,fer2fusrid,Fermi 2FGL Unassociated Gamma-Ray Sources Possible Radio Identif
+public,fermi2favs,Fermi All-Sky Variability Analysis Second Catalog of Flaring Gam
+public,fermi3fgl,Fermi LAT 4-Year Point Source Catalog
+public,fermi3fhl,Third Catalog of Hard Fermi-LAT Sources (3FHL)
+public,fermifhl,Second Catalog of Hard Fermi-LAT Sources (2FHL)
+public,fermigbrst,Fermi GBM Burst Catalog
+public,fermigdays,Fermi GBM Daily Data
+public,fermigsol,Fermi GBM Solar Flare Catalog
+public,fermigtrig,Fermi GBM Trigger Catalog
+public,fermil2psr,Fermi LAT Second Catalog of Gamma-Ray Pulsars (2PC)
+public,fermilac,Fermi LAT Fourth AGN Catalog
+public,fermilasp,Fermi LAT Monitored Source List
+public,fermilatra,Fermi LAT Sources Refined Associations Catalog
+public,fermilblaz,Fermi LAT Gamma-Ray Blazar Classification Catalog
+public,fermilbsl,Fermi LAT Bright Source List
+public,fermilgrb,Fermi LAT Second Gamma-Ray Burst Catalog
+public,fermilhesc,Fermi LAT High-Energy Source Catalog (1FHL)
+public,fermille,Fermi LAT Low-Energy Events Catalog
+public,fermilpsc,Fermi LAT 14-Year Point Source Catalog (4FGL-DR4)
+public,fermiltrns,Fermi LAT Long-Term Transient Source Catalog
+public,fermilweek,Fermi LAT Weekly Data
+public,flarestars,UV Cet-type Flare Stars & Related Objects Catalog
+public,fornaxacxo,Fornax A (NGC 1316) Chandra X-Ray Source Catalog
+public,fornaxxmm,Fornax Dwarf Galaxy XMM-Newton X-Ray Point Source Catalog
+public,fpcsfits,Einstein FPCS Events Files
+public,fricat,FIRST Catalog of FR I Radio Galaxies
+public,friicat,FIRST Catalog of FR II Radio Galaxies
+public,fsvsclustr,Faint Sky Variability Survey Catalog of Galaxy Clusters and Rich
+public,fuselog,Far Ultraviolet Explorer (FUSE) Observation Log
+public,galccxonid,Galactic Center Chandra X-Ray Source Near-IR Counterparts
+public,galcencxo,Galactic Center Chandra X-Ray Point Source Catalog
+public,galcenpspc,ROSAT PSPC Galactic Center Soft X-Ray Source Catalog
+public,galexlog,Galaxy Evolution Explorer (GALEX) Observation Log
+public,galextdsc,GALEX Time Domain Survey Catalog
+public,galobstars,Catalog of Galactic OB Stars
+public,gb6,Green Bank 6-cm (GB6) Radio Source Catalog
+public,gbt31ghz,Green Bank Telescope 100-m 31-GHZ Radio Source Catalog
+public,gc47tuccx2,47 Tuc Globular Cluster Chandra X-Ray Point Source Catalog (2017
+public,gc47tuccxo,47 Tuc Globular Cluster Chandra X-Ray Point Source Catalog (2005
+public,gcps,Galactic Center P-Band (330 MHz) Survey
+public,gcptsrccxo,Chandra Point Sources in 18 Distant Galaxy Clusters
+public,gcscat,Globular Cluster Systems of Galaxies Catalog
+public,gcvs,General Catalog of Variable Stars (2025-12 Version)
+public,gcvsegvars,General Catalog of Variable Stars (GCVS4.2): Extragalactic Varia
+public,gcvsnsvars,General Catalog of Variable Stars: Suspected Variable Stars (202
+public,gingaasmlc,Ginga ASM Source Lightcurves
+public,gingabgd,Ginga Background Lightcurves & Spectra
+public,gingalac,Ginga Source Lightcurves & Spectra
+public,gingalog,Ginga LAC Log
+public,gingamode,Ginga LAC Mode Catalog
+public,gingaraw,Ginga LAC Raw Data
+public,gleamegcat,GaLactic and Extragalactic All-sky MWA Survey (GLEAM) Extragalac
+public,gliese2mas,Gliese Catalog Stars with Accurate Coordinates and 2MASS Cross-I
+public,globclust,Milky Way Globular Clusters Catalog (December 2010 Version)
+public,glxsdssqs2,GALEX/SDSS z=0.5-1.5 QSO Candidates Catalog
+public,glxsdssqso,GALEX/SDSS Quasar Catalog
+public,gmrt1hxcsf,Giant Metrewave Radio Telescope 1h XMM/Chandra Survey Fld 610-MH
+public,gmrt4f150m,Giant Metrewave Radio Telescope Field I 150-MHz Radio Source Cat
+public,gmrtas150m,Giant Metrewave Radio Telescope All-Sky 150-MHz Radio Source Cat
+public,gmrtelain1,Giant Metrewave Radio Telescope ELAIS-N1 Field 610-MHz Radio Sou
+public,gmrtelain2,Giant Metrewave Radio Telescope ELAIS-N2 Field 610-MHz Radio Sou
+public,gmrtha325m,Giant Metrewave Radio Telescope Herschel-ATLAS/GAMA Flds 325-MHz
+public,gmrtj0916,Giant Metrewave Radio Telescope J0916+6348 Field Radio Source Ca
+public,gmrtk2f1lf,Giant Metrewave Radio Telescope 150-MHz Survey of Kepler K2 Fiel
+public,gmrtlbdsly,Giant Metrewave Radio Telescope LBDS-Lynx Region 150-MHz Radio S
+public,gmrtlhcat,Giant Metrewave Radio Telescope Lockman Hole 610-MHz Radio Sourc
+public,gmrtlhcat2,Giant Metrewave Radio Telescope Lockman Hole 610-MHz Radio Sourc
+public,gmrtlhcat3,Giant Metrewave Radio Telescope Lockman Hole 610-MHz Radio Sourc
+public,gmrtspxfls,Giant Metrewave Radio Telescope Spitzer xFLS Field 610-MHz Radio
+public,gmrtvvdsvl,Giant Metrewave Radio Telescope VVDS-VLA Deep Field 610-MHz Radi
+public,gmrtxl240m,Giant Metrewave Radio Telescope XMM Large Scale Structure 240-MH
+public,gmrtxl610m,Giant Metrewave Radio Telescope XMM Large Scale Structure 610-MH
+public,goscat,Galactic O Stars with Accurate Spectral Classes Catalog
+public,gp7c151mhz,7C(G) 151-MHz Northern Galactic Plane Survey Catalog
+public,gpa,First Galactic Plane Survey at 8.35 and 14.35 GHz
+public,grbcat,Catalog of Gamma-Ray Bursts
+public,grbcatag,Catalog of Gamma-Ray Bursts: Afterglows
+public,grbcatann,Catalog of Gamma-Ray Bursts: Annulus Regions
+public,grbcatbox,Catalog of Gamma-Ray Bursts: Box Regions
+public,grbcatcirc,Catalog of Gamma-Ray Bursts: Circle Regions
+public,grbcatdual,Catalog of Gamma-Ray Bursts: Dual Regions
+public,grbcatflux,Catalog of Gamma-Ray Bursts: Fluxes and Fluences
+public,grbcatint,Catalog of Gamma-Ray Bursts: Intersect Regions
+public,grbcatinta,Catalog of Gamma-Ray Bursts: Annulus Intersect Regions
+public,grbcatirr,Catalog of Gamma-Ray Bursts: Irregular Regions
+public,gs,EXOSAT GSPC Spectra and Lightcurves
+public,gusbad,GRBs Uniformly Selected from BATSE Archival Data (Version 2.1)
+public,gwsstrpcxo,Groth-Westphal Strip Chandra X-Ray Point Source Catalog
+public,halomaster,HaloSat Master Catalog
+public,halotimelg,HaloSat Time Log
+public,hbc,Herbig & Bell Catalog of Orion Pop. Emission-Line Stars
+public,hcg,Hickson Compact Groups of Galaxies (HCG) Catalog
+public,hcggalaxy,Hickson Compact Groups of Galaxies (HCG) Individual Galaxies Dat
+public,hcgxrbs,X-Ray Observations of Compact Group Galaxies
+public,hdec,Henry Draper Extension Charts Catalog
+public,heabib,High Energy Astrophysics Comprehensive Bibliography Catalog
+public,hers82cat,Herschel Stripe 82 Survey (HerS) Point Source Catalog
+public,herschllog,Herschel Space Observatory Log of Observations
+public,hesscat,HESS (High Energy Stereoscopic System) Source Catalog
+public,hete2gcn,HETE-2 GCN Triggers Catalog
+public,hete2grb,HETE-2 Gamma-Ray Bursts
+public,hete2tl,HETE-2 Timeline
+public,hic,Hipparcos Input Catalog
+public,hiiregion,Sharpless H II Regions
+public,hipnewcat,Hipparcos New Astrometric Catalog
+public,hipparcos,Hipparcos Main Catalog
+public,hitomaster,Hitomi Master Catalog
+public,hmxbcat,Catalog of High-Mass X-Ray Binaries in the Galaxy (4th Ed.)
+public,hmxbcat2,Catalog of High-Mass X-Ray Binaries in the Galaxy (Dynamic Versi
+public,hperseicxo,H Persei Chandra X-Ray Point Source Catalog
+public,hrasscat,Hamburg/RASS Catalog: X-Ray Sources
+public,hrassoptid,Hamburg/RASS Catalog: Optical Identifications
+public,hricfa,Einstein Catalog HRI CFA Sources
+public,hrideep,Einstein Catalog HRI Deep Survey
+public,hriexo,Einstein Catalog HRI ESTEC Sources
+public,hriimage,Einstein HRI Images
+public,hriphot,Einstein HRI Photon Event Data
+public,hstpaec,HST Planned and Archived Observations
+public,hubbleudf,Hubble Ultra Deep Field Catalog
+public,hyadesxray,ROSAT All-Sky Survey: Hyades Cluster Region
+public,ibiscat,Fifth IBIS/ISGRI Soft Gamma-Ray Survey Catalog
+public,ic10cxo,IC 10 Chandra X-ray Point Source Catalog
+public,ic10xmmcxo,IC 10 XMM-Newton and Chandra X-Ray Point Source Catalog
+public,ic1396acxo,IC 1396A & Trumpler 37 Cluster Chandra X-Ray Point Source Catalo
+public,ic1396ncxo,IC 1396N Chandra X-Ray Point Source Catalog
+public,ic1805xmm,IC 1805 XMM-Newton X-Ray Source Catalog
+public,ic2944xmm,IC 2944/2948 XMM-Newton X-Ray Source Catalog
+public,ic348cxo,IC 348 Chandra X-Ray Point Source Catalog
+public,ic348cxo2,IC 348 Chandra X-Ray Point Source Catalog 2
+public,icecubepsc,IceCube All-Sky Point-Source Neutrino Events Catalog (2008-2018)
+public,infrared,"Catalog of Infrared Observations (CIO), Edition 5"
+public,intagncat,Second INTEGRAL AGN Catalog
+public,intbsc,INTEGRAL Bright Source Catalog
+public,integralao,INTEGRAL Observing Program
+public,intgccat,INTEGRAL IBIS Hard X-Ray Survey of Galactic Center
+public,intibisag2,INTEGRAL IBIS AGN Catalog Update
+public,intibisagn,INTEGRAL IBIS AGN Catalog
+public,intibisass,INTEGRAL IBIS All-Sky Survey of Hard X-Ray Sources
+public,intibisgal,INTEGRAL IBIS 9-Year Galactic Hard X-Ray Survey Catalog
+public,intibisvhd,INTEGRAL IBIS Hard X-Ray Survey Above 100 keV Source Catalog
+public,intomcvs,INTEGRAL OMC First Catalog of Optically Variable Sources
+public,intpublic,INTEGRAL Public Data Results Catalog
+public,intrefcat,INTEGRAL Reference Catalog
+public,intscw,INTEGRAL Science Window Data
+public,intscwpub,INTEGRAL Public Pointed Science Window Data
+public,intspiagrb,INTEGRAL First SPI-ACS Gamma-Ray Burst Catalog
+public,intvarcat,INTEGRAL/ISGRI Catalog of Variable X-Ray Sources
+public,ipc,Einstein IPC Sources Catalog
+public,ipcdeep,Einstein Catalog IPC Deep Survey
+public,ipcimage,Einstein IPC Images
+public,ipclxlbol,Einstein LX & LBL Values for IPC O Stars
+public,ipcostars,Einstein Count Rates for IPC O Stars
+public,ipcphot,Einstein IPC Photon Event Data
+public,ipcslew,Einstein Catalog IPC Slew Survey
+public,ipcultsoft,Einstein IPC Ultrasoft Sources Catalog
+public,ipcunscrnd,Einstein IPC Unscreened Photon Event List
+public,ipngrb,Gamma-Ray Bursts from the Interplanetary Network
+public,ir20126cxo,IRAS 20126+4104 Chandra X-Ray Point Source Catalog
+public,iram30mlog,IRAM 30-m Single-Dish Telescope Observation Log
+public,iramnoelog,IRAM NOEMA (NOrthern Extended Millimeter Array) Observation Log
+public,irampdblog,IRAM Plateau de Bure Interferometer Observation Log
+public,irasfsc,"IRAS Faint Source Catalog, Version 2.0"
+public,iraspsc,"IRAS Point Source Catalog, Version 2.0"
+public,iraspscz,IRAS Point Source Catalog Redshift (PSCz) Catalog
+public,irasssc,IRAS Serendipitous Survey Catalog
+public,iraszsurv,IRAS 1.2-Jy Redshift Survey
+public,isgri4yrct,INTEGRAL ISGRI 4-Year Source Catalog
+public,isolog,ISO (Infrared Space Observatory) Observation Log
+public,iuelog,IUE (International Ultraviolet Explorer) Final Merged Observatio
+ivoa,ivoa.obscore,Generic HEASARC data resources
+public,ixmaster,IXPE Master Catalog
+public,kaporixmm,Kappa Orionis XMM-Newton X-Ray Point Source Catalog
+public,kommersgrb,Kommers et al. (2001) BATSE Non-Triggered Gamma-Ray Burst Catalo
+public,konus,Venera KONUS 11 & 12 Bursts
+public,kuehr,Extragalactic Radio Sources
+public,kvttmcomis,Kvant TTM/COMIS X-Ray Source Catalog
+public,l1641ioxmm,Lynds 1641 and iota Ori Region XMM-Newton X-Ray Point Source Cat
+public,lalaboocxo,LALA Bootes Field Chandra X-Ray Point Source Catalog
+public,lalacetcxo,LALA Cetus Field Chandra X-Ray Point Source Catalog
+public,lamorixmm,Lambda Orionis Cluster XMM-Newton X-Ray Point Source Catalog
+public,lbn,Lynds Catalog of Bright Nebulae
+public,lbqs,Large Bright Quasar Survey
+public,lcrscat,Las Campanas Redshift Survey Catalog
+public,ld7c151mhz,7C 151-MHz Low-Declination Survey Catalog
+public,ldn,Lynds Catalog of Dark Nebulae
+public,le,CMA Catalog Central 6 Arcmin
+public,lkha101cxo,LkH-alpha 101 Star Formation Region Chandra X-Ray Point Source C
+public,lmc30drcxo,LMC 30 Doradus Complex Chandra X-Ray Point Source Catalog
+public,lmcclustrs,LMC Clusters Catalog
+public,lmcextobj,Large Magellanic Cloud Extended Objects Catalog
+public,lmchrixray,ROSAT HRI Catalog of LMC X-Ray Sources (Sasaki et al.)
+public,lmcn11cxo,LMC N11 Giant HII Region Chandra X-Ray Point Source Catalog
+public,lmcrosxray,ROSAT PSPC Catalog of LMC X-Ray Sources (Haberl & Pietsch)
+public,lmcxray,LMC X-Ray Discrete Sources
+public,lmxbcat,"Low-Mass X-Ray Binary Catalog (4th Edition, 2007)"
+public,lockmanoir,Lockman Hole AGN Optical and Infrared Properties Catalog
+public,lockmanxm2,Lockman Hole XMM-Newton X-Ray Point Source Catalog
+public,lockmanxmm,Lockman Hole Field XMM-Newton X-Ray Point Source Catalog
+public,lof3c29534,LOFAR 3C295 Field 34-MHz Source Catalog
+public,lof3c29546,LOFAR 3C295 Field 46-MHz Source Catalog
+public,lof3c29562,LOFAR 3C295 Field 62-MHz Source Catalog
+public,lofarbf62m,LOFAR Bootes Field 62-MHz Source Catalog
+public,lofhatlas,LOFAR Radio Catalog of Herschel-ATLAS North Galactic Pole Field
+public,lorcat,Low-Frequency Radio Catalog of Flat-Spectrum Sources
+public,lotssprcat,LOFAR 2-Meter Sky Survey Preliminary Data Release Source Catalog
+public,lowzvlqvla,VLA 6-GHz Observations of Low-Redshift SDSS QSOs
+public,lpffiles,LISA Pathfinder Archive Data Summary
+public,lqac,"Large Quasar Astrometric Catalog, 3rd Release"
+public,lspmnorth,Lepine and Shara Northern Stars Proper Motion (LSPM-North) Catal
+public,lupus3xmm,Lupus 3 SFR XMM-Newton X-Ray Point Source Catalog
+public,lyngaclust,Lynga Open Clusters Catalog
+public,m101cxo,M 101 Chandra X-Ray Point Source Catalog
+public,m101xmm,M 101 XMM-Newton X-Ray Point Source Catalog
+public,m108cxo,M 108 Chandra X-Ray Compact Source Catalog
+public,m16cxo,M 16 (Eagle Nebula) Chandra X-Ray Point Source Catalog
+public,m17cxo,M 17 Chandra X-Ray Point Source Catalog
+public,m31cfcxo,M 31 Central Field Chandra HRI X-Ray Point Source Catalog
+public,m31clustrs,M 31 Globular Cluster Candidates Catalog
+public,m31cxo2,M 31 Bulge Chandra X-Ray Point Source Catalog
+public,m31cxohrc2,M 31 Chandra HRC X-Ray Source Catalog
+public,m31cxoxray,M 31 Central Region Chandra X-Ray Point Source Catalog
+public,m31deepxmm,M 31 Deep XMM-Newton Survey X-Ray Source Catalog
+public,m31phatcxo,M 31 Disk Chandra PHAT Survey: X-Ray Source Catalog
+public,m31phatsfh,M 31 Disk Chandra PHAT Survey: HST-Derived Star Formation Histor
+public,m31rbcgc,M 31 Revised Bologna Clusters and Candidates Catalog (Version 5)
+public,m31rosxray,ROSAT PSPC M 31 Source Catalog
+public,m31stars,M 31 Field Brightest Stars Catalog
+public,m31stars2,MIT/Amsterdam M 31 Survey
+public,m31xmm2,M 31 XMM-Newton Spectral Survey X-Ray Point Source Catalog
+public,m31xmmxray,XMM-Newton M 31 Survey Source Catalog
+public,m33chase,M 33 Chandra ACIS Survey (ChASeM33) Final Source Catalog
+public,m33cxoxray,M 33 Chandra X-Ray Point Source Catalog
+public,m33deepxmm,M 33 Deep XMM-Newton Survey X-Ray Source Catalog
+public,m33snrxmm,M 33 XMM-Newton Supernova Remnants Catalog
+public,m33xmm2,M 33 XMM-Newton X-Ray Variability Source Catalog
+public,m33xmmxray,XMM-Newton M 33 Survey Catalog
+public,m37cxo,M 37 Chandra X-Ray Point Source Catalog
+public,m51cxo,M 51 Chandra X-Ray Discrete Source Catalog
+public,m51cxo2,M 51 Deep Chandra ACIS X-Ray Point Source Catalog
+public,m67cxo,M 67 Chandra X-Ray Point Source Catalog
+public,m71cxo,M 71 Chandra X-Ray Point Source and Optical/Infrared Counterpart
+public,m81cxo,M 81 Chandra X-Ray Discrete Source Catalog
+public,m81cxo2,M 81 Chandra X-Ray Point Source Catalog
+public,m83cxo,M 83 Chandra X-Ray Point Source Catalog
+public,m83xmm,M 83 XMM-Newton X-Ray Point Source Catalog
+public,m83xrbcxo,M 83 Chandra X-Ray Binary Classifications Using HST
+public,m87cxo,M 87 Chandra X-Ray Point Source Catalog
+public,macs,Magellanic Catalog of Stars
+public,maghmxbcat,Magellanic Clouds High-Mass X-Ray Binaries Catalog
+public,magpis,Multi-Array Galactic Plane Imaging Survey
+public,maranoxmm,Marano Field XMM-Newton X-Ray Source Optical Counterparts
+public,markarian,First Byurakan Survey (Markarian) Catalog of UV-Excess Galaxies
+public,markarian2,Markarian Galaxies Optical Database
+public,mashpncat,MASH Catalogs of MASH Planetary Nebulae
+public,maxigsc7yr,MAXI/GSC 7-Year High and Low Galactic Latitude Source Catalog (3
+public,maxigschgl,37-Month MAXI/GSC High Galactic-Latitude Source Catalog
+public,maximaster,MAXI Master Catalog
+public,maxissccat,MAXI/SSC Catalog of X-Ray Sources in 0.7-7.0 keV Band
+public,mcg,Morphological Galaxy Catalog
+public,mcksion,McCook-Sion White Dwarf Catalog (Web Version)
+public,mcxc,MCXC Meta-Catalog of X-Ray Detected Clusters of Galaxies
+public,mdwarfasc,Bright M Dwarf All-Sky Catalog
+public,mdwf10pcux,UV/X-Ray Data for M Dwarfs Within 10 Parsecs
+public,me,EXOSAT ME Spectra and Lightcurves
+public,messier,Messier Nebulae
+public,mggammacat,Gamma-Ray Source Summary Catalog (Macomb & Gehrels 1999 & 2001)
+public,mggammadet,Gamma-Ray Source Detailed Catalog (Macomb & Gehrels 1999)
+public,mgps2,Molonglo Galactic Plane Survey 2nd Epoch Compact Source Catalog
+public,milliquas,"Million Quasars Catalog (MILLIQUAS), Version 8 (2 August 2023)"
+public,mitgb6cm,MIT-Green Bank 5-GHz Survey Catalog
+public,monr2cxo,Monoceros R2 Cloud Chandra X-Ray Point Source Catalog
+public,morbbincat,Dynamical Masses of Selected Orbital Binary Systems
+public,morx,"Millions of Optical Radio/X-Ray (MORX) Associations Catalog, Ver"
+public,mostatlas,Molonglo Observatory Synthesis Telescope ATLAS 843-MHz Source Ca
+public,mostsnrcat,Molonglo Observatory Synthesis Telescope Supernova Remnant Catal
+public,moxc,Massive Star-Forming Regions Omnibus X-Ray Catalog
+public,mpcraw,Einstein MPC Raw Data
+public,mrc,Molonglo Reference Catalog of Radio Sources
+public,msxpsc,"Midcourse Space Experiment (MSX) Point Source Catalog, V2.3"
+public,msxuvpsc,Midcourse Space Experiment (MSX) Ultraviolet Point Source Catalo
+public,mwa32thgl,Murchison Widefield Array 32-T Low-Frequency Source Catalog
+public,mwacs,Murchison Widefield Array Commissioning Survey Compact Low-Frequ
+public,mwak2f1lfc,Murchison Widefield Array Low-Frequency Radio Survey of Kepler K
+public,mwmc,Milky Way Molecular Clouds from CO Measurements
+public,mwp1bubble,Milky Way Project First Data Release IR Bubble Catalog
+public,mwsc,Milky Way Star Clusters Catalog
+public,mystixires,Massive Young Star-Forming Complex Study in IR & X-Rays: IR-Exce
+public,mystixmidi,Massive Young Star-Forming Complex Study in IR & X-Rays: Mid-IR
+public,mystixmpcm,Massive Young Star-Forming Complex Stdy in IR & X-Rays: MYStIX P
+public,mystixxray,Massive Young Star-Forming Complex Study in IR & X-Rays: X-Ray S
+public,napexmmcxo,North America (NGC 7000) & Pelican (IC 5070) Nebulae X-Ray Sourc
+public,narcscat,Norma Arm Region Chandra Survey Point & Extended Source Catalog
+public,ncp21cma,North Celestial Pole Region Radio Sources Detected by the 21cm A
+public,neargalcat,Updated Nearby Galaxy Catalog
+public,newmdwarfs,New M Dwarfs in the Solar Neighborhood
+public,ngc1068cxo,NGC 1068 Chandra X-Ray Compact Source Catalog
+public,ngc1291cxo,NGC 1291 Chandra X-Ray Point Source Catalog
+public,ngc1332cxo,NGC 1332 Chandra X-Ray Compact Source Catalog
+public,ngc1333cxo,NGC 1333 Chandra X-Ray Point Source Catalog
+public,ngc1399cxo,NGC 1399 Chandra X-Ray Source Catalog
+public,ngc1512xmm,NGC 1512/NGC 1510 XMM-Newton X-Ray Point Source Catalog
+public,ngc1600cxo,NGC 1600 Chandra X-Ray Discrete Source Catalog
+public,ngc1893cxo,NGC 1893 Chandra X-Ray Point Source Catalog
+public,ngc2000,NGC2000.0: Complete New General Catalog and Index Catalog
+public,ngc2024cxo,NGC 2024 Chandra X-Ray Point Source Catalog
+public,ngc2237cxo,NGC 2237 Chandra X-Ray Point Source Catalog
+public,ngc2244cxo,NGC 2244/Rosette Nebula Chandra X-Ray Point Source Catalog
+public,ngc2264cx2,NGC 2264 Chandra X-Ray Point Source Catalog 2
+public,ngc2264cxo,NGC 2264 Chandra X-Ray Point Source Catalog
+public,ngc2264xmm,NGC 2264 XMM-Newton X-Ray Point Source Catalog
+public,ngc2362cxo,NGC 2362 Chandra X-Ray Point Source Catalog
+public,ngc2403cx2,NGC 2403 Chandra X-Ray Point Source Catalog
+public,ngc2403cxo,NGC 2403 Central 3-kpc Region Chandra Source Catalog
+public,ngc2516cxo,NGC 2516 Chandra X-Ray Point Source Catalog
+public,ngc2516xmm,NGC 2516 Cluster XMM-Newton X-Ray Point Source Catalog
+public,ngc253xmm,NGC 253 XMM-Newton X-Ray Point Source Catalog
+public,ngc2547xmm,NGC 2547 XMM-Newton X-Ray Point Source Catalog
+public,ngc2808cxo,NGC 2808 Chandra X-Ray Point Source Catalog
+public,ngc2808xmm,NGC 2808 XMM-Newton X-Ray Point Source Catalog
+public,ngc2903cxo,NGC 2903 Central Region Chandra X-Ray Point Source Catalog
+public,ngc300cxo,NGC 300 Chandra X-Ray Point Source Catalog
+public,ngc3115cxo,NGC 3115 Chandra X-Ray Point Source Catalog
+public,ngc3293cxo,NGC 3293 Chandra X-Ray Point Source Catalog
+public,ngc404cxo,NGC 404 Chandra X-Ray Point Source Catalog
+public,ngc4214cxo,NGC 4214 Chandra X-Ray Point Source Catalog
+public,ngc4278cxo,NGC 4278 Chandra X-Ray Point Source Catalog
+public,ngc4365cxo,NGC 4365 Chandra LMXB Catalog
+public,ngc4382cxo,NGC 4382 Chandra LMXB Catalog
+public,ngc4472cxo,NGC 4472 Chandra X-Ray Point Source Catalog
+public,ngc4636cxo,NGC 4636 Chandra X-Ray Point Source Catalog
+public,ngc4649cx2,NGC 4649 Chandra X-Ray Point Source Catalog 2
+public,ngc4649cxo,NGC 4649 Chandra X-Ray Discrete Source Catalog
+public,ngc55cxo,NGC 55 Chandra X-Ray Point Source Catalog
+public,ngc5866cxo,NGC 5866 Chandra X-Ray Point Source Catalog
+public,ngc6231cx2,NGC 6231 Chandra X-Ray Point Source Catalog 2
+public,ngc6231cxo,NGC 6231 Chandra X-Ray Point Source Catalog
+public,ngc6231xmm,NGC 6231 XMM-Newton X-Ray Source Catalog
+public,ngc6334cxo,NGC 6334 Chandra X-Ray Point Source Catalog
+public,ngc6357cxo,NGC 6357 Chandra X-Ray Point Source Catalog
+public,ngc6357oid,NGC 6357/Pismis 24 Chandra Point Source Optical/IR Identificatio
+public,ngc6530cxo,NGC 6530 Chandra X-Ray Point Source Catalog
+public,ngc6530oid,NGC 6530 Chandra Point Source Optical/IR Identifications Catalog
+public,ngc6530xmm,NGC 6530 XMM-Newton X-Ray Point Source Catalog
+public,ngc6791cxo,NGC 6791 Chandra X-Ray Point Source Catalog
+public,ngc752cxo,NGC 752 Chandra X-Ray Point Source Catalog
+public,ngc752xmm,NGC 752 XMM-Newton X-Ray Point Source Catalog
+public,nicermastr,NICER Master Catalog
+public,nltt,NLTT Catalog & First Supplement
+public,noras,Northern ROSAT All-Sky (NORAS) Galaxy Cluster Survey Catalog
+public,north20cm,20cm Radio Catalog
+public,north6cm,6cm Radio Catalog
+public,nuaftl,NuSTAR As-Flown Timeline
+public,nucosmosfc,NuSTAR COSMOS Field X-Ray Source Catalog
+public,nuecdfscat,NuSTAR Survey of Extended Chandra Deep Field South (ECDF-S) Sour
+public,nugalcen,NuSTAR Hard X-Ray Survey of the Galactic Center
+public,numaster,NuSTAR Master Catalog
+public,nustarssc,NuSTAR Serendipitous Survey 40-Month Primary Source Catalog
+public,nustarssc2,NuSTAR Serendipitous Survey 40-Month Secondary Source Catalog
+public,nuvbemdcat,Near-UV Detected Bright Early-M Dwarf Star Catalog
+public,nvss,NRAO VLA Sky Survey Catalog
+public,nwayawgros,AllWISE Counterparts and Gaia Matches to ROSAT/2RXS X-Ray Source
+public,nwayawgxmm,AllWISE Counterparts and Gaia Matches to XMM-Newton Slew Survey
+public,omc2p3cxo,OMC-2 and OMC-3 Chandra X-Ray Point Source Catalog
+public,omegcencx2,Omega Centauri Globular Cluster Chandra Deep Survey X-Ray Point
+public,omegcencxo,Omega Centauri Globular Cluster Chandra X-Ray Point Source Catal
+public,omegcenxmm,Omega Centauri XMM-Newton X-Ray Point Source Catalog
+public,onccxoopt,Orion Nebula Cluster Chandra HRC Optical Sample
+public,onccxoxray,Orion Nebula Cluster Chandra HRC X-Ray Point Source Catalog
+public,openclust,New Optically Visible Open Clusters and Candidates Catalog
+public,orionffcxo,Orion Flanking Fields Chandra X-Ray Point Source Catalog
+public,orionxray,ROSAT Survey of the Orion Nebula
+public,orionxstar,ROSAT HRI Orion Group 1 Stars
+public,oriysoir,Orion Nebula YSO IR Properties
+public,oso8alc,OSO8 A Detector Lightcurves
+public,oso8bclc,OSO8 B&C Detector Lightcurves
+public,oso8pharaw,OSO8 GCXSE Raw PHA
+public,oso8rtraw,OSO8 GCXSE Raw Rates
+public,osqsonvss,Optically-Selected QSOS NVSS-Detected Source Catalog
+public,osrilqxray,Optically Selected Radio-Intermediate and Loud Quasars X-ray Emi
+public,osse,CGRO/OSSE Observations
+public,ostars,Galactic O Stars Catalog
+public,ovro31ghz,Owens Valley Radio Observatory 40-m 31-GHZ Radio Source Catalog
+public,pacobscat,Planck-ATCA Co-eval Observations (PACO) Project Bright Sample Ca
+public,pacofscat,Planck-ATCA Co-eval Observations (PACO) Project Faint Sample Cat
+public,pccs030ghz,Planck Catalog of 30-GHz Compact Sources (PCCS) Release 2
+public,pccs044ghz,Planck Catalog of 44-GHz Compact Sources (PCCS) Release 2
+public,pccs070ghz,Planck Catalog of 70-GHz Compact Sources (PCCS) Release 2
+public,pccs100ghz,Planck Catalog of 100-GHz Compact Sources (PCCS) Release 2
+public,pccs143ghz,Planck Catalog of 143-GHz Compact Sources (PCCS) Release 2
+public,pccs217ghz,Planck Catalog of 217-GHz Compact Sources (PCCS) Release 2
+public,pccs353ghz,Planck Catalog of 353-GHz Compact Sources (PCCS) Release 2
+public,pccs545ghz,Planck Catalog of 545-GHz Compact Sources (PCCS) Release 2
+public,pccs857ghz,Planck Catalog of 857-GHz Compact Sources (PCCS) Release 2
+public,pds1p4ghz,Phoenix Deep Survey 1.4-GHz Catalog
+public,pdsoid,Phoenix Deep Survey Optical and Near-Infrared Counterparts Catal
+public,pdsoid2,Phoenix Deep Survey Optical and Near-Infrared Counterparts Catal
+public,pg,Palomar-Green Catalog of UV-Excess Stellar Objects
+public,pgc2003,Principal Galaxy Catalog (PGC) 2003
+public,phebus,Granat Phebus Gamma-Ray Bursts
+public,pigssboofd,Allen Telescope Array Pi GHz Sky Survey (PiGSS) Boo Field Source
+public,pigsselcnf,Allen Telescope Array Pi GHz Sky Survey (PiGSS) Deep Fields Sour
+public,pkscat90,"Parkes Southern Radio Source Catalog, Version 1.01"
+public,planckeszc,Planck Early Sunyaev-Zeldovich Detected Cluster Candidates Catal
+public,planckgcc,Planck Catalog of Galactic Cold Clumps (PGCC)
+public,planckhzsc,Planck High-Redshift Source Candidates Catalog
+public,plancksz,Updated Planck Catalog of Sunyaev-Zeldovich Sources Release 1
+public,plancksz2,Planck 2nd Sunyaev-Zeldovich Source Catalog
+public,pleiadxray,ROSAT PSPC Catalog of the Pleiades (Micela et al. 1996)
+public,plnebulae,Galactic Planetary Nebulae Catalog
+public,pmn,Parkes-MIT-NRAO (PMN) Surveys
+public,pmpulsar,Parkes Multibeam Survey New Pulsar Catalog
+public,pmsucat,Palomar/MSU Nearby Star Survey
+public,ppm,Positions and Proper Motions Catalog
+public,ppmxlbmd,PPM-XL Bright M Dwarfs Catalog
+public,pulsar,Pulsar Catalog
+public,pvogrb,PVO Gamma-Ray Bursts
+public,qorgcat,All-Sky Optical Catalog of Radio/X-Ray Sources
+public,qso,Hewitt & Burbidge (1993) QSO Catalog
+public,radio,Master Radio Catalog
+public,rass2foid,ROSAT All-Sky Survey Two Selected Fields Optical Identifications
+public,rass2fxray,ROSAT All-Sky Survey Two Selected Fields X-Ray Source Catalog
+public,rass2mass,ROSAT All-Sky Survey BSC/2MASS PSC Cross-Associations XID II Cat
+public,rass2rxs,Second ROSAT All-Sky Survey Point Source Catalog (2RXS)
+public,rass6dfgs,ROSAT All-Sky Survey/6dF Galaxy Survey Catalog of X-Ray Selected
+public,rassaeqso,ROSAT All-Sky Survey/ASIAGO-ESO QSO Survey Catalog
+public,rassasaseb,RASS/All-Sky Automated Survey Eclipsing Binaries Catalog
+public,rassasaspv,All-Sky Automatic Survey (ASAS) Photometry of ROSAT All-Sky Surv
+public,rassbsc,ROSAT All-Sky Survey: Bright Sources
+public,rassbscpgc,ROSAT All-Sky Survey Bright Source Catalog/Catalog of Principal
+public,rasscals,ROSAT All-Sky Survey CALS Galaxy Groups Catalog
+public,rasscndins,ROSAT All-Sky Survey Candidate Isolated Neutron Stars
+public,rasscns3,ROSAT All-Sky Survey: Nearby Stars
+public,rassdssagn,ROSAT All-Sky Survey and SDSS DR5 Sample of X-Ray Emitting AGN
+public,rassdsstar,ROSAT All-Sky Survey and SDSS Sample of X-Ray Emitting Stars
+public,rassdwarf,ROSAT All-Sky Survey: A-K Dwarfs/Subgiants
+public,rassebcs,ROSAT All-Sky Survey Extended Brightest Cluster Sample
+public,rassfirst,ROSAT All-Sky Survey Single FIRST Matches Catalog
+public,rassfsc,ROSAT All-Sky Survey: Faint Sources
+public,rassgb,RASS/Green Bank Catalog
+public,rassgiant,ROSAT All-Sky Survey: Giants & Supergiants
+public,rasshgsft2,ROSAT All-Sky Survey: Soft High Galactic-Latitude X-Ray Sources
+public,rasshgsoft,ROSAT All-Sky Survey: Soft High Galactic-Latitude X-Ray Sources
+public,rassmaster,ROSAT All-Sky Survey Archival Data
+public,rassnorsam,ROSAT All-Sky Survey Completely Identified Northern Sample
+public,rassob,ROSAT All-Sky Survey: OB Stars
+public,rasssdssgc,ROSAT All-Sky Survey and Sloan Digital Sky Survey DR7 Galaxy Clu
+public,rassusnoid,ROSAT All-Sky Survey Bright Source Catalog USNO A2 Cross-Associa
+public,rassvars,RASS X-Ray Variable Sources Catalog
+public,rasswd,ROSAT All-Sky Survey: White Dwarfs
+public,rbs,ROSAT Bright Survey (Schwope et al. 2000)
+public,rbscnvss,ROSAT All-Sky Survey/NVSS Bright X-Ray Source Sample
+public,rc3,Third Reference Catalog of Bright Galaxies
+public,rcw108cxo,RCW 108 Star Formation Region Chandra X-Ray Point Source Catalog
+public,rcw38cxo,RCW 38 Chandra X-Ray Point Source Catalog
+public,rcw38cxo2,RCW 38 Chandra X-Ray Point Source Catalog 2
+public,rcw38yso,RCW 38 Young Stellar Objects Catalog
+public,rcw49cxo,RCW 49 Chandra X-Ray Point Source Catalog
+public,reflex,ROSAT-ESO Flux-Limited X-Ray (REFLEX) Galaxy Cluster Survey
+public,refnebulae,Merged Catalog of Reflection Nebulae
+public,revisedlhs,Revised Luyten Half-Second (LHS) Catalog
+public,rhessigrb,RHESSI Gamma-Ray Burst Catalog
+public,rhoophcxo,Rho Ophiuchi SFR Chandra X-Ray Point Source Catalog
+public,rittercv,Ritter Cataclysmic Binaries Catalog (7.21 Edition)
+public,ritterlmxb,Ritter Low-Mass X-Ray Binaries Catalog (7.21 Edition)
+public,ritterrbin,Ritter Binaries Related to CVs Catalog (7.21 Edition)
+public,rixos,ROSAT International X-Ray/Optical Survey Source Catalog
+public,romabzcat,Roma-BZCAT Multi-Frequency Catalog of Blazars
+public,ros13hrcxo,ROSAT/XMM-Newton 13-hour Field Chandra X-Ray Source Catalog
+public,ros13hrvla,ROSAT/XMM-Newton 13-hr Deep Field VLA 20-cm Source Catalog
+public,ros13hrxmm,ROSAT 13-hour Field XMM-Newton X-Ray Source Catalog
+public,ros400gcls,ROSAT PSPC 400 Square Degree Galaxy Cluster Catalog
+public,rosathard,ROSAT Hard-Spectrum X-Ray Source Catalog
+public,rosatlog,ROSAT Observation Log
+public,rosatrlq,ROSAT Radio-Loud Quasars Catalog
+public,rosatrqq,ROSAT Radio-Quiet Quasars Catalog
+public,rosatxuv,ROSAT XUV Pointed Phase
+public,rosettecxo,Rosette Molecular Cloud Chandra X-Ray Point Source Catalog
+public,rosgalclus,ROSAT PSPC Catalog of Clusters of Galaxies
+public,roshri,ROSAT Results Archive Sources for the HRI
+public,roshritotal,ROSAT Complete Results Archive Sources for the HRI
+public,rosmaster,ROSAT Archival Data
+public,rosnepagn,ROSAT North Ecliptic Pole Survey Active Galactic Nuclei Catalog
+public,rosnepoid,ROSAT North Ecliptic Pole Survey Optical Identifications
+public,rosnepxray,ROSAT North Ecliptic Pole Survey X-Ray Source Catalog
+public,rosprspec,ROSAT Proposal Abstracts
+public,rospspc,ROSAT Results Archive Sources for the PSPC
+public,rospspcf,ROSAT Results Archive Sources for the PSPC with Filter
+public,rospspcftot,ROSAT Complete Results Archive Sources for the PSPC with Filter
+public,rospspctotal,ROSAT Complete Results Archive Sources for the PSPC
+public,roswfc2re,ROSAT Catalog WFC 2RE Sources
+public,rotxraycat,Stars with Rotation Periods & X-Ray Luminosities Catalog
+public,roxa,ROXA (Radio-Optical-X-ray at ASDC) Blazars Catalog
+public,rrs8c38mhz,8C Revised Rees Survey 38-MHz Source Catalog
+public,rssgrbag,Radio-Selected Gamma-Ray Burst Afterglow Catalog
+public,rt9cc15ghz,9C Continued 15-GHz Ryle Telescope Survey of VSA Fields Source C
+public,rtv9c15ghz,9C 15-GHz Ryle Telescope Survey of VSA Fields Source Catalog
+public,s254258cxo,S254-S258 Star-Forming Region Chandra X-Ray Point Source Catalog
+public,sa57xmm,Selected Area 57 XMM-Newton X-Ray Source Catalog
+public,sacshpscat,Swift AGN & Cluster Survey (SACS) Hard-Band (2-10 keV) Point Sou
+public,sacssescat,Swift AGN & Cluster Survey (SACS) Soft-Band (0.5-2 keV) Extended
+public,sacsspscat,Swift AGN & Cluster Survey (SACS) Soft-Band (0.5-2 keV) Point So
+public,sacstpscat,Swift AGN & Cluster Survey (SACS) Total-Band (0.2-10 keV) Point
+public,sacy,SACY (Search for Associations Containing Young Stars) Catalog
+public,saisncat,Sternberg Astronomical Institute Catalog of Supernovae
+public,sao,Smithsonian Astrophysical Observatory Star Catalog
+public,sas2maps,SAS-2 Map Product Catalog
+public,sas2raw,SAS-2 Photon Events Catalog
+public,sas3ylog,SAS-3 Y-Axis Pointed Obs Log
+public,sax2to10,BeppoSAX 2-10 keV Survey
+public,saxao,BeppoSAX Approved Pointings
+public,saxgrbmgrb,BeppoSAX/GRBM Gamma-Ray Burst Catalog
+public,saxhellas,BeppoSAX High-Energy Large Area Survey (HELLAS) X-Ray Source Cat
+public,saxhellasr,BeppoSAX High-Energy Large Area Survey (HELLAS) Radio Source Cat
+public,saxnfilog,BeppoSAX NFI Archive and Observation Log
+public,saxwfccat,BeppoSAX Wide Field Camera X-Ray Source Catalog
+public,saxwfccat2,BeppoSAX Wide Field Camera Unbiased X-Ray Source Catalog
+public,saxwfclog,BeppoSAX WFC Observation Log
+public,sborbitcat,Spectroscopic Binary Orbits Ninth Catalog (Dynamic Version)
+public,sbsggencat,Second Byurakan Survey General Catalog Galaxies Optical Database
+public,scubafemoc,SCUBA Legacy Fundamental and Extended Map Object Catalogs
+public,sdssbalqs2,Sloan Digital Sky Survey Broad Absorption Line Quasars Catalog:
+public,sdssbalqso,Sloan Digital Sky Survey Broad Absorption Line Quasars Catalog:
+public,sdsscvcat,Sloan Digital Sky Survey I/II Cataclysmic Variables Catalog
+public,sdsscxoqso,Sloan Digital Sky Survey Quasars Detected by Chandra
+public,sdssdr10wd,Sloan Digital Sky Survey DR10 New White Dwarf Catalog
+public,sdssdr7wd,Sloan Digital Sky Survey DR7 White Dwarf Catalog
+public,sdsslasqso,Sloan Digital Sky Survey/UKIRT DSS Large Area Survey Matched Qua
+public,sdssnbckde,SDSS NBCKDE Catalog of Photometrically Selected Quasar Candidate
+public,sdssnbcqsc,Sloan Digital Sky Survey NBC Quasar Candidate Catalog
+public,sdssquasar,Sloan Digital Sky Survey Quasar Catalog (Twelfth Data Release: D
+public,sdsss82cxo,Sloan Digital Sky Survey Stripe 82 Chandra Source Match Catalog
+public,sdsss82xmm,Sloan Digital Sky Survey Stripe 82 XMM-Newton Source Match Catal
+public,sdssunuqsr,Sloan Digital Sky Survey Unusual Quasars Catalog
+public,sdsswdsd,Sloan Digital Sky Survey DR4 White Dwarf & Hot Subdwarf Catalog
+public,sdsswhlgc,Sloan Digital Sky Survey DR6 Galaxy Clusters Catalog
+public,sdssxmmqso,Sloan Digital Sky Survey (DR5)/XMM-Newton Quasar Survey Catalog
+public,selhcgcxo,Selected Hickson Compact Groups Chandra X-Ray Point Source Catal
+public,sfgalhmxb,Star-Forming Galaxies High-Mass X-Ray Binaries Catalog
+public,sfincspcm,Star Formation in Nearby Clouds (SFiNCs) Probable Cluster Member
+public,sfincsxray,Star Formation in Nearby Clouds (SFiNCs) X-Ray Source Catalog
+public,sgraregcsc,Sgr A* Region Compact Radio Source Catalog
+public,shk,Shakbazian Compact Groups of Galaxies
+public,shkgalaxy,Shakhabazian (Shk) Compact Groups of Galaxies: Individual Galaxi
+public,sigorixmm,Sigma Orionis Cluster XMM-Newton X-Ray Point Source Catalog
+public,sixdfgs,6dFGS Galaxy Survey Final Redshift Release Catalog
+public,sixsrvycat,Swift-INTEGRAL X-Ray (SIX) Survey Catalog
+public,smc1400mhz,Small Magellanic Cloud ATCA and Parkes 1400-MHz Source Catalog
+public,smc4800mhz,Small Magellanic Cloud ATCA 4800-MHz Source Catalog
+public,smc843mhz,Small Magellanic Cloud MOST 843-MHz Source Catalog
+public,smc8640mhz,Small Magellanic Cloud ATCA 8640-MHz Source Catalog
+public,smcclustrs,SMC & Bridge Clusters Catalog
+public,smcdfscxo,Small Magellanic Cloud Deep Fields X-Ray Point Source Catalog
+public,smcpscxmm,Small Magellanic Cloud XMM-Newton Point Source Catalog
+public,smcradio,Small Magellanic Cloud ATCA Radio Continuum Sources
+public,smcrosxray,ROSAT PSPC Survey of the Small Magellanic Cloud
+public,smcrosxry2,ROSAT PSPC Catalog of SMC X-Ray Sources (Haberl et al.)
+public,smcstars,SMC Probable Member Stars Catalog
+public,smcstars2,SMC H-Alpha Emission Stars/Nebulae
+public,smcwingcxo,Small Magellanic Cloud Wing Survey Chandra X-Ray Point Source Ca
+public,smcxray,SMC X-Ray Discrete Sources
+public,smmgrs,GRS Gamma-Ray Bursts
+public,snrgreen,Green Catalog of Galactic SNRs (June 2017 Version)
+public,spass2p3gh,S-PASS (S-Band Polarization All-Sky Survey) 2.3-GHz Source Catal
+public,spicescxo,SPICES Lynx Field Chandra X-Ray Source Catalog
+public,spidersros,SDSS-IV/SPIDERS ROSAT-Based X-Ray Point Source Spectroscopic Cat
+public,spidersxmm,SDSS-IV/SPIDERS XMM-Based X-Ray Point Source Spectroscopic Catal
+public,spitzmastr,Spitzer Space Telescope Observation Log
+public,sporiabyso,Spitzer Survey of Orion A and B Molecular Clouds YSOs Catalog
+public,sptmm87sd,South Pole Telescope 87-Square Degree Survey Millimeter Source C
+public,sptszgalcl,South Pole Telescope-Sunyarv-Zeldovich (SPT-SZ) Survey Catalog
+public,sptszspsc,South Pole Telescope Sunyaev-Zeldovich Survey Point Source Catal
+public,ssa22cxo,SSA22 Field Chandra X-Ray Point Source Catalog
+public,sss,Einstein SSS Spectra and Lightcurves
+public,sssraw,Einstein SSS and MPC Raw Data
+public,sterngrb,Stern et al. (2001) BATSE Gamma-Ray Burst Catalog
+public,subpfclog,Subaru Prime Focus Camera (Suprime-Cam) Exposures Log
+public,sumss,Sydney University Molonglo Sky Survey (SUMSS) Source Catalog
+public,suzakuwam,Suzaku Wide-Band All-Sky Monitor (WAM) Catalog of Event Lightcur
+public,suzamaster,Suzaku Master Catalog
+public,suzaxislog,Suzaku XIS Configuration Log
+public,swbat105m,Swift-BAT 105-Month All-Sky Hard X-Ray Survey
+public,swbat157m,Swift-BAT 157-Month All-Sky Hard X-Ray Survey
+public,swbatagn60,Swift BAT 60-Month Survey of Active Galactic Nuclei Catalog
+public,swbatmontr,Swift BAT Transient Monitoring Catalog
+public,swbatsfxt,Swift BAT 100-Month Supergiant Fast X-Ray Transient Catalog
+public,swif1swxrt,The Seven-Year Swift-XRT Point Source Catalog (1SWXRT)
+public,swift2sxps,Swift-XRT Point Source Catalog (2SXPS)
+public,swiftbalog,Swift BAT Instrument Log
+public,swiftft,Swift Serendipitous Survey in Deep XRT GRB Fields (SwiftFT)
+public,swiftgrb,Swift Gamma Ray Bursts Catalog
+public,swiftgrbba,Swift Gamma Ray Burst Compilation by Burst Advocate
+public,swiftguano,Swift Gamma-ray Urgent Archiver for Novel Opportunities (GUANO)
+public,swiftlsxps,Swift-XRT Living Point Source Catalog (LSXPS)
+public,swiftmastr,Swift Master Catalog
+public,swifttdrss,Swift TDRSS Messages
+public,swiftuvlog,Swift UVOT Instrument Log
+public,swiftxrlog,Swift XRT Instrument Log
+public,swirecxo,Spitzer Wide-Area IR Extra-Galactic Survey Chandra X-Ray Sources
+public,swirelhcxo,SWIRE/Chandra Lockman Hole Field X-Ray Source Catalog
+public,swsdssqso,"Swift Simultaneous UV, Optical, and X-Ray Observed Quasar Catalo"
+public,swuvotssc,"Swift/UVOT Serendipitous Source Catalog, v1.1"
+public,swuvotssob,"Swift/UVOT Serendipitous Source Catalog, v1.1: Observations IDs"
+public,swxcscat,Swift X-Ray Telescope Cluster Survey Catalog
+public,swxcsoxid,Swift X-Ray Telescope Cluster Survey Cross-Correlation Catalog
+public,swxrt1fgl,Swift XRT Counterparts to Unidentified 1FGL Sources
+public,sxdscat,Subaru/XMM-Newton Deep Survey X-Ray Source List
+public,symbiotics,Symbiotic Stars Catalog
+public,sza31ghz,Sunyaev-Zeldovich Array 31-GHZ Radio Source Catalog
+public,tartarus,Tartarus: Reduced ASCA AGN Data (Version 3.1)
+public,taurusxmm,Taurus Molecular Cloud XMM-Newton X-Ray Source Catalog
+public,td1,TD1 Stellar Ultraviolet Fluxes Catalog
+public,tevcat,TeV Gamma-Ray Source Catalog
+public,texas,Texas Survey of Radio Sources at 365 MHz
+public,tgs,EXOSAT TGS L and R Orders
+public,tgs2,EXOSAT TGS Spectra and Lightcurves
+public,tramisuboo,Two-Meter Radio Mini Survey (T-RaMiSu) of the Bootes Field
+public,trifidcxo,Trifid Nebula (M 20) Chandra X-Ray Point Source Catalog
+public,twodfqsoz,2dF QSO Redshift (2QZ) Survey
+public,twomassrsc,2MASS Redshift Survey (2MRS) Catalog
+public,twosigma,Einstein Two-Sigma Catalog
+public,tycho2,Tycho-2 Catalog of the 2.5 Million Brightest Stars
+public,uc7c151mhz,7C Catalog 151-MHz Survey Final Unified Source Catalog
+public,ugc,Uppsala General Catalog of Galaxies
+public,uhuru4,Uhuru Fourth (4U) Catalog
+public,uit,Ultraviolet Imaging Telescope Near-UV Bright Objects Catalog
+public,uitmaster,Ultraviolet Imaging Telescope Master Catalog
+public,ulxngcat,Ultraluminous X-Ray Sources in Nearby Galaxies Catalog
+public,ulxrbcat,Ultraluminous X-Ray Sources in External Galaxies Catalog
+public,upprscoxmm,Upper Sco XMM-Newton X-Ray Point Source Catalog
+public,uvotbscat,UVOT Bright Star Catalog
+public,uvqs,UV-Bright Quasar Survey (UVQS) DR1 Catalog
+public,uzc,Updated Zwicky Catalog
+public,vela5b,Vela 5B All-Sky Monitor Lightcurves
+public,verimaster,VERITAS Source Catalog
+public,veroncat,"Veron Catalog of Quasars & AGN, 13th Edition"
+public,vla23901p4,VLA A2390 Cluster of Galaxies 1.4-GHz Source Catalog
+public,vla3701p4,VLA A370 Cluster of Galaxies 1.4-GHz Source Catalog
+public,vla74mhzdp,VLA 74-MHz Deep High-Resolution Survey Source Catalog
+public,vlacdfscat,VLA Survey of Chandra Deep Field South
+public,vlacomacat,VLA Coma Cluster of Galaxies 1.4-GHz Source Catalog
+public,vlacos324m,VLA-COSMOS Survey 324-MHz Continuum Source Catalog
+public,vlacos3ghz,VLA-COSMOS 3-GHz Large Project Source Catalog
+public,vlacosmjsc,VLA-COSMOS Project 1.4-GHz Joint Source Catalog
+public,vlacosmos,VLA-COSMOS Large Project 1.4-GHz Source Catalog
+public,vlacosxoid,VLA-COSMOS 3-GHz Large Project Multiwavelength Counterparts Cata
+public,vlaecdfs1p4,VLA Extended-Chandra Deep Field-South 1.4-GHz Source Catalog
+public,vlaecdfscls,VLA Extended-Chandra Deep Field-South Classification Catalog
+public,vlaecdfsoi,VLA Extended-Chandra Deep Field-South 1.4-GHz Sources Opt/IR Cou
+public,vlaen20cm,"VLA ELAIS N1, N2, N3 Fields 20-cm Source Catalog"
+public,vlagbsoph,VLA Goulds Belt Survey Ophiuchus Complex Source Catalog
+public,vlagbsori,VLA Goulds Belt Survey Orion Complex Source Catalog
+public,vlagbsper,VLA Goulds Belt Survey Perseus Region Source Catalog
+public,vlagbsser,VLA Goulds Belt Survey Serpens Region Source Catalog
+public,vlagbstau,VLA Goulds Belt Survey Taurus-Auriga Complex Source Catalog
+public,vlagoodsn,VLA GOODS-North Field 1.4-GHz Source Catalog
+public,vlahdf20cm,VLA Hubble Deep Field 20-cm Source Catalog
+public,vlalh1400m,VLA Lockman Hole 1400-MHz Radio Source Catalog
+public,vlalhn3ghz,VLA Lockman Hole 3-GHz Radio Source Catalog
+public,vlam311p4g,VLA M 31 1.4-GHz Source Catalog
+public,vlam31325m,VLA M 31 325-MHz Source Catalog
+public,vlanep,VLA 1.5-GHz North Ecliptic Pole Survey
+public,vlaonccat,VLA Orion Nebula Cluster Compact Source Catalog
+public,vlasdf20cm,VLA SWIRE Deep Field 20-cm Source Catalog
+public,vlasdf90cm,VLA SWIRE Deep Field 90-cm Source Catalog
+public,vlass821p4,VLA SDSS Stripe 82 Survey 1.4-GHz Source Catalog
+public,vlasxdf1p4,VLA Subaru/XMM-Newton Deep Field 1.4-GHz Source Catalog
+public,vlasxdfoid,VLA Subaru/XMM-Newton Deep Field 1.4-GHz Sources Optical/Near-IR
+public,vlaxl325mh,VLA XMM Large Scale Structure Field 325-MHz Source Catalog
+public,vlaxl74mhz,VLA XMM Large Scale Structure Field 74-MHz Source Catalog
+public,vlssr,VLA Low-Frequency Sky Survey Redux Source Catalog
+public,vlulxcat,Extremely Luminous X-Ray Source Candidates Catalog
+public,vvds20cm,VLA-VIRMOS Deep Field 20-cm Source Catalog
+public,w2ragncat,WISE/2MASS/RASS (W2R) AGN Sample Catalog
+public,w40sfrcxo,W 40 Star-Forming Region Chandra X-Ray Point Source Catalog
+public,wackerling,Wackerling Catalog of Early-Type Emission-Line Stars
+public,warps,"Wide Angle ROSAT Pointed Survey, First Phase (WARPS-I)"
+public,warps2,"Wide Angle ROSAT Pointed Survey, Second Phase (WARPS-II) Cluster"
+public,wbhgp20cm,New Catalog of Compact 20cm Sources in the Galactic Plane
+public,wbhgp6cm,New Catalog of Compact 6cm Sources in the Galactic Plane
+public,wbl,WBL Poor Galaxy Clusters Catalog (White et al. 1999)
+public,wblgalaxy,WBL Individual Galaxies Data Catalog (White et al. 1999)
+public,wd1cxo,Westerlund 1 Chandra X-Ray Point Source Catalog
+public,wds,Washington Double Star Catalog
+public,wenss,Westerbork Northern Sky Survey
+public,wfcpoint,ROSAT Archival WFC EUV Data
+public,wgacat,ROSAT Catalog PSPC WGA Sources
+public,wibrals,WISE Blazar-like Radio-Loud Source (WIBRaLS) Catalog
+public,wisehspcat,2WHSP Catalog of High Synchrotron Peaked Blazars and Candidates
+public,wish,Westerbork in the Southern Hemisphere (WISH) Source Catalog
+public,wmapcmbfps,WMAP Nine-Year CMB-Free QVW Point Source Catalog
+public,wmapitnpts,WMAP 7-Year Internal Templates and Needlets New Source Catalog
+public,wmapptsrc,WMAP Nine-Year Five-Band Point Source Catalog
+public,woodebcat,Wood Interacting Binaries Catalog
+public,woolley,Woolley Catalog of Stars within 25 Parsecs
+public,wrcat,The VIIth Catalog of Galactic Wolf-Rayet Stars
+public,wsrt20anep,AKARI NEP WSRT 20-cm Source Catalog
+public,wsrtgp,WSRT Galactic Plane Compact 327-MHz Source Catalog
+public,xbootes,XBOOTES: NDWFS Bootes Field X-Ray Point Source Catalog
+public,xbootesoid,XBOOTES: NDWFS Bootes Field Optical & Near IR Counterparts
+public,xcopraw,Copernicus X-Ray Observations
+public,xcs,"XMM-Newton Cluster Survey Catalog, DR1 Version"
+public,xdeep2,DEEP2 Galaxy Redshift Survey Fields Chandra Point Source Catalog
+public,xlcalmastr,XL-Calibur Master Catalog
+public,xmdsvvds4s,XMM-Newton Medium Deep Survey/VIRMOS VLT Deep Survey 4-Sigma Cat
+public,xmmao,XMM-Newton Accepted Targets
+public,xmmatlas,XMM-Newton Survey Catalog in the Herschel-ATLAS Field
+public,xmmbss,XMM-Newton Bright Serendipitous Survey
+public,xmmbssagn,XMM-Newton Bright Serendipitous Survey: AGN X-Ray Spectral Prope
+public,xmmcdfs210,XMM-Newton Deep Survey in the CDF-S 2-10 keV Source Catalog
+public,xmmcdfs510,XMM-Newton Deep Survey in the CDF-S 5-10 keV Source Catalog
+public,xmmcfrscat,XMM-Newton/Canada-France Redshift Survey Fields X-Ray Sources
+public,xmmcfrsoid,XMM-Newton/Canada-France Redshift Survey Fields Optical Identifi
+public,xmmcosmagn,XMM-COSMOS Catalog of X-Ray Selected Type 1 AGN
+public,xmmcosmoid,XMM-COSMOS Catalog of Optical/IR Counterparts
+public,xmmcosmos,XMM-Newton COSMOS X-Ray Point Source Catalog
+public,xmmcphotz,XMM-Newton COSMOS (XMM-COSMOS) Survey Photometric Redshift Catal
+public,xmmcty2agn,XMM-COSMOS X-Ray Selected Type-2 AGN
+public,xmmgps,XMM-Newton Galactic Plane Survey - XGPS
+public,xmmlss,XMM-Newton Large-Scale Structure X-Ray Source Catalog
+public,xmmlss10ks,XMM-Newton Large-Scale Structure Uniform 10-ksec Exposure X-Ray
+public,xmmlssclas,XMM-Newton Large-Scale Structure Optical Counterparts and Redshi
+public,xmmlssdeep,XMM-Newton Large-Scale Structure Deep Full-Exposure X-Ray Source
+public,xmmlssoid,XMM-Newton Large-Scale Structure Optical Identifications Catalog
+public,xmmmaster,XMM-Newton Master Log & Public Archive
+public,xmmobstars,XMM-Newton OB Stars Catalog
+public,xmmomcat,XMM-Newton OM Object Catalog
+public,xmmomcdfs,XMM-Newton Optical Monitor Chandra Deep Field-South UV Catalog
+public,xmmomsuob,"XMM-Newton Optical Monitor SUSS Catalog, v6.1: Observation IDs"
+public,xmmomsuss,XMM-Newton Optical Monitor Serendipitous UV Source Survey Catalo
+public,xmmsdssgce,2XMMi/SDSS Galaxy Cluster Survey Extension
+public,xmmsdssgcs,2XMMi/SDSS Galaxy Cluster Survey
+public,xmmslewcln,"XMM-Newton Slew Survey Clean Source Catalog, v3.1"
+public,xmmslewegs,XMM-Newton Slew Survey Extragalactic Sample
+public,xmmslewful,"XMM-Newton Slew Survey Full Source Catalog, v3.1"
+public,xmmssc,XMM-Newton Serendipitous Source Catalog: 5XMM-DR15 Version
+public,xmmsscgps,XMM-Newton Survey Science Center Survey of the Galactic Plane
+public,xmmssclwbd,XMM-Newton 2XMMi-DR3 Selected Source Detections Catalog
+public,xmmssclwbs,XMM-Newton 2XMMi-DR3 Selected Source Classifications Catalog
+public,xmmstack,XMM-Newton Serendipitous Source Catalog: 5XMM-DR15 Full (Stacked
+public,xmmstackob,XMM-Newton Serendipitous Source Catalog: 5XMM-DR15 Stacked Obser
+public,xmmt2flare,2XMM Flares Detected from Tycho-2 Stars
+public,xmmvaragn,Ensemble X-Ray Variability of AGN in 2XMMi-DR3
+public,xmmxassist,XMM-Newton XAssist Source List
+public,xms,XMM-Newton Medium Sensitivity Survey (XMS) Source Catalog
+public,xray,Master X-Ray Catalog
+public,xrayselbll,X-Ray Selected BL Lac Objects Catalog
+public,xrbcat,X-Ray Binaries Catalog
+public,xrismmastr,XRISM Master Catalog
+public,xshzagncxo,X-Ray Selected High-z AGN Catalog
+public,xteao,XTE Proposal Info & Abstracts
+public,xteasmlong,XTE All-Sky Monitor Long-Term Observed Sources
+public,xteassagn,XTE All-Sky Slew Survey AGN Catalog
+public,xteasscat,XTE All-Sky Slew Survey Catalog
+public,xteindex,XTE Target Index Catalog
+public,xtemaster,XTE Master Catalog
+public,xtemlcat,XTE Mission-Long Source Catalog
+public,xteslew,XTE Archived Public Slew Data
+public,xwas,XMM-Newton Wide Angle Survey
+public,zcat,CfA Redshift Catalog (June 1995 Version)
+public,zwclusters,Zwicky Clusters
+public,zzbib,METADATA: Bibliography Codes

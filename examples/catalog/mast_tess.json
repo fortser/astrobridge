@@ -1,0 +1,21 @@
+{
+  "service": "mast",
+  "operation": "mast.search",
+  "params": {
+    "filters": [
+      {
+        "paramName": "obs_collection",
+        "values": [
+          "TESS"
+        ]
+      },
+      {
+        "paramName": "dataproduct_type",
+        "values": [
+          "timeseries"
+        ]
+      }
+    ]
+  },
+  "limit": 5
+}

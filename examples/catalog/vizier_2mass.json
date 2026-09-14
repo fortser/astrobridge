@@ -1,0 +1,8 @@
+{
+  "service": "vizier",
+  "operation": "tap.query",
+  "params": {
+    "query": "SELECT TOP 5 * FROM \"II/246/out\""
+  },
+  "limit": 5
+}

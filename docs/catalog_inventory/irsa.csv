@@ -1,0 +1,992 @@
+schema_name,table_name,description
+TAP_SCHEMA,TAP_SCHEMA.columns,Available columns at NASA/IPAC Infrared Science Archive
+TAP_SCHEMA,TAP_SCHEMA.key_columns,Available Key Columns at NASA/IPAC Infrared Science Archive
+TAP_SCHEMA,TAP_SCHEMA.keys,Available Keys at NASA/IPAC Infrared Science Archive
+TAP_SCHEMA,TAP_SCHEMA.schemas,Available schemas at NASA/IPAC Infrared Science Archive
+TAP_SCHEMA,TAP_SCHEMA.tables,Available tables at NASA/IPAC Infrared Science Archive
+spitzer,a1763t2,Abell 1763 Source Catalog
+spitzer,a1763t3,Abell 1763 MIPS 70 micron Catalog
+herschel,acmccat,ACMC Catalog
+cosmos,acs_iphot_sep07,COSMOS ACS I-band photometry catalog September 2007
+akari,akari.akari_images,AKARI Far-infrared All-Sky Survey Maps (AKARI)
+akari,akari_fis,AKARI/FIS Bright Source Catalogue
+akari,akari_irc,AKARI/IRC Point Source Catalogue
+akari,akariastflux,AKARI Asteroid Flux Catalog
+contributed_data_sets,akarinepw,AKARI-HSC Band-Merged Catalog in the North Ecliptic Pole Wide Field
+wise,allsky_2band_p1ba_mch,WISE Post-Cryo Single Exposure (L1b) Known SSO Possible Association List (<a href='https://wise2.ipac.caltech.edu/docs/release/allsky/expsup/ssopal.README.html' target='doc'> Caution </a>)
+wise,allsky_2band_p1bl_lod,WISE Post-Cryo Single Exposure (L1b) Scan Inventory Table
+wise,allsky_2band_p1bm_frm,WISE Post-Cryo Single Exposure (L1b) Image Inventory Table
+wise,allsky_2band_p1bs_frm,WISE Post-Cryo Single Exposure (L1b) Frame Metadata Table
+wise,allsky_2band_p1bs_psd,WISE Post-Cryo Single Exposure (L1b) Source Table
+wise,allsky_3band_p1ba_mch,WISE 3-Band Cryo Known Solar System Object Possible Association List (<a href='http://wise2.ipac.caltech.edu/docs/release/allsky/expsup/ssopal.README.html' target='doc'> Caution </a>)
+wise,allsky_3band_p1bl_lod,WISE 3-Band Cryo Single Exposure (L1b) Scan Inventory Table
+wise,allsky_3band_p1bm_frm,WISE 3-Band Cryo Single Exposure (L1b) Image Inventory Table
+wise,allsky_3band_p1bs_frm,WISE 3-Band Cryo Single Exposure (L1b) Frame Metadata Table
+wise,allsky_3band_p1bs_psd,WISE 3-Band Cryo Single Exposure (L1b) Source Table
+wise,allsky_3band_p3al_lod,WISE 3-Band Cryo Atlas Inventory Table
+wise,allsky_3band_p3am_cdd,WISE 3-Band Cryo Atlas Image Inventory Table
+wise,allsky_3band_p3am_xrf,WISE 3-Band Cryo Frame Cross-Reference Table
+wise,allsky_3band_p3as_cdd,WISE 3-Band Cryo Atlas Metadata Table
+wise,allsky_3band_p3as_psd,WISE 3-Band Cryo Source Working Database (<a href='http://wise2.ipac.caltech.edu/docs/release/3band/expsup/wise_3band_wdb_README.html' target='doc'>README</a>)
+wise,allsky_4band_p1ba_mch,WISE All-Sky Known Solar System Object Possible Association List (<a href='http://wise2.ipac.caltech.edu/docs/release/allsky/expsup/ssopal.README.html' target='doc'> Caution </a>)
+wise,allsky_4band_p1bl_lod,WISE All-Sky Single Exposure (L1b) Scan Inventory Table
+wise,allsky_4band_p1bm_frm,WISE All-Sky Single Exposure (L1b) Image Inventory Table
+wise,allsky_4band_p1bs_frm,WISE All-Sky Single Exposure (L1b) Frame Metadata Table
+wise,allsky_4band_p1bs_psd,WISE All-Sky Single Exposure (L1b) Source Table
+wise,allsky_4band_p3al_lod,WISE All-Sky Atlas Inventory Table
+wise,allsky_4band_p3am_cdd,WISE All-Sky Atlas Image Inventory Table
+wise,allsky_4band_p3am_xrf,WISE All-Sky Frame Cross-Reference Table
+wise,allsky_4band_p3as_cdd,WISE All-Sky Atlas Metadata Table
+wise,allsky_4band_p3as_psd,WISE All-Sky Source Catalog
+wise,allsky_4band_p3as_psr,WISE All-Sky Reject Table
+wise,allwise_mfpos,AllWISE Refined Pointing Information for the Single-exposure Images
+wise,allwise_p3al_lod,AllWISE Atlas Inventory Table
+wise,allwise_p3am_cdd,AllWISE Atlas Image Inventory Table
+wise,allwise_p3am_xrf,AllWISE Frame Cross-Reference Table
+wise,allwise_p3as_cdd,AllWISE Atlas Metadata Table
+wise,allwise_p3as_mep,AllWISE Multiepoch Photometry Table
+wise,allwise_p3as_psd,AllWISE Source Catalog
+wise,allwise_p3as_psr,AllWISE Reject Table
+spitzer,apoglimpsea,"APOGLIMPSE Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,apoglimpsec,APOGLIMPSE Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+iras,astsight,IRAS Minor Planet Survey
+blast,blast.blast_images,Balloon-borne Large Aperture Submillimeter Telescope (BLAST) Images
+bolocam,bolocam.bolocam_images,The Bolocam Galactic Plane Survey (BOLOCAM_GPS) Images
+bolocam,bolocam.bolocam_images_v1,BOLOCAM GPS v1 Image
+bolocam,bolocam.bolocam_images_v2,BOLOCAM GPS v2 Image
+bolocam,bolocam.bolocam_lockman_hole,The Bolocam Lockman Hole Millimeter-Wave Galaxy Survey (BOLOCAM) Images
+bolocam,bolocam.bolocam_sharc2,BOLOCAM GPS Sharc2 Image
+bolocam,bolocam.planck_bolocam,The Bolocam Planck Ancillary Data
+bolocam,bolocam_gps_v1_0_1,Bolocam Galactic Plane Survey Catalog
+bolocam,bolocamdist,Bolocam Galactic Plane Survey Distance Catalog
+bolocam,bolocamv21,Bolocam Galactic Plane Survey Catalog v2.1
+brava,brava.bravacat,BRAVA Spectra
+contributed_data_sets,bravacat,BRAVA Catalog
+caom,caom.artifact,CAOM Artifact Table
+caom,caom.artifact_irtf,IRTF CAOM Artifact Table
+caom,caom.observation,CAOM Observation Table
+caom,caom.observation_irtf,IRTF CAOM Observation Table
+caom,caom.plane,CAOM Plane Table
+caom,caom.plane_artifact_mapping_irtf,IRTF CAOM Plane Artifact Mapping Table
+irtf,caom.plane_irtf,IRTF Archive
+wise,catwise_2020,CatWISE2020 Catalog
+wise,catwise_2020_reject,CatWISE2020 Reject Table
+wise,catwise_prelim,CatWISE Preliminary Catalog
+wise,catwise_prelim_reject,CatWISE Preliminary Reject Table
+2mass,cf_info,2MASS Calibration Merged Point Source Information Table
+2mass,cf_link,2MASS Calibration Merged Point Source Link Table
+spitzer,chandra_160_cat_f05,SWIRE CDFS Region 160um Fall '05 SWIRE Spitzer Catalog
+spitzer,chandra_24_cat_f05,SWIRE CDFS Region 24um Fall '05 Spitzer Catalog
+spitzer,chandra_70_cat_f05,SWIRE CDFS Region 70um Fall '05 Spitzer Catalog
+spitzer,chandra_cat_f05,SWIRE CDFS Region Fall '05  Spitzer Catalog
+spitzer,clash36_v2,CLASH 3.6 micron Catalog
+spitzer,clash45_v2,CLASH 4.5 micron Catalog
+spitzer,clash58_v2,CLASH 5.8 micron Catalog
+spitzer,clash80_v2,CLASH 8.0 micron Catalog
+2mass,coadd_dat,2MASS Survey Atlas Image Info
+2mass,coadd_dat_6x2,2MASS 6X w/LMC/SMC Atlas Image Info
+2mass,coadd_dat_c,2MASS Calibration Atlas Image Info
+2mass,coadd_dat_sc,2MASS LMC/SMC Calibration Atlas Image Info
+planck,com_pccs1_030,Planck PCCS 30GHz Catalog
+planck,com_pccs1_044,Planck PCCS 44GHz Catalog
+planck,com_pccs1_070,Planck PCCS 70GHz Catalog
+planck,com_pccs1_100,Planck PCCS 100GHz Catalog
+planck,com_pccs1_143,Planck PCCS 143GHz Catalog
+planck,com_pccs1_217,Planck PCCS 217GHz Catalog
+planck,com_pccs1_353,Planck PCCS 353GHz Catalog
+planck,com_pccs1_545,Planck PCCS 545GHz Catalog
+planck,com_pccs1_857,Planck PCCS 857GHz Catalog
+planck,com_pccs1_sz_mmf1,Planck Sunyaev-Zeldovich Cluster MMF1 List
+planck,com_pccs1_sz_mmf3,Planck Sunyaev-Zeldovich Cluster MMF3 List
+planck,com_pccs1_sz_pws,Planck Sunyaev-Zeldovich Cluster PwS List
+planck,com_pccs1_sz_union2,Planck Sunyaev-Zeldovich Cluster UNION List v2.1
+planck,com_pccs2_030,Planck PCCS2 30GHz Catalog
+planck,com_pccs2_044,Planck PCCS2 44GHz Catalog
+planck,com_pccs2_070,Planck PCCS2 70GHz Catalog
+planck,com_pccs2_100,Planck PCCS2 100GHz Catalog
+planck,com_pccs2_143,Planck PCCS2 143GHz Catalog
+planck,com_pccs2_217,Planck PCCS2 217GHz Catalog
+planck,com_pccs2_353,Planck PCCS2 353GHz Catalog
+planck,com_pccs2_545,Planck PCCS2 545GHz Catalog
+planck,com_pccs2_857,Planck PCCS2 857GHz Catalog
+planck,com_pccs2_gcc,Planck Catalog of Galactic Cold Clumps
+planck,com_pccs2_sz_mmf1,Planck PR2 Sunyaev-Zeldovich Cluster MMF1 List
+planck,com_pccs2_sz_mmf3,Planck PR2 Sunyaev-Zeldovich Cluster MMF3 List
+planck,com_pccs2_sz_pws,Planck PR2 Sunyaev-Zeldovich Cluster PwS List
+planck,com_pccs2_sz_union,Planck PR2 Sunyaev-Zeldovich Cluster UNION List
+planck,com_pccs2e_100,Planck PCCS2E 100GHz Catalog (lower reliability)
+planck,com_pccs2e_143,Planck PCCS2E 143GHz Catalog (lower reliability)
+planck,com_pccs2e_217,Planck PCCS2E 217GHz Catalog (lower reliability)
+planck,com_pccs2e_353,Planck PCCS2E 353GHz Catalog (lower reliability)
+planck,com_pccs2e_545,Planck PCCS2E 545GHz Catalog (lower reliability)
+planck,com_pccs2e_857,Planck PCCS2E 857GHz Catalog (lower reliability)
+planck,com_pccs_pcnt,Planck Multi-frequency Catalogue of Non-thermal Sources
+iras,comsight,IRAS Asteroid and Comet Survey
+contributed_data_sets,contributed.gpips_images,GPIPS Images
+contributed_data_sets,contributed.z0mgs_images,The z=0 Multiwavelength Galaxy Synthesis (z0MGS) Images
+simulated,cosmodc2mockv1,"CosmoDC2MockV1 Catalog - unabridged, spatially partitioned"
+simulated,cosmodc2mockv1_heavy,CosmoDC2MockV1 Catalog - stellar mass > 10^7 Msun
+simulated,cosmodc2mockv1_new,CosmoDC2MockV1 Catalog - unabridged
+cosmos,cosmos.a3cosmos_images,A3 COSMOS Image Metadata
+cosmos,cosmos.candels_cutouts,COSMOS CANDELS Images
+cosmos,cosmos.candels_images,COSMOS CANDELS Images
+cosmos,cosmos.cosmos_3dhst,COSMOS 3D HST
+cosmos,cosmos.cosmos_acs_2_0,COSMOS ACS 2.0 Image Metadata
+cosmos,cosmos.cosmos_cfht,COSMOS CFHT Image Metadata
+cosmos,cosmos.cosmos_chandra_merged,COSMOS Chandra Merged Image Metadata
+cosmos,cosmos.cosmos_deimos_redshift,COSMOS DEIMOS Spectra
+cosmos,cosmos.cosmos_galex,COSMOS Galex Image Metadata
+cosmos,cosmos.cosmos_images,Cosmic Evolution Survey (COSMOS)
+cosmos,cosmos.cosmos_irac,COSMOS IRAC Image Metadata
+cosmos,cosmos.cosmos_irs,COSMOS IRS Spectra
+cosmos,cosmos.cosmos_kpno,COSMOS KPNO Image Metadata
+cosmos,cosmos.cosmos_magellan_opt_spec_30,COSMOS Magellan Spectra
+cosmos,cosmos.cosmos_mips,COSMOS MIPS Image Metadata
+cosmos,cosmos.cosmos_nicmos,COSMOS NICMOS Image Metadata
+cosmos,cosmos.cosmos_sdss,COSMOS SDSS Image Metadata
+cosmos,cosmos.cosmos_subaru,COSMOS SUBARU Image Metadata
+cosmos,cosmos.cosmos_ukirt,COSMOS UKIRT Image Metadata
+cosmos,cosmos.cosmos_ultravista,COSMOS Ultravista Image Metadata
+cosmos,cosmos.cosmos_vla,COSMOS VLA Image Metadata
+cosmos,cosmos.cosmos_vuds,COSMOS VUDS Spectra
+cosmos,cosmos.cosmos_wfc3,COSMOS WFC3 Image Metadata
+cosmos,cosmos.cosmos_wfpc,COSMOS WFPC Image Metadata
+cosmos,cosmos.cosmos_xmm,COSMOS XMM Image Metadata
+cosmos,cosmos.zcosmos_bright_v3_5_spec,COSMOS Bright V3.5 Spectra
+cosmos,cosmos.zcosmosdr3,COSMOS Z-COSMOS Spectra
+cosmos,cosmos2015,COSMOS2015 Catalog
+cosmos,cosmos2020c,COSMOS2020 Classic Catalog
+cosmos,cosmos2020f,COSMOS2020 Farmer Catalog
+cosmos,cosmos327,COSMOS VLA 327 MHz Catalog
+cosmos,cosmos_3ghzagn,COSMOS VLA 3GHz AGN Catalog
+cosmos,cosmos_3ghzcp,COSMOS VLA 3GHz Multiwavelength Counterpart Catalog
+cosmos,cosmos_chandra_2016,Chandra-COSMOS Legacy Survey Point Source Catalog
+cosmos,cosmos_chandra_bsc21,Chandra-COSMOS Bright Source Catalog v2.1
+cosmos,cosmos_chandraxid,Chandra-COSMOS Legacy Survey Multiwavelength Catalog
+cosmos,cosmos_deimos,COSMOS DEIMOS Catalog
+cosmos,cosmos_ib_phot,COSMOS Intermediate and Broad Band Photometry Catalog 2008
+cosmos,cosmos_morph_cassata_1_1,COSMOS Cassata Morphology Catalog v1.1
+cosmos,cosmos_morph_col_1,COSMOS Zamojski Morphology Catalog v1.0
+cosmos,cosmos_morph_tasca_1_1,COSMOS Tasca Morphology Catalog v1.1
+cosmos,cosmos_morph_zurich_1,COSMOS Zurich Structure and Morphology Catalog v1.0
+cosmos,cosmos_phot,COSMOS Photometry Catalog January 2006
+cosmos,cosmos_sc4k,Slicing COSMOS with 4K Lyman-alpha emitters (SC4K) Catalog
+cosmos,cosmos_vla3ghz,COSMOS VLA 3GHz Catalog
+cosmos,cosmos_vla_deep_may2010,COSMOS VLA Deep Catalog May 2010
+cosmos,cosmos_xgal,COSMOS X-ray Group Member Catalog
+cosmos,cosmos_xgroups,COSMOS X-ray Group Catalog - George (2011)
+cosmos,cosmos_xmm_2,COSMOS XMM Point-like Source Catalog v2.0
+cosmos,cosmos_xraygrp,COSMOS X-ray Group Catalog - Gozaliasl (2019)
+cosmos,cosmos_zphot_mag25,COSMOS Photometric Redshift Catalog Fall 2008 (<a href='/data/COSMOS/tables/zcosmos/cosmos_zphot_mag25.README' target='doc'>README</a> - mag 25 limited)
+cosmos,cosmosenvall,COSMOS Total Environment Catalog
+cosmos,cosmosenvmc,COSMOS Mass Complete Environment Catalog
+cosmos,cosmosgmrt325,COSMOS GMRT 325 MHz Catalog
+cosmos,cosmosgmrt610,COSMOS GMRT 610 MHz Catalog
+cosmos,cosmoswlsc,COSMOS Weak Lensing Source Catalog
+spitzer,cs4gcat,CS4G Catalog
+spitzer,csi2264t1,CSI 2264 Object Table
+spitzer,csi2264t2,CSI 2264 CoRoT Light Curves
+spitzer,csi2264t3,CSI 2264 Spitzer Light Curves
+spitzer,cygx_arch,Cygnus-X Archive
+spitzer,cygx_cat,Cygnus-X Catalog
+2mass,deepcal_src,2MASS Combined Calibration Field Source Table
+spitzer,deepdrillcdfsi1,DeepDrill CDFS 3.6 micron Catalog
+spitzer,deepdrillcdfsi12,DeepDrill CDFS 2-band Catalog (highly reliable)
+spitzer,deepdrillcdfsi2,DeepDrill CDFS 4.5 micron Catalog
+spitzer,deepdrilles1i1,DeepDrill ELAIS S1 3.6 micron Catalog
+spitzer,deepdrilles1i12,DeepDrill ELAIS S1 2-band Catalog (highly reliable)
+spitzer,deepdrilles1i2,DeepDrill ELAIS S1 4.5 micron Catalog
+spitzer,deepdrillphot,DeepDrill Forced Photometry Catalog
+spitzer,deepdrillshark,DeepDrill SHARK Simulated Lightcone Catalog
+spitzer,deepdrillxmmi1,DeepDrill XMM-LSS 3.6 micron Catalog
+spitzer,deepdrillxmmi12,DeepDrill XMM-LSS 2-band Catalog (highly reliable)
+spitzer,deepdrillxmmi2,DeepDrill XMM-LSS 4.5 micron Catalog
+spitzer,deepglimpsea,"Deep GLIMPSE Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,deepglimpsec,Deep GLIMPSE Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+denis,denis3,DENIS 3rd Release (Sep. 2005)
+spitzer,dr4_MM,"C2D Fall '07 Millimeter (MM) Sources Catalog (OPH, PER, SER Clouds)"
+spitzer,dr4_clouds_full,"C2D Fall '07 Full CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_clouds_hrel,"C2D Fall '07 High Reliability (HREL) CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_clouds_ysoc,"C2D Fall '07 candidate Young Stellar Objects (YSO) CLOUDS Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_cores_full,C2D Fall '07 Full CORES Catalog
+spitzer,dr4_cores_hrel,C2D Fall '07 High Reliability (HREL) CORES Catalog
+spitzer,dr4_cores_ysoc,C2D Fall '07 candidate Young Stellar Objects (YSO) CORES Catalog
+spitzer,dr4_off_cloud_full,"C2D Fall '07 Full OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_off_cloud_hrel,"C2D Fall '07 High Reliability (HREL) OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_off_cloud_ysoc,"C2D Fall '07 candidate Young Stellar Objects (YSO) OFF-CLOUD Catalog (CHA_II, LUP, OPH, PER, SER)"
+spitzer,dr4_stars_full,C2D Fall '07 Full STARS Catalog
+spitzer,dr4_stars_hrel,C2D Fall '07 High Reliability (HREL) STARS Catalog
+spitzer,dr4_stars_ysoc,C2D Fall '07 candidate Young Stellar Objects (YSO) STARS Catalog
+spitzer,dr4_trans1_full,C2D Fall '07 Perseus Epoch 1 Transient Sources FULL Catalog
+spitzer,dr4_trans2_full,C2D Fall '07 Perseus Epoch 2 Transient Sources FULL Catalog
+dss,dss.dss_images,Digitized Sky Survey (DSS) Data Collection
+herschel,dunes,DUNES Catalog
+spitzer,dustingsfull,DUSTiNGS Full Catalog
+spitzer,dustingsgsc,DUSTiNGS Good Source Catalog
+planck,ecc,Planck Early Cold Core Source List (ECC)
+2mass,ecf_info,2MASS Calibration Merged Extended Source Information Table
+2mass,ecf_link,2MASS Calibration Merged Extended Source Link Table
+herschel,ehopsfits,eHOPS SED Fits Catalog
+herschel,ehopsphot,eHOPS SED Data Catalog
+spitzer,elaisn1_160_cat_s05,SWIRE ELAIS N1 Region 160um Spring '05 Spitzer Catalog
+spitzer,elaisn1_24_cat_s05,SWIRE ELAIS N1 Region 24um Spring '05 Spitzer Catalog
+spitzer,elaisn1_70_cat_s05,SWIRE ELAIS N1 Region 70um Spring '05 Spitzer Catalog
+spitzer,elaisn1_cat_s05,SWIRE ELAIS N1 Region Spring '05 Spitzer Catalog
+spitzer,elaisn2_160_cat_s05,SWIRE ELAIS N2 Region 160um Spring '05 Spitzer Catalog
+spitzer,elaisn2_24_cat_s05,SWIRE ELAIS N2 Region 24um Spring '05 Spitzer Catalog
+spitzer,elaisn2_70_cat_s05,SWIRE ELAIS N2 Region 70um Spring '05 Spitzer Catalog
+spitzer,elaisn2_cat_s05,SWIRE ELAIS N2 Region Spring '05 Spitzer Catalog
+spitzer,elaiss1_160_cat_f05,SWIRE ELAIS S1 Region 160um Fall '05 Spitzer Catalog
+spitzer,elaiss1_24_cat_f05,SWIRE ELAIS S1 Region 24um Fall '05 Spitzer Catalog
+spitzer,elaiss1_70_cat_f05,SWIRE ELAIS S1 Region 70um Fall '05 Spitzer Catalog
+spitzer,elaiss1_cat_f05,SWIRE ELAIS S1 Region Fall '05 SWIRE Spitzer Catalog
+planck,ercsc_f030_e,Planck ERCSC 30GHz Catalog
+planck,ercsc_f044_e,Planck ERCSC 44GHz Catalog
+planck,ercsc_f070_e,Planck ERCSC 70GHz Catalog
+planck,ercsc_f100_e,Planck ERCSC 100GHz Catalog
+planck,ercsc_f143_e,Planck ERCSC 143GHz Catalog
+planck,ercsc_f217_e,Planck ERCSC 217GHz Catalog
+planck,ercsc_f353_e,Planck ERCSC 353GHz Catalog
+planck,ercsc_f545_e,Planck ERCSC 545GHz Catalog
+planck,ercsc_f857_e,Planck ERCSC 857GHz Catalog
+planck,ercscbm,Planck ERCSC Bandmerged Catalog
+2mass,escf_info,2MASS LMC/SMC Calibration Merged Extended Source Information Table
+2mass,escf_link,2MASS LMC/SMC Calibration Merged Extended Source Link Table
+2mass,esixxf_info,2MASS 6X w/LMC/SMC Merged Extended Source Information Table
+2mass,esixxf_link,2MASS 6X w/LMC/SMC Merged Extended Source Link Table
+planck,esz,Planck Early Sunyaev-Zeldovich Cluster List (ESZ)
+euclid,euclid.artifact_euclid_q1,Euclid Q1 CAOM Artifact Table
+euclid,euclid.objectid_spectrafile_association_q1,Euclid Q1 Object ID to Spectral File Association Table
+euclid,euclid.observation_euclid_q1,Euclid Q1 CAOM Observation Table
+euclid,euclid.plane_euclid_q1,Euclid Q1 CAOM Plane Table
+euclid,euclid.tileid_association_q1,Euclid Q1 TILEID to Observation ID Association Table
+euclid,euclid_q1_mer_catalogue,Euclid Q1 MER Catalog
+euclid,euclid_q1_mer_cutouts,Euclid Q1 MER Cutouts
+euclid,euclid_q1_mer_morphology,Euclid Q1 MER Morphology
+euclid,euclid_q1_phz_classification,Euclid Q1 PHZ Classification Catalog
+euclid,euclid_q1_phz_galaxy_sed,Euclid Q1 PHZ Galaxy SED Catalog
+euclid,euclid_q1_phz_nir_physical_parameters,Euclid Q1 PHZ NIR Physical Parameters Catalog
+euclid,euclid_q1_phz_photo_z,Euclid Q1 PHZ Photo-z Catalog
+euclid,euclid_q1_phz_qso_physical_parameters,Euclid Q1 PHZ QSO Physical Parameters Catalog
+euclid,euclid_q1_phz_star_sed,Euclid Q1 PHZ Star SED Catalog
+euclid,euclid_q1_phz_star_template,Euclid Q1 PHZ Star Template Catalog
+euclid,euclid_q1_spe_lines_atomic_indices,Euclid Q1 SPE Lines Catalog - Atomic Indices
+euclid,euclid_q1_spe_lines_continuum_features,Euclid Q1 SPE Lines Catalog - Continuum Features
+euclid,euclid_q1_spe_lines_line_features,Euclid Q1 SPE Lines Catalog - Spectral Lines
+euclid,euclid_q1_spe_lines_molecular_indices,Euclid Q1 SPE Lines Catalog - Molecular Indices
+euclid,euclid_q1_spectro_model_catalog_spe_lines_catalog,Euclid Q1 SPE Models Catalog - Lines
+euclid,euclid_q1_spectro_model_catalog_spe_star_models,Euclid Q1 SPE Star Models Catalog
+euclid,euclid_q1_spectro_zcatalog_spe_classification,Euclid Q1 SPE Redshift Catalog - Classification
+euclid,euclid_q1_spectro_zcatalog_spe_galaxy_candidates,Euclid Q1 SPE Redshift Catalog - Galaxy Candidates
+euclid,euclid_q1_spectro_zcatalog_spe_qso_candidates,Euclid Q1 SPE Redshift Catalog - QSO Candidates
+euclid,euclid_q1_spectro_zcatalog_spe_quality,Euclid Q1 SPE Redshift Catalog - Quality
+euclid,euclid_q1_spectro_zcatalog_spe_star_candidates,Euclid Q1 SPE Redshift Catalog - Star Candidates
+2mass,ewsdbf_info,2MASS Survey Merged Extended Source Information Table
+2mass,ewsdbf_link,2MASS Survey Merged Extended Source Link Table
+2mass,ext_src_6x2,2MASS 6X w/LMC/SMC Extended Source Working Database / Catalog (<a href='/applications/Gator/GatorAid/2MASS/6xcat.README.html' target='doc'>README</a>)
+2mass,ext_src_c,2MASS Calibration Extended Source Working Database
+2mass,ext_src_cat,2MASS Second Incremental Release Extended Source Catalog (XSC)
+2mass,ext_src_cat1,2MASS First Incremental Release Extended Source Catalog (XSC)
+2mass,ext_src_rej,2MASS Survey Extended Source Reject Table
+2mass,ext_src_sc,2MASS LMC/SMC Calibration Extended Source Working Database
+2mass,exts_samp_cat,2MASS Sampler Extended Source Catalog (XSC)
+spitzer,feps_phot,FEPS Photometry Catalog
+spitzer,fls_release_v2_mmt_spectra,FLS MMT/Hectospec Spectroscopic Catalog (V2)
+spitzer,fls_release_v2_photom,FLS SDSS and MIPS Astrometric and Photometric Catalog (V2)
+spitzer,fls_release_v2_sdss_spectra,FLS SDSS Spectroscopic Catalog (V2)
+2mass,fp_coadd_dat,2MASS All-Sky Survey Atlas Image Info
+2mass,fp_psc,2MASS All-Sky Point Source Catalog (PSC)
+2mass,fp_scan_dat,2MASS All-Sky Survey Scan Info (<a href='/applications/Gator/GatorAid/irsa/scan.html' target='doc'>README</a>)
+2mass,fp_xsc,2MASS All-Sky Extended Source Catalog (XSC)
+gaia,gaia_allwise_best_neighbour,Gaia AllWISE Best Neighbor Cross-Reference (DR1)
+gaia,gaia_allwise_neighbourhood,Gaia AllWISE Neighborhood Cross-Reference (DR1)
+gaia,gaia_cepheid,Gaia Cepheid Table (DR1)
+gaia,gaia_dr2_allwise_agn_gdr2_xid,Gaia AllWISE-Gaia DR2 Cross-ID Table (DR2)
+gaia,gaia_dr2_allwise_bnbr,Gaia AllWISE Best Neighbour Table (DR2)
+gaia,gaia_dr2_allwise_nbh,Gaia AllWISE Neighbourhood Table (DR2)
+gaia,gaia_dr2_apassdr9_bnbr,Gaia APASS DR9 Best Neighbour Table (DR2)
+gaia,gaia_dr2_apassdr9_nbh,Gaia APASS DR9 Neighbourhood Table (DR2)
+gaia,gaia_dr2_cepheid,Gaia Cepheid Table (DR2)
+gaia,gaia_dr2_classifier_def,Gaia Classifier Table (DR2)
+gaia,gaia_dr2_classifier_result,Gaia Classifier Result Table (DR2)
+gaia,gaia_dr2_dr1_nbh,Gaia DR1 Neighbourhood Table (DR2)
+gaia,gaia_dr2_epoch_photometry,Gaia Epoch Photometry (DR2)
+gaia,gaia_dr2_gsc23_bnbr,GSC2.3 Best Neighbour Table (DR2)
+gaia,gaia_dr2_gsc23_nbh,GSC2.3 Neighbourhood Table (DR2)
+gaia,gaia_dr2_hipparcos2_bnbr,Gaia Hipparcos-2 Best Neighbour Table (DR2)
+gaia,gaia_dr2_hipparcos2_nbh,Gaia Hipparcos-2 Neighbourhood Table (DR2)
+gaia,gaia_dr2_iers_gdr2_xid,IERS-Gaia DR2 Cross-ID Table (DR2)
+gaia,gaia_dr2_long_period_variable,Gaia Long Period Variable Table (DR2)
+gaia,gaia_dr2_panstarrs1_bnbr,Gaia Pan-STARRS1 Best Neighbour Table (DR2)
+gaia,gaia_dr2_panstarrs1_nbh,Gaia Pan-STARRS1 Neighbourhood Table (DR2)
+gaia,gaia_dr2_ppmxl_bnbr,Gaia PPMXL Best Neighbour Table (DR2)
+gaia,gaia_dr2_ppmxl_nbh,Gaia PPMXL Neighbourhood Table (DR2)
+gaia,gaia_dr2_ravedr5_bnbr,Gaia RAVE DR5 Best Neighbour Table (DR2)
+gaia,gaia_dr2_ravedr5_nbh,Gaia RAVE DR5 Neighbourhood Table (DR2)
+gaia,gaia_dr2_rotation_modulation,Gaia Rotation Modulation Table (DR2)
+gaia,gaia_dr2_rrlyrae,Gaia RR Lyrae Table (DR2)
+gaia,gaia_dr2_sdssdr9_bnbr,Gaia SDSS DR9 Best Neighbour Table (DR2)
+gaia,gaia_dr2_sdssdr9_nbh,Gaia SDSS DR9 Neighbourhood Table (DR2)
+gaia,gaia_dr2_short_timescale,Gaia Short Time Scale Variable Table (DR2)
+gaia,gaia_dr2_source,Gaia Source Catalogue (DR2)
+gaia,gaia_dr2_sso_observation,Gaia Solar System Object Observation Table (DR2)
+gaia,gaia_dr2_sso_orbit_residuals,Gaia SSO Orbit Residuals Table (DR2)
+gaia,gaia_dr2_sso_orbits,Gaia SSO Orbits Table (DR2)
+gaia,gaia_dr2_sso_source,Gaia Solar System Object Source Table (DR2)
+gaia,gaia_dr2_time_series_stats,Gaia Time Series Statistics Table (DR2)
+gaia,gaia_dr2_tmass_bnbr,Gaia 2MASS Best Neighbour Table (DR2)
+gaia,gaia_dr2_tmass_nbh,Gaia 2MASS Neighbourhood Table (DR2)
+gaia,gaia_dr2_tycho2_bnbr,Gaia Tycho-2 Best Neighbour Table (DR2)
+gaia,gaia_dr2_tycho2_nbh,Gaia Tycho-2 Neighbourhood Table (DR2)
+gaia,gaia_dr2_urat1_bnbr,Gaia URAT1 Best Neighbour Table (DR2)
+gaia,gaia_dr2_urat1_nbh,Gaia URAT1 Neighbourhood Table (DR2)
+gaia,gaia_dr3_allwise_best_neighbour,Gaia AllWISE Best Neighbour Table (DR3)
+gaia,gaia_dr3_astrophys_param,Gaia Astrophysical Parameters (DR3)
+gaia,gaia_dr3_astrophys_supp,Gaia Astrophysical Parameters Supplement (DR3)
+gaia,gaia_dr3_source,Gaia Source Catalogue (DR3)
+gaia,gaia_dr3_total_galactic_extinction_map,Gaia Total Galactic Extinction Map (DR3)
+gaia,gaia_dr3_total_galactic_extinction_map_opt,Gaia Optimized Total Galactic Extinction Map (DR3)
+gaia,gaia_edr3_source,Gaia Source Catalogue (eDR3)
+gaia,gaia_pho_var_t_ser,Gaia G-band Time Series of Variable Sources (DR1)
+gaia,gaia_pho_var_t_ser_stat_par,Gaia Statistical Parameters for G-band Time Series of Variable (DR1)
+gaia,gaia_ppmxl_best_neighbour,Gaia PPMXL Best Neighbor Cross-Reference (DR1)
+gaia,gaia_ppmxl_neighbourhood,Gaia PPMXL Neighborhood Cross-Reference (DR1)
+gaia,gaia_qso_icrf2_01_01,Gaia QSO Table (DR1)
+gaia,gaia_rrlyrae,Gaia RR Lyrae Table (DR1)
+gaia,gaia_source_dr1,Gaia Catalogue (DR1)
+gaia,gaia_tgas_source,Tycho-Gaia Astrometric Solution (TGAS) Source Table (DR1)
+gaia,gaia_tmass_best_neighbour,Gaia 2MASS Best Neighbor Cross-Reference (DR1)
+gaia,gaia_tmass_neighbourhood,Gaia 2MASS Neighborhood Cross-Reference (DR1)
+gaia,gaia_ucac4_best_neighbour,Gaia UCAC4 Best Neighbor Cross-Reference (DR1)
+gaia,gaia_ucac4_neighbourhood,Gaia UCAC4 Neighborhood Cross-Reference (DR1)
+gaia,gaia_urat1_best_neighbour,Gaia URAT1 Best Neighbor Cross-Reference (DR1)
+gaia,gaia_urat1_neighbourhood,Gaia URAT1 Neighborhood Cross-Reference (DR1)
+gaia,gaia_variablesummary,Gaia Summary of Variables (DR1)
+spitzer,galcen_psc,Galactic Center IRAC catalog (Ramirez et al. 2008)
+cosmos,galex_emphot_v3,GALEX/COSMOS Prior-based Photometry Catalog June 2008
+spitzer,glimpse2_v2arc,"GLIMPSE II Spring '08 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse2_v2cat,GLIMPSE II Spring '08 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpse2ep1a08,"GLIMPSE II Epoch 1 December '08 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse2ep1c08,GLIMPSE II Epoch 1 December '08 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpse2ep2a09,"GLIMPSE II Epoch 2 November '09 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse2ep2mra09,GLIMPSE II Epoch 2 November '09 More Reliable Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more reliable</a>)
+spitzer,glimpse2sub,GLIMPSEII Subarray Source List
+spitzer,glimpse360a,"GLIMPSE360 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse360c,GLIMPSE360 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpse3d_v1cat_tbl,"GLIMPSE 3D, 2007-2009 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)"
+spitzer,glimpse3d_v2arc,"GLIMPSE 3D, 2007-2009 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>),(<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE3D_Archive_Erratum.html' target='doc'>Erratum</a>)"
+spitzer,glimpse3dep1a,"GLIMPSE 3D Epoch 1 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse3dep1c,GLIMPSE 3D Epoch 1 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpse3dep2a,"GLIMPSE 3D Epoch 2 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse3dep2mra,"GLIMPSE 3D Epoch 2 More Reliable Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpse_s07,GLIMPSE I Spring '07 Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpse_s07_ar,"GLIMPSE I Spring '07 Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpsecygxa,"GLIMPSE Cygnus-X Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpsecygxc,GLIMPSE Cygnus-X Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpsepropa,"GLIMPSE Proper Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpsepropc,GLIMPSE Proper Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,glimpsesmoga,"SMOG Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,glimpsesmogc,SMOG Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+spitzer,goods_mips24,GOODS-S MIPS 24 micron Photometry Catalog
+spitzer,goodsn_mips24,GOODS-N MIPS 24 micron Photometry Catalog
+spitzer,goodsnirs16,GOODS-N IRS 16 micron Photometry Catalog
+spitzer,goodssirs16,GOODS-S IRS 16 micron Photometry Catalog
+contributed_data_sets,gpipsdr4,GPIPS DR4 Unique Star Catalog
+herschel,hatlas,H-ATLAS Catalog
+herschel,hatlasall,H-ATLAS All Potential Counterparts Catalog
+herschel,heritagel100,HERITAGE LMC PACS 100 micron Catalog
+herschel,heritagel160,HERITAGE LMC PACS 160 micron Catalog
+herschel,heritagel250,HERITAGE LMC SPIRE 250 micron Catalog
+herschel,heritagel350,HERITAGE LMC SPIRE 350 micron Catalog
+herschel,heritagel500,HERITAGE LMC SPIRE 500 micron Catalog
+herschel,heritagelclass,HERITAGE LMC Band-Matched Classification Table
+herschel,heritagelphot,HERITAGE LMC Band-Matched Catalog
+herschel,heritages100,HERITAGE SMC PACS 100 micron Catalog
+herschel,heritages160,HERITAGE SMC PACS 160 micron Catalog
+herschel,heritages250,HERITAGE SMC SPIRE 250 micron Catalog
+herschel,heritages350,HERITAGE SMC SPIRE 350 micron Catalog
+herschel,heritages500,HERITAGE SMC SPIRE 500 micron Catalog
+herschel,heritagesclass,HERITAGE SMC Band-Matched Classification Table
+herschel,heritagesphot,HERITAGE SMC Band-Matched Catalog
+herschel,hermescosmosxidp,HerMES DR4 COSMOS-XID+ Catalog (24 micron positions)
+herschel,hermesdr4xid250,HerMES DR4 Band-merged Catalog (250 micron positions)
+herschel,hermespacsxid24,HerMES DR4 PACS Catalog (24 micron positions)
+herschel,hermesscat250,HerMES 250 micron StarFinder Catalog
+herschel,hermesscat250sxt,HerMES 250 micron SUSSEXtractor Catalog
+herschel,hermesscat350,HerMES 350 micron StarFinder Catalog
+herschel,hermesscat350sxt,HerMES 350 micron SUSSEXtractor Catalog
+herschel,hermesscat500,HerMES 500 micron StarFinder Catalog
+herschel,hermesscat500sxt,HerMES 500 micron SUSSEXtractor Catalog
+herschel,hermesxid24,HerMES Band-merged Catalog (24 micron positions)
+heron,heron.heron_images,Haloes and Environments of Nearby Galaxies (HERON) Images
+herschel,herschel.acmc_images,ACMC Images
+herschel,herschel.coldcores_images,Galactic Cold Cores: A Herschel Survey of the Source Populations Revealed by Planck (ColdCores) Images
+herschel,herschel.digit_pacs_adv,DIGIT PACS Advanced Product
+herschel,herschel.digit_pacs_adv_cube,DIGIT PACS Advanced Product CUBE
+herschel,herschel.digit_pacs_cube,DIGIT PACS Cube
+herschel,herschel.digit_pacs_data,DIGIT PACS Data
+herschel,herschel.digit_pacs_fits,DIGIT PACS Fits
+herschel,herschel.digit_spire_adv,DIGIT SPIRE Advanced Product
+herschel,herschel.digit_spire_adv_cube,DIGIT SPIRE Advanced Product Cube
+herschel,herschel.digit_spire_cube,DIGIT SPIRE Cube
+herschel,herschel.digit_spire_data,DIGIT SPIRE Data
+herschel,herschel.digit_spire_fits,DIGIT SPIRE Fits
+herschel,herschel.dunes_chopnod,Herschel DUNES CHOPNOD Image Metadata
+herschel,herschel.dunes_images,DUNES images
+herschel,herschel.dunes_mosaic,Herschel DUNES Mosaic Image
+herschel,herschel.dunes_scan,Herschel DUNES SCAN Image Metadata
+herschel,herschel.dunes_singleext,Herschel DUNES Single Extension Image Metadata
+herschel,herschel.goals_images,Herschel GOALS Images
+herschel,herschel.got_cplus_otf,GOT_Cplus Position-Velocity Maps
+herschel,herschel.got_cplus_spectra,GOT_Cplus Spectra
+herschel,herschel.hatlas_images,H-ATLAS Images
+herschel,herschel.helga_images,HELGA: Herschel Exploitation of the Local Galaxy Andromeda Images
+herschel,herschel.heritage_images,HERITAGE Images
+herschel,herschel.herm33es_images,Herschel M33 Extended Survey (HerM33es) Images
+herschel,herschel.hermes_images,HERMES Images
+herschel,herschel.hevics_multi,Herschel Virgo Cluster Survey (HeVICS) Images
+herschel,herschel.hevics_single,Herschel HeVICS Single-extension Images
+herschel,herschel.hexos_spectra,HEXOS Spectra
+herschel,herschel.hgbs_images,HGBS Images
+herschel,herschel.hgoods_images,Herschel GOODS Images
+herschel,herschel.hhli_images,Herschel High Level Images (HHLI)
+herschel,herschel.hhli_pacs_par,Herschel HHLI PACS Parallel
+herschel,herschel.hhli_pacs_photo,Herschel HHLI PACS Photo
+herschel,herschel.hhli_spire_par,Herschel HHLI SPIRE Parallel
+herschel,herschel.hhli_spire_photo,Herschel HHLI SPIRE Photo
+herschel,herschel.hifistars_spectra,HIFISTARS Spectra
+herschel,herschel.hop_spectra,HOP Spectra
+herschel,herschel.hops_images,HOPS Spitzer Images
+herschel,herschel.hops_irs_spectra,HOPS IRS Spectra
+herschel,herschel.hops_model_fits,HOPS Model Metadata
+herschel,herschel.hops_pacs,HOPS PACS Metadata
+herschel,herschel.hops_spitzer,HOPS Spitzer Metadata
+herschel,herschel.hpdp_cubes,HIFI HPDP Cubes
+herschel,herschel.hpdp_images,HIFI HPDP Spectral Maps
+herschel,herschel.hpdp_spectra,HIFI HPDP Spectra
+herschel,herschel.hpdp_spectral_scans,HIFI HPDP Spectral Scans
+herschel,herschel.kingfish_images,KINGFISH Images
+herschel,herschel.localgroup,Herschel Maps of Local Group Galaxies (LocalGroup)
+herschel,herschel.magcloudscplus_spectra,MAGCLOUDSCPLUS Images
+herschel,herschel.pep_images,PEP Images
+herschel,herschel.phpdp_images,PACS Highly Processed Data Products (PHPDP)
+herschel,herschel.phpdp_multi,Herschel PACS HPDP Multi-extension Images
+herschel,herschel.phpdp_single,Herschel PHPDP Single-extension Images
+herschel,herschel.phpdp_single_plus_unimap,Herschel PHPDP Single-extension and Unimap Images
+herschel,herschel.phpdp_unimap,Herschel PHPDP Unimap
+herschel,herschel.ppdisks_spectral,PPDISKS Spectra
+herschel,herschel.prismas,PRISMAS Spectra
+herschel,herschel.shpdp_cubes,SPIRE HPDP Cubes
+herschel,herschel.shpdp_spectra,SPIRE HPDP Spectra
+herschel,herschel.v838mon_images,V838Mon Images
+herschel,herschel.v838mon_spectra,V838Mon Spectra
+herschel,herschel.vngs_cubes,VNGS Spectral Cubes
+herschel,herschel.vngs_images,VNGS Images
+herschel,herschel.vngs_spectra,VNGS Spectra
+herschel,hgoodsn,GOODS North Catalog
+herschel,hgoodss,GOODS South Catalog
+contributed_data_sets,hgwels,HG-WELS Catalog
+herschel,higal160,Hi-GAL 160 micron Photometric Catalog
+herschel,higal250,Hi-GAL 250 micron Photometric Catalog
+herschel,higal350,Hi-GAL 350 micron Photometric Catalog
+herschel,higal360clump,Hi-GAL 360 degree Catalogue of Clump Physical Properties
+herschel,higal500,Hi-GAL 500 micron Photometric Catalog
+herschel,higal70,Hi-GAL 70 micron Photometric Catalog
+herschel,hopsdata,Herschel Orion Protostars Survey SED Data Catalog
+herschel,hopsfits,Herschel Orion Protostars Survey SED Fits Catalog
+herschel,hpdpsso,HPDP SSO Table
+herschel,hppsc2_bl,High-reliability 100 micron Catalog
+herschel,hppsc2_blrej,Rejected Source 100 micron Catalog
+herschel,hppsc2_bs,High-reliability 70 micron catalog
+herschel,hppsc2_bsrej,Rejected Source 70 micron Catalog
+herschel,hppsc2_r,High-reliability 160 micron Catalog
+herschel,hppsc2_rrej,Rejected Source 160 micron Catalog
+contributed_data_sets,ic417,IC 417 Catalog
+iras,iras.eiga_images,Extended IRAS Galaxy Atlas (EIGA)
+iras,iras.iga_images,IRAS Galaxy Atlas (IGA)
+iras,iras.iris_images,Improved Reprocessing of the IRAS Survey (IRIS)
+iras,iras.issa_images,IRAS Sky Survey Atlas (ISSA)
+iras,iras.miga_images,Mid-Infrared Galaxy Atlas (MIGA)
+iras,iras_ao,IRAS Additional Observations (AO) Catalog
+iras,irascatalog,IRAS 1.2-Jy Redshift Survey
+iras,irasfsc,IRAS Faint Source Catalog v2.0 (FSC)
+iras,irasfscr,IRAS Faint Source Catalog Rejects
+iras,irasgal,IRAS Cataloged Galaxies and Quasars
+iras,iraspsc,IRAS Point Source Catalog v2.1 (PSC)
+iras,iraspsch,IRAS PSC joined with HCON and WSDB
+iras,iraspscr,IRAS Point Source Catalog Rejects
+iras,iraspscw,IRAS PSC joined with WSDB
+iras,irasssc,IRAS Serendipitous Survey Catalog
+iras,irassss,IRAS Small Scale Structure Catalog
+spitzer,irs_enhv211,IRS Enhanced Products
+tap_ancillary,irsa_annotators,IRSA Annotators Table
+tap_ancillary,irsa_directory,Directory table for new Atlas
+tap_ancillary,irsa_group_columns,IRSA Group Column Table
+tap_ancillary,irsa_groups,IRSA Group Table
+tap_ancillary,irsa_serv_descriptor_cols,IRSA DataLink Service Descriptor Columns
+tap_ancillary,irsa_serv_descriptors,IRSA DataLink Service Descriptiors
+irtf,irtf.mearth_spectra,IRTF MEarth Spectra
+irts,irts.irts_images,IRTS Images
+irts,irts.irts_mirspsc,IRTS MIR Spectra
+contributed_data_sets,irts_nirspsc,IRTS NIRS Point Source Catalogue
+iso,iso.sws_allspsc,ISO Short Wavelength Spectrometer (SWS) Atlas
+contributed_data_sets,isogal_psc,ISOGAL Point Source Catalog
+ivoa,ivoa.obscore,List of observations curated by IRSA in the IVOA ObsCore data model: Beta release
+2mass,lga_v2,2MASS Large Galaxy Atlas
+spitzer,lockman_160_cat_s05,SWIRE Lockman Region 160um Spring '05 Spitzer Catalog
+spitzer,lockman_24_cat_s05,SWIRE Lockman Region 24um Spring '05 Spitzer Catalog
+spitzer,lockman_70_cat_s05,SWIRE Lockman Region 70um Spring '05 Spitzer Catalog
+spitzer,lockman_cat_s05,SWIRE Lockman Region Spring '05 SWIRE Spitzer Catalog
+spitzer,m31irac,M31 IRAC Catalog
+contributed_data_sets,madcows2,Massive and Distant Clusters of WISE Survey 2 Catalog
+spitzer,mipsgala,MIPSGAL Archive
+spitzer,mipsgalc,MIPSGAL Catalog
+spitzer,mipslg,MIPS Local Galaxies Catalog
+cosmos,morphology_2005,COSMOS Morphology Catalog 2005
+msx,msx.msx_images,Midcourse Space Experiment (MSX) Images
+msx,msxc6,MSX Catalog 6
+msx,msxc6_rej,MSX Catalog 6 Rejects
+musyc,musyc.musyc_images,MUSYC Images
+contributed_data_sets,musyc_phot,MUSYC Photometry Catalog
+contributed_data_sets,musyc_photz,MUSYC Photometric Redshift Catalog
+wise,neowiser_p1ba_mch,NEOWISE-R Known Solar System Object Possible Association List (<a href='http://wise2.ipac.caltech.edu/docs/release/neowise/expsup/kssopal.README.html' target='doc'> Caution </a>)
+wise,neowiser_p1bl_lod,NEOWISE-R Single Exposure (L1b) Scan Inventory Table
+wise,neowiser_p1bm_frm,NEOWISE-R Single Exposure (L1b) Image Inventory Table
+wise,neowiser_p1bs_frm,NEOWISE-R Single Exposure (L1b) Frame Metadata Table
+wise,neowiser_p1bs_psd,NEOWISE-R Single Exposure (L1b) Source Table
+wise,neowisesbpropv2,NEOWISE Derived Diameters and Albedos of Solar System Small Bodies Catalog v2
+p60,p60.grbcam_images,P60 GRBCam Processed Images
+herschel,pep100,PEP PACS 100 micron Catalog
+herschel,pep160,PEP PACS 160 micron Catalog
+herschel,pep250,PEP SPIRE 250 micron Catalog
+herschel,pep350,PEP SPIRE 350 micron Catalog
+herschel,pep500,PEP SPIRE 500 micron Catalog
+herschel,pepgoodss70,PEP PACS 70 micron GOODS-S Catalog
+herschel,peplh24,PEP Lockman Hole MIPS 24 micron Comparison Catalog
+herschel,pepprior,PEP PACS Extractions Using MIPS 24 micron Priors
+herschel,pepxid,PEP PACS and MIPS Cross-IDs Catalog
+Planck,planck_toi_030,The Planck Public Data Release 2 Time Ordered Information (LFI 30 GHz)
+Planck,planck_toi_044,The Planck Public Data Release 2 Time Ordered Information (LFI 44 GHz)
+Planck,planck_toi_070,The Planck Public Data Release 2 Time Ordered Information (LFI 70 GHz)
+Planck,planck_toi_100,The Planck Public Data Release 2 Time Ordered Information (HFI 100 GHz)
+Planck,planck_toi_143,The Planck Public Data Release 2 Time Ordered Information (HFI 143 GHz)
+Planck,planck_toi_217,The Planck Public Data Release 2 Time Ordered Information (HFI 217 GHz)
+Planck,planck_toi_353,The Planck Public Data Release 2 Time Ordered Information (HFI 353 GHz)
+Planck,planck_toi_545,The Planck Public Data Release 2 Time Ordered Information (HFI 545 GHz)
+Planck,planck_toi_857,The Planck Public Data Release 2 Time Ordered Information (HFI 857 GHz)
+planck,planckphz,Planck List of High Redshift Source Candidates
+composite_catalogs,ppmxl,PPMXL: A Proper Motion Catalog Combining USNO-B and 2MASS
+herschel,ppsc_100,PACS Point Source Catalog: 100 microns
+herschel,ppsc_160,PACS Point Source Catalog: 160 microns
+herschel,ppsc_70,PACS Point Source Catalog: 70 microns
+herschel,ppsc_extsl,PACS Point Source Catalog: Extended Source List
+herschel,ppsc_obstbl,PACS Point Source Catalog: Observation Table
+herschel,ppsc_rejsl,PACS Point Source Catalog: Rejected Source List
+wise,prelim_2band_p1ba_mch,"WISE Preliminary Post-Cryo Solar System Object Possible Association List (<a href='http://wise2.ipac.caltech.edu/docs/release/prelim/expsup/ssopal.README.html' target='doc'> Caution </a>, <a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)"
+wise,prelim_2band_p1bl_lod,WISE Preliminary Post-Cryo Single Exposure (L1b) Scan Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_2band_p1bm_frm,WISE Preliminary Post-Cryo Single Exposure (L1b) Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_2band_p1bs_frm,WISE Preliminary Post-Cryo Single Exposure (L1b) Frame Metadata Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_2band_p1bs_psd,WISE Preliminary Post-Cryo Single Exposure (L1b)  Source Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p1ba_mch,"WISE Preliminary Release Known Solar System Object Possible Association List (<a href='http://wise2.ipac.caltech.edu/docs/release/prelim/expsup/ssopal.README.html' target='doc'> Caution </a>, <a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)"
+wise,prelim_p1bl_lod,WISE Preliminary Release Single Exposure (L1b) Scan Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p1bm_frm,WISE Preliminary Release Single Exposure (L1b) Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p1bs_frm,WISE Preliminary Release Single Exposure (L1b) Frame Metadata Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p1bs_psd,WISE Preliminary Release Single Exposure (L1b) Source Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p3al_lod,WISE Preliminary Release Atlas Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p3am_cdd,WISE Preliminary Release Atlas Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p3am_xrf,WISE Preliminary Release Frame Cross-Reference Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p3as_cdd,WISE Preliminary Release Atlas Metadata Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,prelim_p3as_psd,WISE Preliminary Release Source Catalog (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+2mass,pscan_dat,2MASS Survey Scan Info
+2mass,pscan_dat_6x2,2MASS 6X w/LMC/SMC Scan Info
+2mass,pscan_dat_c,2MASS Calibration Scan Info
+2mass,pscan_dat_sc,2MASS LMC/SMC Calibration Scan Info
+2mass,pt_src_6x2,2MASS 6X w/LMC/SMC Point Source Working Database / Catalog (<a href='/applications/Gator/GatorAid/2MASS/6xcat.README.html' target='doc'>README</a>)
+2mass,pt_src_c,2MASS Calibration Point Source Working Database
+2mass,pt_src_cat,2MASS Second Incremental Release Point Source Catalog (PSC)
+2mass,pt_src_cat1,2MASS First Incremental Release Point Source Catalog (PSC)
+2mass,pt_src_rej,2MASS Survey Point Source Reject Table
+2mass,pt_src_sc,2MASS LMC/SMC Calibration Point Source Working Database
+ptf,ptf.ptf_procimg,PTF Level 1 Images
+ptf,ptf.ptf_refims,PTF Level 2 Images
+ptf,ptf_lightcurves,PTF Lightcurve Table
+ptf,ptf_objects,PTF Objects
+ptf,ptf_sources,PTF Sources Catalog
+ptf,ptfphotcalcat,PTF Photometric Calibrator Catalog
+2mass,pts_samp_cat,2MASS Sampler Point Source Catalog (PSC)
+composite_catalogs,quaia,Quaia: The Gaia-unWISE Quasar Catalog
+msx,redmsx,Red MSX Source Catalog
+spitzer,s4gcat,S4G Catalog
+spitzer,s4getg,S4G Early Type Galaxy Catalog
+spitzer,safires160,SAFIRES MIPS 160 micron Catalog
+spitzer,safires70,SAFIRES MIPS 70 micron Catalog
+spitzer,sage_ar_irac,"SAGE IRAC Single Frame + Mosaic Photometry Archive (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_ar_irac_e1e2,"SAGE IRAC Epoch 1 and Epoch 2 Archive (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_ar_irac_match,"SAGE IRAC Matched Epoch Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_ar_irac_off,"SAGE IRAC Offset Position Epoch 1 and Epoch 2 Archive (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_cat_irac,SAGE IRAC Single Frame + Mosaic Photometry Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_irac_e1e2,SAGE IRAC Epoch 1 and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_irac_match,SAGE IRAC Matched Epoch Archive (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_irac_off,SAGE IRAC Offset Position Epoch 1 and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_m160,SAGE MIPS 160 um Combined Epoch Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_m24,SAGE MIPS 24 um Epoch 1 and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_m24_match,SAGE MIPS 24 um Matched Epoch Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_cat_m70,SAGE MIPS 70 um Combined Epoch Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sage_full_m160,"SAGE MIPS 160 um Combined Epoch Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_full_m24,"SAGE MIPS 24 um Epoch 1 and Epoch 2 Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_full_m24_match,"SAGE MIPS 24 um Matched Epoch Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sage_full_m70,"SAGE MIPS 70 um Combined Epoch Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sagearciracv2,"SAGE Winter '08 IRAC Epoch 1 and Epoch 2 Archive (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sagecatiracv2,SAGE Winter '08 IRAC Epoch 1 and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEIRACv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagecatmips24v2,SAGE Winter '08 MIPS 24 um Epoch 1 and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagefull,SAGE-Var LMC Full Catalog
+spitzer,sagesmc_iraca,"SAGE-SMC IRAC Epoch 0, Epoch 1, and Epoch 2 Archive (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html' target='doc'>less reliable</a>)"
+spitzer,sagesmc_iracadr3,SAGE-SMC IRAC Single Frame + Mosaic Photometry Archive v1.5
+spitzer,sagesmc_iracc,"SAGE-SMC IRAC Epoch 0, Epoch 1, and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html#reliable' target='doc'>more reliable</a>)"
+spitzer,sagesmc_iraccdr3,SAGE-SMC IRAC Single Frame + Mosaic Photometry Catalog v1.5
+spitzer,sagesmc_iracep1a,SAGE-SMC IRAC Epoch 1 Archive (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html' target='doc'>less reliable</a>)
+spitzer,sagesmc_iracep1c,SAGE-SMC IRAC Epoch 1 Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_IRAC_colDescriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagesmc_mips160c,SAGE-SMC MIPS 160um Combined Epoch Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagesmc_mips160f,"SAGE-SMC MIPS 160um Combined Epoch Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sagesmc_mips24c,"SAGE-SMC MIPS 24 um Epoch 0, Epoch 1, and Epoch 2 Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable' target='doc'>more reliable</a>)"
+spitzer,sagesmc_mips24ep1c,SAGE-SMC MIPS 24um Epoch 1 Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagesmc_mips24ep1f,SAGE-SMC MIPS 24um Epoch 1 Full List (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html' target='doc'>less reliable</a>)
+spitzer,sagesmc_mips24f,"SAGE-SMC MIPS 24 um Epoch 0, Epoch 1, and Epoch 2 Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sagesmc_mips70c,SAGE-SMC MIPS 70um Combined Epoch Catalog (<a href='/data/SPITZER/SAGE-SMC/gator_docs/SAGE-SMC_MIPS_colDescriptions.html#reliable' target='doc'>more reliable</a>)
+spitzer,sagesmc_mips70f,"SAGE-SMC MIPS 70um Combined Epoch Full List (<a href='/data/SPITZER/SAGE/doc/SAGEMIPSv3_descriptions.html#reliable' target='doc'>more complete, less reliable</a>)"
+spitzer,sagesmcfull,SAGE-Var SMC Full Catalog
+spitzer,sagesmcvar,SAGE-Var SMC Variable Catalog
+spitzer,sagevar,SAGE-Var LMC Variable Catalog
+spitzer,sass_v3,SASS October 2011 Catalog
+2mass,scan_dat,2MASS First Incremental Release Survey Scan Info
+2mass,scan_dat_2,2MASS Second Incremental Release Survey Scan Info
+2mass,scf_info,2MASS LMC/SMC Calibration Merged Point Source Information Table
+2mass,scf_link,2MASS LMC/SMC Calibration Merged Point Source Link Table
+spitzer,scosmos_irac_0407,S-COSMOS IRAC 4-channel Photometry Catalog June 2007 (<a href='/data/COSMOS/gator_docs/scosmos_irac_colDescriptions.html' target='doc'>README</a>)
+spitzer,scosmos_mips_160_v3,S-COSMOS MIPS 160um Photometry Catalog v3 Jan 2009
+spitzer,scosmos_mips_24_go2,S-COSMOS MIPS 24um MAIN Photometry Catalog June 2007 (<a href='/data/COSMOS/gator_docs/scosmos_mips_24_colDescriptions.html#aug_note' target='doc'>Aug 2008: Important Flux-correction Note</a>)
+spitzer,scosmos_mips_24_go2_deep,S-COSMOS MIPS 24um DEEP Photometry Catalog June 2007 (<a href='/data/COSMOS/gator_docs/scosmos_mips_24_colDescriptions.html#aug_note' target='doc'>Aug 2008: Important Flux-correction Note</a>)
+cosmos,scosmos_mips_24_go3,S-COSMOS MIPS 24 Photometry Catalog October 2008
+spitzer,scosmos_mips_70_v3,S-COSMOS MIPS 70um Photometry Catalog v3 Jan 2009
+spitzer,sdwfs_ch1_epoch1,"SDWFS Aug '09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 1 (Jan '04)"
+spitzer,sdwfs_ch1_epoch2,"SDWFS Aug '09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 2 (Aug '07)"
+spitzer,sdwfs_ch1_epoch3,"SDWFS Aug '09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 3 (Feb '08)"
+spitzer,sdwfs_ch1_epoch4,"SDWFS Aug '09 DR1.1 IRAC 3.6um-Selected 3x30sec Coadd, epoch 4 (Mar '08)"
+spitzer,sdwfs_ch1_stack,SDWFS Aug'09 DR1.1 IRAC 3.6um-Selected Total Coadd Stack
+spitzer,sdwfs_ch2_epoch1,"SDWFS Aug '09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 1 (Jan '04)"
+spitzer,sdwfs_ch2_epoch2,"SDWFS Aug '09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 2 (Aug '07)"
+spitzer,sdwfs_ch2_epoch3,"SDWFS Aug '09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 3 (Feb '08)"
+spitzer,sdwfs_ch2_epoch4,"SDWFS Aug '09 DR1.1 IRAC 4.5um-Selected 3x30sec Coadd, epoch 4 (Mar '08)"
+spitzer,sdwfs_ch2_stack,SDWFS Aug '09 DR1.1 IRAC 4.5um-Selected Total Coadd Stack
+spitzer,sdwfs_ch3_epoch1,"SDWFS Aug '09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 1 (Jan '04)"
+spitzer,sdwfs_ch3_epoch2,"SDWFS Aug '09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 2 (Aug '07)"
+spitzer,sdwfs_ch3_epoch3,"SDWFS Aug '09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 3 (Feb '08)"
+spitzer,sdwfs_ch3_epoch4,"SDWFS Aug '09 DR1.1 IRAC 5.8um-Selected 3x30sec Coadd, epoch 4 (Mar '08)"
+spitzer,sdwfs_ch3_stack,SDWFS Aug '09 DR1.1 IRAC 5.8um-Selected Total Coadd Stack
+spitzer,sdwfs_ch4_epoch1,"SDWFS Aug '09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 1 (Jan '04)"
+spitzer,sdwfs_ch4_epoch2,"SDWFS Aug '09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 2 (Aug '07)"
+spitzer,sdwfs_ch4_epoch3,"SDWFS Aug '09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 3 (Feb '08)"
+spitzer,sdwfs_ch4_epoch4,"SDWFS Aug '09 DR1.1 IRAC 8.0um-Selected 3x30sec Coadd, epoch 4 (Mar '08)"
+spitzer,sdwfs_ch4_stack,SDWFS Aug '09 DR1.1 IRAC 8.0um-Selected Total Coadd Stack
+spitzer,sdwfs_lcurve,SDWFS Light Curve Catalog
+spitzer,sdwfs_var,SDWFS Variability Catalog
+spitzer,sep_mw,SEP Multiwavelength Photometric Catalog
+spitzer,sepm24,SEP MIPS 24 micron Point Source Catalog
+spitzer,sepm70,SEP MIPS 70 micron Point Source Catalog
+spitzer,sepmext,SEP MIPS Extended Source Catalog
+spitzer,servscdfsi1,SERVS CDFS 3.6 micron Catalog
+spitzer,servscdfsi12,SERVS CDFS 2-band Catalog (highly reliable)
+spitzer,servscdfsi2,SERVS CDFS 4.5 micron Catalog
+spitzer,servseni1,SERVS ELAIS N1 3.6 micron Catalog
+spitzer,servseni12,SERVS ELAIS N1 2-band Catalog (highly reliable)
+spitzer,servseni2,SERVS ELAIS N1 4.5 micron Catalog
+spitzer,servsesi1,SERVS ELAIS S1 3.6 micron Catalog
+spitzer,servsesi12,SERVS ELAIS S1 2-band Catalog (highly reliable)
+spitzer,servsesi2,SERVS ELAIS S1 4.5 micron Catalog
+spitzer,servslhi1,SERVS Lockman Hole 3.6 micron Catalog
+spitzer,servslhi12,SERVS Lockman Hole 2-band Catalog (highly reliable)
+spitzer,servslhi2,SERVS Lockman Hole 4.5 micron Catalog
+spitzer,servsxmmi1,SERVS XMM-LSS 3.6 micron Catalog
+spitzer,servsxmmi12,SERVS XMM-LSS 2-band Catalog (highly reliable)
+spitzer,servsxmmi2,SERVS XMM-LSS 4.5 micron Catalog
+spitzer,shelacomb,SHELA Combined Epoch IRAC Catalog
+spitzer,shelaep1,SHELA Epoch 1 IRAC Catalog
+spitzer,shelaep2,SHELA Epoch 2 IRAC Catalog
+spitzer,shelaep3,SHELA Epoch 3 IRAC Catalog
+spitzer,shelasdss,SHELA-SDSS Stripe 82 Catalog
+spitzer,simple,SIMPLE Photometry Catalog
+2mass,sixxf_info,2MASS 6X w/LMC/SMC Merged Point Source Information Table
+2mass,sixxf_link,2MASS 6X w/LMC/SMC Merged Point Source Link Table
+spitzer,slicovv2,SEIP IRAC Coverage Table
+spitzer,slmcovv2,SEIP MIPS Coverage Table
+spitzer,slphotdr4,SEIP Source List
+spitzer,sltracev2,SEIP Traceback Table
+spitzer,smclasta1,SMC-Last Extracted Photometry Epoch 1 Archive (more complete)
+spitzer,smclasta2,SMC-Last Extracted Photometry Epoch 2 Archive (more complete)
+spitzer,smclastac,SMC-Last Extracted Photometry Combined Epoch Archive (more complete)
+spitzer,smclastc1,SMC-Last Extracted Photometry Epoch 1 Catalog (more reliable)
+spitzer,smclastc2,SMC-Last Extracted Photometry Epoch 2 Catalog (more reliable)
+spitzer,smclastcc,SMC-Last Extracted Photometry Combined Epoch Catalog (more reliable)
+spitzer,smuvs,SMUVS Source Catalog
+sofia,sofia.ancillary_artifacts,SOFIA Ancillary Artifacts
+sofia,sofia.artifact,SOFIA CAOM Artifact Table
+sofia,sofia.observation,SOFIA CAOM Observation Table
+sofia,sofia.observation_aors,SOFIA AOR to Observation Mapping Table
+sofia,sofia.observation_missions,SOFIA MISSN-ID to Observation Mapping Table
+sofia,sofia.plane,SOFIA Archive
+sofia,sofia.proposals,SOFIA Proposal/Abstract Table
+sofia,sofia.proposals_with_publications,List of SOFIA proposals with associated publications
+sofia,sofia.publication_proposals,SOFIA Publication/Proposal Mapping Table
+sofia,sofia.publications,SOFIA Publications Table
+sofia,sofia.qa_comments,SOFIA Comments Table
+sofia,sofia.science_keyphrases,SOFIA Science Keywords Table
+sofia,sofia_sfgc,SOFIA FORCAST Galactic Center Source Catalog
+contributed_data_sets,spacemol_dr1,Database of Molecules in Space Catalog
+spherex,spherex.artifact,SPHEREx CAOM Artifact Table
+spherex,spherex.obscore,IRSA ObsCore table of SPHEREx products
+spherex,spherex.observation,SPHEREx CAOM Observation Table
+spherex,spherex.plane,SPHEREx CAOM Plane Table
+spherex,spherex.provenance_input,Join tables for SPHEREx calibration files
+spitzer,spicy,SPICY Catalog
+spitzer,spiesch1,SpIES 3.6 micron-only Catalog
+spitzer,spiesch12,SpIES Dual-band Catalog
+spitzer,spiesch2,SpIES 4.5 micron-only Catalog
+spitzer,spitzer.abell1763_images,Abell 1763 Images
+spitzer,spitzer.apoglimpse_0_6_images,Spitzer APOGlimpse Images
+spitzer,spitzer.apoglimpse_1_2_images,Spitzer APOGlimpse Images
+spitzer,spitzer.c2d_images,C2D Images
+spitzer,spitzer.c2d_images_av,Spitzer C2D AV Image Metadata
+spitzer,spitzer.c2d_images_bolocam,Spitzer C2D Bolocam Image Metadata
+spitzer,spitzer.c2d_images_irac_all,Spitzer C2D IRAC Image Metadata
+spitzer,spitzer.c2d_images_mips_all,Spitzer C2D MIPS Image Metadata
+spitzer,spitzer.c2d_irac_iv_caom_core,Spitzer C2D IRAC Image (Image/per Band) Metadata
+spitzer,spitzer.c2d_irs_cubes,Spitzer C2D IRS Cubes
+spitzer,spitzer.c2d_irs_spec,C2D IRS Spectra
+spitzer,spitzer.c2d_mips_caom_nofilter,Spitzer C2D MIPS (Image/Per Band) Image Metadata
+spitzer,spitzer.clash_images,Cluster Lensing And Supernova survey with Hubble (CLASH) Images
+spitzer,spitzer.cosmic_dawn,Cosmic Dawn Survey Data
+spitzer,spitzer.cygnus_x_images,A Spitzer Legacy Survey of the Cygnus-X Complex (Cygnus-X) Images
+spitzer,spitzer.cygnus_x_images_mosaics,Spitzer Cygnus-X Mosaic Image Metadata
+spitzer,spitzer.cygnus_x_images_phot_mos,Spitzer Cygnus-X Photometry Mosaics Image Metadata
+spitzer,spitzer.cygnus_x_images_tiles,Spitzer Cygnus-X Tiles Metadata
+spitzer,spitzer.deepdrill_images,Spitzer Survey of Deep Drilling Fields (DeepDrill) Images
+spitzer,spitzer.disks_sh_spectra,Disks_SH Spectra
+spitzer,spitzer.dustings_images,Dust in Nearby Galaxies with Spitzer (DUSTiNGS) Images
+spitzer,spitzer.elflock_atlas,ELFLock: The Eureka LBNL Far-Infrared Lockman Hole (ELFLock) Map
+spitzer,spitzer.feps_images,FEPS Images
+spitzer,spitzer.feps_spectra_v5,FEPS Spectra V5
+spitzer,spitzer.fidel_images,Far-Infrared Deep Extragalactic Legacy Survey (FIDEL) Images
+spitzer,spitzer.fidel_images_160um,Spitzer FIDEL 160um Image Metadata
+spitzer,spitzer.fidel_images_24um,Spitzer FIDEL 24um Image Metadata
+spitzer,spitzer.fidel_images_70um,Spitzer FIDEL 70um Image Metadata
+spitzer,spitzer.fivemuses_spectra,The 5 mJy Unbiased Spitzer Extragalactic Survey (5MUSES) Spectra
+spitzer,spitzer.fls_gbt_hi,Spitzer FLS Green Bank Telescope Image Metadata
+spitzer,spitzer.fls_images,Extragalactic FLS Images
+spitzer,spitzer.fls_irac,Spitzer FLS IRAC Image Metadata
+spitzer,spitzer.fls_kpno_r,Spitzer FLS KPNO_R Image Metadata
+spitzer,spitzer.fls_mips,Spitzer FLS MIPS Image Metadata
+spitzer,spitzer.fls_sdss,Spitzer FLS SDSS Image Metadata
+spitzer,spitzer.fls_v2_mmt_spectra,Extragalactic FLS MMT/Hectospec Spectra
+spitzer,spitzer.fls_vla,Spitzer FLS VLA Image Metadata
+spitzer,spitzer.frontier_images,Frontier Fields Images
+spitzer,spitzer.glimpse360_0_6,Spitzer Glimpse360 0.6 Image Metadata
+spitzer,spitzer.glimpse360_1_2,Spitzer Glimpse360 1.2 Image Metadata
+spitzer,spitzer.glimpse3d_0_6,Spitzer Glimpse3d 0.6 Image Metadata
+spitzer,spitzer.glimpse3d_1_2,Spitzer Glimpse3d 1.2 Image Metadata
+spitzer,spitzer.glimpse_cygx_0_6,Spitzer Glimpse CYGX 0.6 Image Metadata
+spitzer,spitzer.glimpse_cygx_1_2,Spitzer Glimpse CYGX 1.2 Image Metadata
+spitzer,spitzer.glimpse_deepglimpse_0_6,Spitzer Deep Glimpse 0.6 Image Metadata
+spitzer,spitzer.glimpse_deepglimpse_1_2,Spitzer Deep Glimpse 1.2 Image Metadata
+spitzer,spitzer.glimpse_images,Galactic Legacy Infrared Midplane Survey Extraordinaire (GLIMPSE) Images
+spitzer,spitzer.glimpse_smog_0_6,Spitzer Glimpse SMOG 0.6 Image Metadata
+spitzer,spitzer.glimpse_smog_1_2,Spitzer Glimpse SMOG 1.2 Image Metadata
+spitzer,spitzer.glimpse_velacar_0_6,Spitzer Glimpse Velacar 0.6 Image Metadata
+spitzer,spitzer.glimpse_velacar_1_2,Spitzer Glimpse Velacar 1.2 Image Metadata
+spitzer,spitzer.glimpsei_0_6,Spitzer GlimpseI 0.6 Image Metadata
+spitzer,spitzer.glimpsei_1_2,Spitzer GlimpseI 1.2 Image Metadata
+spitzer,spitzer.glimpseii_0_6,Spitzer GlimpseII 0.6 Image Metadata
+spitzer,spitzer.glimpseii_1_2,Spitzer GlimpseII 1.2 Image Metadata
+spitzer,spitzer.glimpseii_sub,Spitzer GlimpseII Sub Image Metadata
+spitzer,spitzer.goals_irs_spec,GOALS IRS Spectra
+spitzer,spitzer.goals_spatprof_spec,GOALS Spatial Profiles
+spitzer,spitzer.goals_spitzer,Great Observatories All-sky LIRG Survey (GOALS) Images
+spitzer,spitzer.irs_std_spectra,Spitzer Spectra of IRS Standard Stars
+spitzer,spitzer.iudf_mosaic,IRAC Ultra-Deep Field (IUDF) Images
+spitzer,spitzer.lvl_galex,Spitzer LVL GALEX image Metadata
+spitzer,spitzer.lvl_halpha,Spitzer LVL HALPHA image Metadata
+spitzer,spitzer.lvl_images,Local Volume Legacy Survey (LVL) Images
+spitzer,spitzer.lvl_irac,Spitzer LVL IRAC image Metadata
+spitzer,spitzer.lvl_mips,Spitzer LVL MIPS image Metadata
+spitzer,spitzer.m31irac_image,M31IRAC Images
+spitzer,spitzer.mips_lg_images,MIPS Local Galaxies (MIPS_LG) Images
+spitzer,spitzer.mipsgal_images,A 24 and 70 Micron Survey of the Inner Galactic Disk with MIPS (MIPSGAL) Images
+spitzer,spitzer.s4g_details,Spitzer S4G Details Metadata
+spitzer,spitzer.s4g_images,The Spitzer Survey of Stellar Structure in Galaxies (S4G) Images
+spitzer,spitzer.s5_hires,Spitzer S5 Hi-res
+spitzer,spitzer.s5_lores,Spitzer S5 Lo-res
+spitzer,spitzer.s5_spectra,S5 Spectra
+spitzer,spitzer.s_candels_images,Spitzer-Cosmic Assembly Near-Infrared Deep Extragalactic Legacy Survey (S-CANDELS) Images
+spitzer,spitzer.safires_ancillary,Spitzer SAFIRES Ancillary Image Metadata
+spitzer,spitzer.safires_images,Spitzer Archival FIR Extragalactic Survey (SAFIRES) Images
+spitzer,spitzer.safires_science,Spitzer SAFIRES Science Image Metadata
+spitzer,spitzer.sage_images,SAGE Images
+spitzer,spitzer.sage_irac_mos,Spitzer SAGE IRAC Mosaic Image Metadata
+spitzer,spitzer.sage_irac_tiles,Spitzer SAGE IRAC Tiles Image Metadata
+spitzer,spitzer.sage_irs,SAGE-Spec IRS Spectra
+spitzer,spitzer.sage_irs_nods,SAGE IRS NODS
+spitzer,spitzer.sage_mips_mos,Spitzer SAGE MIPS Mosaic Image Metadata
+spitzer,spitzer.sage_mips_sed,SAGE-Spec MIPS SED Spectra
+spitzer,spitzer.sage_mips_tiles,Spitzer SAGE MIPS Tiles Image Metadata
+spitzer,spitzer.sage_sed,SAGE-Spec SED Spectra
+spitzer,spitzer.sage_smc_images,"Surveying the Agents of Galaxy Evolution in the Tidally-Disrupted, Low-Metallicity Small Magellanic Cloud (SAGE-SMC) Images"
+spitzer,spitzer.sage_smc_irac,Spitzer SAGE SMC IRAC
+spitzer,spitzer.sage_smc_mips,Spitzer SAGE SMC MIPS
+spitzer,spitzer.sage_spec_cubes,Spitzer SAGE SPEC Cubes
+spitzer,spitzer.sdwfs_combined,Spitzer SDWFS Combined Image Metadata
+spitzer,spitzer.sdwfs_epoch1,Spitzer SDWFS Epoch1 Image Metadata
+spitzer,spitzer.sdwfs_epoch2,Spitzer SDWFS Epoch2 Image Metadata
+spitzer,spitzer.sdwfs_epoch3,Spitzer SDWFS Epoch3 Image Metadata
+spitzer,spitzer.sdwfs_epoch4,Spitzer SDWFS Epoch4 Image Metadata
+spitzer,spitzer.sdwfs_images,"Spitzer Deep, Wide-Field Survey (SDWFS) Images"
+spitzer,spitzer.seip_ancillary,Spitzer SEIP Ancillary Image Metadata
+spitzer,spitzer.seip_images,Spitzer Enhanced Imaging Products (SEIP) Images
+spitzer,spitzer.seip_science,Spitzer SEIP Science Image Metadata
+spitzer,spitzer.sep_images,Spitzer MIPS 24 and 70 micron Imaging of the South Ecliptic Pole (SEP) Images
+spitzer,spitzer.servs_images,Spitzer Extragalactic Representative Volume Survey (SERVS) Images
+spitzer,spitzer.sgoods_ancillary_v1_0,Spitzer GOODS Ancillary Image Metadata
+spitzer,spitzer.sgoods_images,Great Observatories Origins Deep Survey (GOODS) Images (Spitzer)
+spitzer,spitzer.sgoods_irac_spitzer_dr2,Spitzer GOODS IRAC DR2 Image Metadata
+spitzer,spitzer.sgoods_irac_spitzer_dr3,Spitzer GOODS IRAC DR3 Image Metadata
+spitzer,spitzer.sgoods_irs_spitzer,Spitzer GOODS IRS Image Metadata
+spitzer,spitzer.sgoods_mips_spitzer_dr3,Spitzer GOODS MIPS DR3 Image Metadata
+spitzer,spitzer.shela_images,Spitzer/HETDEX Exploratory Large-Area survey (SHELA) Images
+spitzer,spitzer.simple_images_epoch1,Spitzer SIMPLE EPOCH1 Image Metadata
+spitzer,spitzer.simple_images_epoch2,Spitzer SIMPLE EPOCH2 Image Metadata
+spitzer,spitzer.simple_images_images,Spitzer IRAC/MUSYC Public Legacy Survey in the Extended Chandra Deep Field South (SIMPLE) Images
+spitzer,spitzer.sings_images,SINGS Images
+spitzer,spitzer.sings_irs_spec,SINGS IRS Spectra
+spitzer,spitzer.sings_mipssed_spec,SINGS MIPSSED Spectra
+spitzer,spitzer.sings_opt_spec,The Spitzer Infrared Nearby Galaxies Survey (SINGS) OPT Spectra
+spitzer,spitzer.smuvs_images,Spitzer Matching Survey of the Ultra-VISTA Deep Stripes (SMUVS) Images
+spitzer,spitzer.spies_images,Spitzer IRAC Equatorial Survey (SpIES) Images
+spitzer,spitzer.spuds_images,Spitzer Public Legacy Survey of the UKIDSS Ultra Deep Survey (SpUDS) Images
+spitzer,spitzer.srelics_images,Spitzer Reionization Lensing Cluster Survey (SRELICS) Images
+spitzer,spitzer.ssdf_images,The Spitzer-SPT Deep Field (SSDF) Images
+spitzer,spitzer.ssgss_irs_hires,SSGSS IRS Hires Spectra
+spitzer,spitzer.ssgss_irs_ll,SSGSS IRS LL Spectra
+spitzer,spitzer.ssgss_irs_ll_ab_combined,SSGSS IRS LL AB Combined Spectra
+spitzer,spitzer.ssgss_irs_ll_ab_uncombined,SSGSS IRS LL AB Uncombined Spectra
+spitzer,spitzer.ssgss_irs_lores,SSGSS IRS Lores Spectra
+spitzer,spitzer.ssgss_irs_sh,SSGSS IRS SH Spectra
+spitzer,spitzer.ssgss_irs_sl,SSGSS IRS SL Spectra
+spitzer,spitzer.ssgss_irs_sl_ab_combined,SSGSS IRS SL AB Combined Spectra
+spitzer,spitzer.ssgss_irs_sl_ab_uncombined,SSGSS IRS SL AB Uncombined Spectra
+spitzer,spitzer.ssgss_irs_sl_ll,SSGSS IRS SL LL Spectra
+spitzer,spitzer.swire_images,Spitzer Wide-area InfraRed Extragalactic Survey (SWIRE) Images
+spitzer,spitzer.taurus_images,Finishing the Spitzer Map of the Taurus Molecular Clouds (Taurus 2) Images
+spitzer,spitzer.taurus_irac_ch1,Spitzer Taurus IRAC Ch1 Image Metadata
+spitzer,spitzer.taurus_irac_ch2,Spitzer Taurus IRAC Ch2 Image Metadata
+spitzer,spitzer.taurus_irac_ch3,Spitzer Taurus IRAC Ch3 Image Metadata
+spitzer,spitzer.taurus_irac_ch4,Spitzer Taurus IRAC Ch4 Image Metadata
+spitzer,spitzer.taurus_mips_160,Spitzer Taurus MIPS 160um Image Metadata
+spitzer,spitzer.taurus_mips_24,Spitzer Taurus MIPS 24um Image Metadata
+spitzer,spitzer.taurus_mips_70,Spitzer Taurus MIPS 70um Image Metadata
+spherex,splices,The SPHEREx Target List of Ice Sources (SPLICES)
+herschel,spsc250,SPIRE Point Source Catalog: 250 microns
+herschel,spsc350,SPIRE Point Source Catalog: 350 microns
+herschel,spsc500,SPIRE Point Source Catalog: 500 microns
+herschel,spscxid,SPIRE Point Source Catalog Cross-Reference Matrix
+spitzer,spuds_irac,SpUDS IRAC Catalog
+spitzer,spuds_mips,SpUDS MIPS Catalog
+spitzer,ssdf1,SSDF IRAC Ch1 Catalog
+spitzer,ssdf2,SSDF IRAC Ch2 Catalog
+spitzer,ssid2,SAGE-Spec ID Search
+iras,summary,IRAS Large Galaxies Catalog
+spitzer,swire_lhisod,SWIRE Lockman Hole ISOCAM Deep Field Catalog
+spitzer,swire_lhisos,SWIRE Lockman Hole ISOCAM Shallow Field Catalog
+spitzer,taurus_2008_2_1,Taurus Catalog October 2008 v2.1
+texes,texes.artifact_texes,TEXES CAOM Artifact Table
+texes,texes.observation_texes,TEXES CAOM Observation Table
+texes,texes.plane_texes,TEXES Archive
+2mass,twomass.allsky_images,2MASS All-Sky Release Survey Images (<a href='/applications/Radar/IM/2massImg.html' target='doc'>README</a>)
+2mass,twomass.calibration_images,2MASS Calibration Images (<a href='/applications/Radar/IM/2massImg.html' target='doc'>README</a>)
+2mass,twomass.full_images,2MASS Full Survey Images
+2mass,twomass.lga_images,2MASS All-Sky Large Galaxy Atlas
+2mass,twomass.lh_images,Lockman Hole (LH) Ancillary Data Atlas
+2mass,twomass.sixdeg_mosaic_images,2MASS Six Degree Mosaic Image Metadata
+2mass,twomass.sixx_catalog_images,2MASS Six-times (6x) Catalog Images (<a href='/applications/Radar/IM/2massImg.html' target='doc'>README</a>)
+2mass,twomass.sixx_full_images,2MASS Six-times (6x) Full Images (<a href='/applications/Radar/IM/2massImg.html' target='doc'>README</a>)
+usno,ucac4_sources,USNO CCD Astrograph Catalog (UCAC4)
+usno,ucac5,USNO CCD Astrograph Catalog (UCAC5)
+wise,unwise.unwise_neo3_images,UnWISE Coadd Image Metadata
+wise,unwise_2019,unWISE Catalog
+usno,urat1,The First USNO Robotic Astrometric Telescope Catalog (URAT1)
+usno,usno_b1,USNO-B1 (United States Naval Observatory B1.0 Catalog)
+wise,varwiseext,VarWISE Extended Catalog
+wise,varwisepure,VarWISE Pure Catalog
+spitzer,velcara,"Vela-Carina Archive (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>more complete, less reliable</a>)"
+spitzer,velcarc,Vela-Carina Catalog (<a href='/data/SPITZER/GLIMPSE/gator_docs/GLIMPSE_colDescriptions.html' target='doc'>highly reliable</a>)
+wise,wise.neowiser_merge_p1bm_frm,NEOWISE-R Merged Single Exposure (L1b) Image Inventory Table
+wise,wise.neowiser_p1bm_frm,NEOWISE-R Single Exposure (L1b) Image Inventory Table
+wise,wise.wise_allsky_2band_p1bm_frm,WISE Post-Cryo Single Exposure (L1b) Image Inventory Table
+wise,wise.wise_allsky_3band_p1bm_frm,WISE 3-Band Cryo Single Exposure (L1b) Image Inventory Table
+wise,wise.wise_allsky_3band_p3am_cdd,WISE 3-Band Cryo Atlas Image Inventory Table
+wise,wise.wise_allsky_4band_p1bm_frm,WISE All-Sky Single Exposure (L1b) Image Inventory Table
+wise,wise.wise_allsky_4band_p3am_cdd,WISE All-Sky Atlas Image Inventory Table
+wise,wise.wise_allwise_merge_p3am_cdd,AllWISE Merged Atlas Image Inventory Table
+wise,wise.wise_allwise_p3am_cdd,AllWISE Atlas Image Inventory Table
+wise,wise.wise_prelim_2band_p1bm_frm,WISE Preliminary Post-Cryo Single Exposure (L1b) Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,wise.wise_prelim_p1bm_frm,WISE Preliminary Release Single Exposure (L1b) Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+wise,wise.wise_prelim_p3am_cdd,WISE Preliminary Release Atlas Image Inventory Table (<a href='/applications/Gator/superseded.html' target='doc'>Superseded</a>)
+contributed_data_sets,wisegalhii,WISE Catalog of Galactic HII Regions v2.2
+2mass,wsdb_info,2MASS Survey Merged Point Source Information Table
+2mass,wsdb_link,2MASS Survey Merged Point Source Link Table
+spitzer,xfls_i1m,Extragalactic FLS IRAC Channel 1 Main Field Catalog
+spitzer,xfls_i1v,Extragalactic FLS IRAC Channel 1 Verification Field Catalog
+spitzer,xfls_i2m,Extragalactic FLS IRAC Channel 2 Main Field Catalog
+spitzer,xfls_i2v,Extragalactic FLS IRAC Channel 2 Verification Field Catalog
+spitzer,xfls_i3m,Extragalactic FLS IRAC Channel 3 Main Field Catalog
+spitzer,xfls_i3v,Extragalactic FLS IRAC Channel 3 Verification Field Catalog
+spitzer,xfls_i4m,Extragalactic FLS IRAC Channel 4 Main Field Catalog
+spitzer,xfls_i4v,Extragalactic FLS IRAC Channel 4 Verification Field Catalog
+spitzer,xfls_iallm,Extragalactic FLS IRAC Bandmerged Main Field Catalog
+spitzer,xfls_iallv,Extragalactic FLS IRAC Bandmerged Verification Field Catalog
+spitzer,xfls_kpno,Extragalactic FLS KPNO R-band Source List
+spitzer,xfls_m1t2,Extragalactic FLS MIPS 24 micron Extended Source Catalog
+spitzer,xfls_m1t4,Extragalactic FLS MIPS 24 micron Calibration Star Catalog
+spitzer,xfls_m1t5,Extragalactic FLS MIPS 24 micron Point Source Catalog
+spitzer,xfls_m2,Extragalactic FLS MIPS 70 micron Catalog
+spitzer,xfls_m3,Extragalactic FLS MIPS 160 micron Catalog
+spitzer,xfls_w2,Extragalactic FLS WIYN/Hydra Spectroscopic Catalog
+spitzer,xfls_w3,Extragalactic FLS WIYN/Hydra Line Strength and Equivalent Width Catalog
+spitzer,xfls_w4,Extragalactic FLS WIYN/Hydra Line Ratios and Extinction Catalog
+spitzer,xmm_160_cat_s05,SWIRE XMM_LSS Region 160um Spring '05 Spitzer Catalog
+spitzer,xmm_24_cat_s05,SWIRE XMM_LSS Region 24um Spring '05 Spitzer Catalog
+spitzer,xmm_70_cat_s05,SWIRE XMM_LSS Region 70um Spring '05 Spitzer Catalog
+spitzer,xmm_cat_s05,SWIRE XMM_LSS Region Spring '05 Spitzer Catalog
+spitzer,ysoggd1215lc,YSOVAR GGD 12-15 Light Curve Table
+spitzer,ysoggd1215obj,YSOVAR GGD 12-15 Object Table
+spitzer,ysoi20050lc,YSOVAR IRAS 20050+2720 Light Curve Table
+spitzer,ysoi20050obj,YSOVAR IRAS 20050+2720 Object Table
+spitzer,ysol1688lc,YSOVAR L1688 Light Curve Table
+spitzer,ysol1688obj,YSOVAR L1688 Object Table
+spitzer,yson1333lc,YSOVAR NGC1333 Light Curve Table
+spitzer,yson1333obj,YSOVAR NGC1333 Object Table
+contributed_data_sets,z0mgsdr1index,z0MGS DR1 Index
+contributed_data_sets,z0mgsdr1simple,z0MGS DR1 7.5 arcsec Simple Index
+herschel,z0mgsdust,z0MGS_Dust Catalog
+ztf,ztf.ztf_current_meta_cal,ZTF Calibration Metadata Table
+ztf,ztf.ztf_current_meta_deep,ZTF Deep Reference Images
+ztf,ztf.ztf_current_meta_raw,ZTF Raw Metadata Table
+ztf,ztf.ztf_current_meta_ref,ZTF Reference (coadd) Images
+ztf,ztf.ztf_current_meta_sci,ZTF Science Exposure Images
+ztf,ztf.ztf_current_path_cal,ZTF Calibration Product Paths
+ztf,ztf.ztf_current_path_deep,ZTF Deep Reference Product Paths
+ztf,ztf.ztf_current_path_raw,ZTF Raw Product Paths
+ztf,ztf.ztf_current_path_ref,ZTF Reference Product Paths
+ztf,ztf.ztf_current_path_sci,ZTF Science Product Paths
+ztf,ztf_objects_dr20,ZTF DR20 Objects
+ztf,ztf_objects_dr21,ZTF DR21 Objects
+ztf,ztf_objects_dr22,ZTF DR22 Objects
+ztf,ztf_objects_dr23,ZTF DR23 Objects
+ztf,ztf_objects_dr24,ZTF DR24 Objects

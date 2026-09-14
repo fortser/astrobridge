@@ -1,0 +1,17 @@
+{"service":"simbad","operation":"simbad.resolve","params":{"name":"M31"},"limit":5,"cache":false}
+{"service":"vizier","operation":"tap.query","params":{"query":"SELECT TOP 5 * FROM \"II/246/out\""},"limit":5,"cache":false}
+{"service":"vizier","operation":"tap.columns","params":{"table":"\"II/246/out\""},"limit":200,"cache":false}
+{"service":"exoplanet","operation":"tap.query","params":{"query":"SELECT TOP 5 pl_name,hostname,pl_orbper,pl_rade,pl_bmasse,pl_eqt,st_teff,st_rad,st_mass,sy_dist FROM pscomppars WHERE pl_rade IS NOT NULL"},"limit":5,"cache":false}
+{"service":"irsa","operation":"tap.cone","params":{"table":"fp_psc","ra":56.75,"dec":24.12,"radius":0.05,"ra_column":"ra","dec_column":"dec","columns":"*"},"limit":5,"cache":false}
+{"service":"heasarc","operation":"tap.query","params":{"query":"SELECT TOP 5 * FROM numaster"},"limit":5,"cache":false}
+{"service":"cadc","operation":"tap.query","params":{"query":"SELECT TOP 5 dataproduct_type,obs_collection,obs_id,s_ra,s_dec,t_min,t_max,em_min,em_max,access_url,access_format FROM ivoa.ObsCore"},"limit":5,"cache":false}
+{"service":"mast","operation":"mast.search","params":{"filters":[{"paramName":"obs_collection","values":["JWST"]},{"paramName":"dataRights","values":["PUBLIC"]}]},"limit":5,"cache":false}
+{"service":"mast","operation":"mast.search","params":{"filters":[{"paramName":"obs_collection","values":["TESS"]},{"paramName":"dataproduct_type","values":["timeseries"]}]},"limit":5,"cache":false}
+{"service":"mast","operation":"mast.products","params":{"obsid":"27307305"},"limit":5,"cache":false}
+{"service":"horizons","operation":"horizons.query","params":{"target":"499","center":"500@399","start":"2026-01-01","stop":"2026-01-03","step":"1d","time_scale":"TDB","kind":"vectors","corrections":"NONE","ref_plane":"FRAME"},"limit":5,"cache":false}
+{"service":"horizons","operation":"horizons.query","params":{"target":"499","center":"500@399","start":"2026-01-01","stop":"2026-01-03","step":"1d","time_scale":"UT","kind":"ephemerides","quantities":"1,9,20,23"},"limit":5,"cache":false}
+{"service":"horizons","operation":"horizons.query","params":{"target":"1;","center":"500@10","start":"2026-01-01","stop":"2026-01-03","step":"1d","time_scale":"TDB","kind":"elements","ref_plane":"ECLIPTIC"},"limit":5,"cache":false}
+{"service":"crossref","operation":"literature.search","params":{"query":"exoplanet transmission spectroscopy","offset":0},"limit":5,"cache":false}
+{"service":"registry","operation":"tap.query","params":{"query":"SELECT TOP 10 ivoid,access_url FROM rr.capability NATURAL JOIN rr.interface WHERE standard_id='ivo://ivoa.net/std/tap' AND intf_role='std'"},"limit":10,"cache":false}
+{"service":"registry","operation":"tap.query","params":{"query":"SELECT TOP 10 ivoid,access_url,std_version FROM rr.capability NATURAL JOIN rr.interface WHERE standard_id='ivo://ivoa.net/std/sia' AND intf_role='std'"},"limit":10,"cache":false}
+{"service":"registry","operation":"tap.query","params":{"query":"SELECT TOP 10 ivoid,access_url FROM rr.capability NATURAL JOIN rr.interface WHERE standard_id='ivo://ivoa.net/std/ssa' AND intf_role='std'"},"limit":10,"cache":false}

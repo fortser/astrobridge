@@ -1,0 +1,8 @@
+{
+  "service": "simbad",
+  "operation": "simbad.resolve",
+  "params": {
+    "name": "M31"
+  },
+  "limit": 5
+}

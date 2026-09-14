@@ -1,0 +1,47 @@
+schema_name,table_name,description
+exo_tap,CUMULATIVE,Cumulative KOI Delivery
+exo_tap,DI_STARS_EXEP,HWO ExEp Precursor Science Stars
+exo_tap,K2TARGETS,K2 Stellar Targets
+exo_tap,KEPLERSTELLAR,Kepler Stellar Delivery
+exo_tap,KEPLERTIMESERIES,Kepler Time Series
+exo_tap,Q1_Q12_KOI,Q1-Q12 KOI Delivery
+exo_tap,Q1_Q12_KS,Q1-Q12 Kepler Stellar Delivery
+exo_tap,Q1_Q12_TCE,Q1-Q12 TCE Delivery
+exo_tap,Q1_Q16_KOI,Q1-Q16 KOI Delivery
+exo_tap,Q1_Q16_KS,Q1-Q16 Kepler Stellar Delivery
+exo_tap,Q1_Q16_TCE,Q1-Q16 TCE Delivery
+exo_tap,Q1_Q17_DR24_KOI,Q1-Q17 DR24 KOI Delivery
+exo_tap,Q1_Q17_DR24_KS,Q1-Q17 DR24 Kepler Stellar Delivery
+exo_tap,Q1_Q17_DR24_TCE,Q1-Q17 DR24 TCE Delivery
+exo_tap,Q1_Q17_DR25_KOI,Q1-Q17 DR25 KOI Delivery
+exo_tap,Q1_Q17_DR25_KS,Q1-Q17 DR25 Kepler Stellar Delivery
+exo_tap,Q1_Q17_DR25_SUP_KOI,Q1-Q17 DR25 Supplemental KOI Delivery
+exo_tap,Q1_Q17_DR25_SUP_KS,Q1-Q17 DR25 Supplemental Kepler Stellar Delivery
+exo_tap,Q1_Q17_DR25_TCE,Q1-Q17 DR25 TCE Delivery
+exo_tap,Q1_Q6_KOI,Q1-Q6 KOI Delivery
+exo_tap,Q1_Q8_KOI,Q1-Q8 KOI Delivery
+TAP_SCHEMA,TAP_SCHEMA.columns,Available columns at PROJECT
+TAP_SCHEMA,TAP_SCHEMA.key_columns,Available key columns at PROJECT
+TAP_SCHEMA,TAP_SCHEMA.keys,Available keys at PROJECT
+TAP_SCHEMA,TAP_SCHEMA.schemas,Available schemas at PROJECT
+TAP_SCHEMA,TAP_SCHEMA.tables,Available tables at PROJECT
+exo_tap,TD,Transit Detection Table
+exo_tap,emissionspec,Emission Spectroscopy
+exo_tap,k2names,K2 Names
+exo_tap,k2pandc,K2 Planets and Candidates
+exo_tap,kelttimeseries,KELT
+exo_tap,keplernames,Kepler Names
+exo_tap,ml,Microlensing Planets
+exo_tap,nexolist,NExoList (NASA Exoplanet Archive Atmospheric Observation List)
+exo_tap,object_aliases,Object Aliases
+exo_tap,observations,OBSERVATIONS table
+exo_tap,pandora,Pandora Mission
+exo_tap,ps,Planetary Systems
+exo_tap,pscomppars,PSCOMPPARS
+exo_tap,spectra,Atmospheric Spectroscopy
+exo_tap,stellarhosts,Stellar Hosts
+exo_tap,stellarhosts,Stellar Hosts
+exo_tap,superwasptimeseries,SuperWASP
+exo_tap,toi,TESS Project Candidates
+exo_tap,transitspec,Transit Spectroscopy
+exo_tap,ukirttimeseries,UKIRT

@@ -1,0 +1,14 @@
+{
+  "workspace": "../workspace",
+  "proxy_mode": "environment",
+  "proxy_url": "",
+  "proxy_env": "ASTROBRIDGE_PROXY",
+  "timeout": 60,
+  "job_timeout": 600,
+  "min_interval": 1,
+  "retries": 2,
+  "max_response_mb": 64,
+  "max_download_mb": 512,
+  "cache_ttl_hours": 24,
+  "services": {}
+}

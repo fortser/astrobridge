@@ -1,0 +1,22 @@
+schema_name,table_name,description
+caom2,caom2.Artifact,physical data artifacts (e.g. files)
+caom2,caom2.Chunk,description of the data array in a part
+caom2,caom2.EnumField,pre-computed aggregate (group by) materialised view built from enumerated types in CAOM model
+caom2,caom2.HarvestSkipURI,list of observations to retry or artifacts to sync
+caom2,caom2.HarvestState,observation sync state
+caom2,caom2.ObsCoreEnumField,pre-computed aggregate (group by) materialised view built from enumerated types in ObsCore-1.1 model
+caom2,caom2.Observation,the main CAOM Observation table
+caom2,caom2.ObservationMember,composite to simple observation join table
+caom2,caom2.Part,parts of artifacts (e.g. FITS extensions)
+caom2,caom2.Plane,the products of the observation
+caom2,caom2.ProvenanceInput,plane.provenance to input plane join table
+caom2,caom2.SIAv1,"SIAv1 view on CAOM-2.0: caom.Observation JOIN caom.Plane JOIN caom2.Artifact, limited to calibrated science images"
+caom2,caom2.distinct_proposal_id,pre-computed materialised view of distinct caom2.Observation.proposal_id values
+caom2,caom2.distinct_proposal_pi,pre-computed materialised view of distinct caom2.Observation.proposal_pi values
+caom2,caom2.distinct_proposal_title,pre-computed materialised view of distinct caom2.Observation.proposal_title values
+ivoa,ivoa.ObsCore,ObsCore-1.1 observation table
+tap_schema,tap_schema.columns,description of columns in this tableset
+tap_schema,tap_schema.key_columns,description of foreign key columns in this tableset
+tap_schema,tap_schema.keys,description of foreign keys in this tableset
+tap_schema,tap_schema.schemas,description of schemas in this tableset
+tap_schema,tap_schema.tables,description of tables in this tableset

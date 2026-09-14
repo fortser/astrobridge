@@ -1,0 +1,10 @@
+{
+  "workspace": "../../workspace/custom_catalog",
+  "services": {
+    "my_irsa": {
+      "kind": "tap",
+      "url": "https://irsa.ipac.caltech.edu/TAP",
+      "label": "IRSA custom TAP example"
+    }
+  }
+}

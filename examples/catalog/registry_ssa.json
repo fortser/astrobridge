@@ -1,0 +1,8 @@
+{
+  "service": "registry",
+  "operation": "tap.query",
+  "params": {
+    "query": "SELECT TOP 10 ivoid,access_url FROM rr.capability NATURAL JOIN rr.interface WHERE standard_id='ivo://ivoa.net/std/ssa' AND intf_role='std'"
+  },
+  "limit": 10
+}

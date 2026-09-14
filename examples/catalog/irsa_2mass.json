@@ -1,0 +1,14 @@
+{
+  "service": "irsa",
+  "operation": "tap.cone",
+  "params": {
+    "table": "fp_psc",
+    "ra": 56.75,
+    "dec": 24.12,
+    "radius": 0.05,
+    "ra_column": "ra",
+    "dec_column": "dec",
+    "columns": "*"
+  },
+  "limit": 5
+}

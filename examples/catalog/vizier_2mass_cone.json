@@ -1,0 +1,14 @@
+{
+  "service": "vizier",
+  "operation": "tap.cone",
+  "params": {
+    "table": "\"II/246/out\"",
+    "ra": 56.75,
+    "dec": 24.12,
+    "radius": 0.05,
+    "ra_column": "RAJ2000",
+    "dec_column": "DEJ2000",
+    "columns": "*"
+  },
+  "limit": 20
+}

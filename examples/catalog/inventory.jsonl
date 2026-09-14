@@ -1,0 +1,7 @@
+{"service":"simbad","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"exoplanet","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"irsa","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"heasarc","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"cadc","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"registry","operation":"tap.tables","params":{},"limit":100000,"cache":false}
+{"service":"vizier","operation":"tap.tables","params":{},"limit":100000,"cache":false}

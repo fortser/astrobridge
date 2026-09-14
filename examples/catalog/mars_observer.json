@@ -1,0 +1,15 @@
+{
+  "service": "horizons",
+  "operation": "horizons.query",
+  "params": {
+    "target": "499",
+    "center": "500@399",
+    "start": "2026-01-01",
+    "stop": "2026-01-03",
+    "step": "1d",
+    "time_scale": "UT",
+    "kind": "ephemerides",
+    "quantities": "1,9,20,23"
+  },
+  "limit": 5
+}

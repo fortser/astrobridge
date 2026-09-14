@@ -1,0 +1,8 @@
+{
+  "service": "cadc",
+  "operation": "tap.query",
+  "params": {
+    "query": "SELECT TOP 5 dataproduct_type,obs_collection,obs_id,s_ra,s_dec,t_min,t_max,em_min,em_max,access_url,access_format FROM ivoa.ObsCore"
+  },
+  "limit": 5
+}

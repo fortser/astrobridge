@@ -1,0 +1,6 @@
+{
+  "service": "exoplanet",
+  "operation": "tap.query",
+  "params": {"query": "SELECT TOP 100 pl_name,hostname,pl_orbper,pl_rade,pl_bmasse,sy_dist FROM pscomppars WHERE pl_orbper < 10 ORDER BY pl_name"},
+  "limit": 100
+}

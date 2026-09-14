@@ -1,0 +1,21 @@
+{
+  "service": "mast",
+  "operation": "mast.search",
+  "params": {
+    "filters": [
+      {
+        "paramName": "obs_collection",
+        "values": [
+          "JWST"
+        ]
+      },
+      {
+        "paramName": "dataRights",
+        "values": [
+          "PUBLIC"
+        ]
+      }
+    ]
+  },
+  "limit": 5
+}

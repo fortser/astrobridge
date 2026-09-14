@@ -1,0 +1,7 @@
+{
+  "service": "gaia",
+  "operation": "tap.cone",
+  "params": {"ra": 56.75, "dec": 24.12, "radius": 0.03},
+  "limit": 100,
+  "release": "Gaia DR3"
+}

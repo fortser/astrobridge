@@ -1,0 +1,37 @@
+schema_name,table_name,description
+public,allfluxes,"all flux/magnitudes U,B,V,I,J,H,K,u_,g_,r_,i_,z_"
+public,alltypes,all object types concatenated with pipe
+public,author,Author of a bibliographic reference
+public,basic,General data about an astronomical object
+public,biblio,Bibliography
+public,cat,Catalogues name
+public,filter,Description of a flux filter
+public,flux,Magnitude/Flux information about an astronomical object
+public,has_ref,Associations between astronomical objects and their bibliographic references
+public,h_link,hierarchy of membership measure
+public,ident,Identifiers of an astronomical object
+public,ids,all names concatenated with pipe
+public,journals,Description of all used journals in the database
+public,keywords,List of keywords in a paper
+public,mesDiameter,Collection of stellar diameters.
+public,mesDistance,"Collection of distances (pc, kpc or Mpc) by several means."
+public,mesFe_h,"Collection of metallicity, as well as Teff, logg for stars."
+public,mesHerschel,The Herschel observing Log
+public,mesISO,Infrared Space Observatory (ISO) observing log.
+public,mesIUE,International Ultraviolet Explorer observing log.
+public,mesOtype,Other object types associated with an object with origins
+public,mesPLX,Collection of trigonometric parallaxes.
+public,mesPM,Collection of proper motions.
+public,mesRot,Stellar Rotational Velocities.
+public,mesSpT,Collection of spectral types.
+public,mesVar,Collection of stellar variability types and periods.
+public,mesVelocities,"Collection of HRV, Vlsr, cz and redshifts."
+public,mesXmm,XMM observing log.
+public,otypedef,all names and definitions for the object types
+public,otypes,List of all object types associated with an object
+public,ref,Bibliographic reference
+TAP_SCHEMA,TAP_SCHEMA.columns,List of columns of all tables listed in TAP_SCHEMA.TABLES and published in this TAP service.
+TAP_SCHEMA,TAP_SCHEMA.key_columns,"List all foreign keys but provides just the columns linked by the foreign key. To know the table of these columns, see in TAP_SCHEMA.keys using the key_id."
+TAP_SCHEMA,TAP_SCHEMA.keys,"List all foreign keys but provides just the tables linked by the foreign key. To know which columns of these tables are linked, see in TAP_SCHEMA.key_columns using the key_id."
+TAP_SCHEMA,TAP_SCHEMA.schemas,List of schemas published in this TAP service.
+TAP_SCHEMA,TAP_SCHEMA.tables,List of tables published in this TAP service.

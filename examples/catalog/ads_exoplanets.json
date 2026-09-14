@@ -1,0 +1,9 @@
+{
+  "service": "ads",
+  "operation": "literature.search",
+  "params": {
+    "query": "title:\"exoplanet\" year:2020-2026 property:refereed",
+    "offset": 0
+  },
+  "limit": 5
+}

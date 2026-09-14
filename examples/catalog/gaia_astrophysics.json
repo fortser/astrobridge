@@ -1,0 +1,8 @@
+{
+  "service": "gaia",
+  "operation": "tap.query",
+  "params": {
+    "query": "SELECT TOP 5 g.source_id,g.ra,g.dec,g.phot_g_mean_mag,a.teff_gspphot,a.logg_gspphot,a.mh_gspphot FROM gaiadr3.gaia_source AS g JOIN gaiadr3.astrophysical_parameters AS a ON g.source_id=a.source_id WHERE g.phot_g_mean_mag<10"
+  },
+  "limit": 5
+}

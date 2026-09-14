@@ -1,0 +1,8 @@
+{
+  "service": "exoplanet",
+  "operation": "tap.query",
+  "params": {
+    "query": "SELECT TOP 5 pl_name,hostname,pl_orbper,pl_rade,pl_bmasse,pl_eqt,st_teff,st_rad,st_mass,sy_dist FROM pscomppars WHERE pl_rade IS NOT NULL"
+  },
+  "limit": 5
+}

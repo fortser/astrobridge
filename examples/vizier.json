@@ -1,0 +1,6 @@
+{
+  "service": "vizier",
+  "operation": "tap.cone",
+  "params": {"table": "\"I/355/gaiadr3\"", "ra_column": "RA_ICRS", "dec_column": "DE_ICRS", "columns": "Source,RA_ICRS,DE_ICRS,Plx,Gmag", "ra": 56.75, "dec": 24.12, "radius": 0.03},
+  "limit": 100
+}

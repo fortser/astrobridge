@@ -1,0 +1,6 @@
+{
+  "service": "registry",
+  "operation": "tap.query",
+  "params": {"query": "SELECT TOP 20 ivoid,res_title,access_url FROM rr.resource NATURAL JOIN rr.capability NATURAL JOIN rr.interface WHERE standard_id='ivo://ivoa.net/std/tap' AND intf_role='std'"},
+  "limit": 20
+}

@@ -1,0 +1,9 @@
+{
+  "service": "arxiv",
+  "operation": "literature.search",
+  "params": {
+    "query": "cat:astro-ph.CO AND ti:dark",
+    "offset": 0
+  },
+  "limit": 5
+}

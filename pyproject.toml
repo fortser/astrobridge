@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astrobridge"
+version = "0.1.0"
+description = "Reproducible astronomy archive access for humans and LLMs"
+requires-python = ">=3.10"
+dependencies = ["requests[socks]>=2.32,<3", "astropy>=6,<8", "pyvo>=1.6,<2", "defusedxml>=0.7,<1", "jsonschema>=4.22,<5"]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.6,<7"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+astrobridge = "astrobridge.cli:main"
+
+[project.gui-scripts]
+astrobridge-gui = "astrobridge.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
