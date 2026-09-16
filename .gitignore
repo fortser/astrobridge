@@ -37,6 +37,9 @@ astrobridge.local.json
 *.local.json
 *.pem
 *.key
+pi_start.bat
+start_codex_utf8.cmd
+.gitignore
 
 # Logs, temporary files, and OS/editor state
 *.log

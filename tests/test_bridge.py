@@ -8,7 +8,7 @@ import pytest
 from astropy.table import Table
 
 from astrobridge.config import Settings
-from astrobridge.core import Bridge
+from astrobridge.core import Bridge, HANDLERS
 from astrobridge.errors import BridgeError
 from astrobridge.network import Transport
 from astrobridge.tables import from_votable
@@ -48,6 +48,49 @@ def test_cache_detects_modified_artifact(bridge, server):
     second = bridge.run(request())
     assert not second["cache_hit"]
     assert second["run_id"] != manifest["run_id"]
+
+
+def test_unicode_tables_survive_locale_and_text_exports(bridge, tmp_path, monkeypatch):
+    import builtins
+    import io
+    from astrobridge.tables import Result
+
+    # Model Windows cp1251 even when tests run in Python UTF-8 mode or on Linux.
+    def locale_open(original):
+        def open_file(file, mode="r", buffering=-1, encoding=None, *args, **kwargs):
+            if "b" not in mode and encoding is None:
+                encoding = "cp1251"
+            return original(file, mode, buffering, encoding, *args, **kwargs)
+        return open_file
+
+    monkeypatch.setattr(builtins, "open", locale_open(builtins.open))
+    monkeypatch.setattr(io, "open", locale_open(io.open))
+    value = "Ångström — звезда 星"
+    monkeypatch.setitem(HANDLERS, "tap", lambda *args: Result(Table({"title": [value]})))
+    manifest = bridge.run(request())
+    assert manifest["status"] == "success", manifest
+    assert bridge.response(manifest)["rows"][0]["title"] == value
+    assert bridge.run(request())["cache_hit"]
+    for fmt in ("csv", "ecsv"):
+        output = tmp_path / ("unicode." + fmt)
+        bridge.export(manifest["run_id"], output, fmt)
+        assert value in output.read_text(encoding="utf-8")
+        restored = Table.read(output, format="ascii." + fmt, encoding="utf-8", fast_reader=False)
+        assert restored["title"][0] == value
+        with pytest.raises(BridgeError, match="уже существует"):
+            bridge.export(manifest["run_id"], output, fmt)
+
+
+@pytest.mark.parametrize("status,retryable", [(400, False), (429, True)])
+def test_tap_http_error_is_preserved_in_manifest(bridge, server, status, retryable):
+    server[2]["http_error"] = status
+    manifest = bridge.run(request())
+    assert manifest["status"] == "error"
+    assert manifest["error"]["code"] == "http"
+    assert manifest["error"]["retryable"] is retryable
+    assert manifest["http"][0]["status"] == status
+    assert bridge.result(manifest["run_id"])["http"] == manifest["http"]
+    assert not (Path(manifest["directory"]) / "table.ecsv").exists()
 
 
 def test_async_uses_same_transport(bridge, server):
@@ -110,6 +153,20 @@ def test_download_limits_and_no_overwrite(bridge, server, tmp_path):
             Transport(bridge.settings, tmp_path)._receive(response, existing, 1)
         response.close()
     assert existing.read_bytes() == b"keep me"
+
+
+def test_mast_download_uses_uri_basename(bridge, monkeypatch):
+    def fake_download(transport, url, filename, max_mb):
+        path = transport.run_dir / filename
+        path.write_bytes(b"fixture")
+        return path
+
+    monkeypatch.setattr(Transport, "download", fake_download)
+    result = bridge.run({"service": "mast", "operation": "download",
+                         "params": {"url": "mast:JWST/product/example_cal.fits"}})
+    assert result["status"] == "success", result
+    assert result["metadata"]["download"] == "example_cal.fits"
+    assert (Path(result["directory"]) / "example_cal.fits").read_bytes() == b"fixture"
 
 
 @pytest.mark.parametrize("name", ["../oops", "CON", "manifest.json", "raw-0001.bin", "C:\\data.txt"])

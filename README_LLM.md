@@ -221,7 +221,7 @@ astrobridge run examples/mars_vectors.json --preview 10
 `mast.products`: `params.obsid` — **строка с числовым product group ID** либо несколько ID через запятую; необязательный `page`. Берите `obsid` из ответа поиска. `obs_id` и `obsid` — разные поля.
 
 ```json
-{"service":"mast","operation":"mast.products","params":{"obsid":"1000033356","page":1},"limit":100}
+{"service":"mast","operation":"mast.products","params":{"obsid":"27307305","page":1},"limit":100}
 ```
 
 Проверьте `productType`, `productSubGroupDescription`, `calib_level`, `size`, `dataURI`, `dataRights` и другие доступные поля. Список продуктов сам по себе не запускает загрузку.
@@ -251,7 +251,7 @@ astrobridge download "ACTUAL_DATA_URI_FROM_RESULT" --filename observation.fits -
 | `start`, `stop` | Строки календарного времени, которые принимает Horizons |
 | `step` | Строка шага, например `1d` |
 | `kind` | `vectors`, `ephemerides` или `elements` |
-| `time_scale` | Явно `UT`, `TT` или `TDB`; зависит от режима |
+| `time_scale` | **Обязателен**: явно `UT`, `TT` или `TDB`; допустимое значение зависит от режима |
 | `corrections` | Для vectors: `NONE` (по умолчанию), `LT`, `LT+S` |
 | `ref_plane` | Для vectors/elements: `FRAME` (по умолчанию) или `ECLIPTIC` |
 | `quantities` | Для ephemerides: строка кодов, по умолчанию `1,9,20,23` |

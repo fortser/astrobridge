@@ -85,7 +85,8 @@ class Bridge:
             result = handler(service, request["operation"], request["params"], request["limit"], transport)
             transport.check()
             if result.table is not None:
-                result.table.write(folder / "table.ecsv", format="ascii.ecsv")
+                with (folder / "table.ecsv").open("x", encoding="utf-8", newline="") as stream:
+                    result.table.write(stream, format="ascii.ecsv")
             manifest.update(status="success", row_count=len(result.table) if result.table is not None else 0,
                             columns=columns(result.table), truncated=result.truncated, warnings=result.warnings,
                             metadata=result.metadata, release=request.get("release", service.get("release", "unspecified")))
@@ -157,7 +158,7 @@ class Bridge:
         if not path.exists():
             return None
         try:
-            return Table.read(path, format="ascii.ecsv")
+            return Table.read(path, format="ascii.ecsv", encoding="utf-8")
         except Exception:
             raise BridgeError("parse", "Сохранённая ECSV-таблица не читается.") from None
 
@@ -180,5 +181,9 @@ class Bridge:
             formats = {"csv": "ascii.csv", "ecsv": "ascii.ecsv", "fits": "fits", "votable": "votable"}
             if fmt not in formats:
                 raise BridgeError("validation", "Форматы: csv, ecsv, fits, votable, json.")
-            table.write(output, format=formats[fmt])
+            if fmt in {"csv", "ecsv"}:
+                with output.open("x", encoding="utf-8", newline="") as stream:
+                    table.write(stream, format=formats[fmt], fast_writer=False)
+            else:
+                table.write(output, format=formats[fmt])
         return {"path": str(output.resolve()), "sha256": sha256_file(output), "format": fmt}

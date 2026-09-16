@@ -73,7 +73,7 @@ class Transport:
                     return
             self.wait(min(delay, 0.25))
 
-    def _open(self, method, url, *, retry_read=False, **kwargs):
+    def _open(self, method, url, *, retry_read=False, deadline=None, **kwargs):
         validate_url(url)
         host = urlsplit(url).hostname
         proxies = self.proxy_map
@@ -81,10 +81,15 @@ class Transport:
             proxies = {}
         attempts = self.settings.retries + 1 if method == "GET" or retry_read else 1
         for attempt in range(attempts):
+            request_timeout = self.settings.timeout
+            if deadline is not None:
+                request_timeout = min(request_timeout, deadline - time.monotonic())
+                if request_timeout <= 0:
+                    raise BridgeError("timeout", "Превышен бюджет ожидания ответа сервиса.", retryable=True)
             self._throttle(host)
             self.progress(f"{method} {host} — попытка {attempt + 1}")
             try:
-                response = self.session.request(method, url, timeout=(min(15, self.settings.timeout), self.settings.timeout),
+                response = self.session.request(method, url, timeout=(min(15, request_timeout), request_timeout),
                                                 proxies=proxies, stream=True, **kwargs)
             except requests.exceptions.ProxyError:
                 raise BridgeError("proxy", "Не удалось подключиться через прокси. Проверьте адрес, авторизацию и доступность. Прямое подключение не выполнялось.", retryable=True) from None
@@ -97,6 +102,9 @@ class Transport:
                 raise BridgeError("timeout", "Сетевой тайм-аут; уменьшите запрос или используйте TAP async.", retryable=True) from None
             except requests.exceptions.RequestException:
                 raise BridgeError("network", "Сетевая ошибка. Проверьте доступ к сервису и настройки прокси.", retryable=True) from None
+            if response.status_code >= 400:
+                # Error pages can echo credentials. Retain safe HTTP metadata only.
+                self._record(method, response, None, url)
             if response.status_code in {429, 502, 503, 504} and attempt + 1 < attempts:
                 retry_after = response.headers.get("Retry-After", "")
                 response.close()
@@ -107,7 +115,8 @@ class Transport:
                         delay = (parsedate_to_datetime(retry_after) - datetime.now(timezone.utc)).total_seconds()
                     except (ValueError, TypeError, OverflowError):
                         delay = 2 ** attempt
-                if delay > self.settings.job_timeout:
+                remaining = deadline - time.monotonic() if deadline is not None else self.settings.job_timeout
+                if delay > remaining:
                     raise BridgeError("rate_limit", "Retry-After превышает бюджет ожидания; повторите позднее.", retryable=True)
                 self.wait(max(0, delay))
                 continue
@@ -118,12 +127,12 @@ class Transport:
             return response
         raise BridgeError("network", "Исчерпаны попытки подключения.", retryable=True)
 
-    def request(self, method, url, *, retry_read=False, **kwargs):
+    def request(self, method, url, *, retry_read=False, deadline=None, **kwargs):
         """Retain decoded HTTP entity bytes, not re-serialized tables."""
-        response = self._open(method, url, retry_read=retry_read, **kwargs)
+        response = self._open(method, url, retry_read=retry_read, deadline=deadline, **kwargs)
         path = self.run_dir / f"raw-{len(self.records) + 1:04d}.bin"
         try:
-            self._receive(response, path, self.settings.max_response_mb)
+            self._receive(response, path, self.settings.max_response_mb, deadline=deadline)
             response._content = path.read_bytes()
             response._content_consumed = True
             self._record(method, response, path, url)
@@ -131,7 +140,7 @@ class Transport:
         finally:
             response.close()
 
-    def _receive(self, response, path, max_mb):
+    def _receive(self, response, path, max_mb, deadline=None):
         size = 0
         limit = int(max_mb * 1024 * 1024)
         started = time.monotonic()
@@ -142,6 +151,8 @@ class Transport:
                 created = True
                 for chunk in response.iter_content(128 * 1024):
                     self.check()
+                    if deadline is not None and time.monotonic() >= deadline:
+                        raise BridgeError("timeout", "Превышен бюджет ожидания ответа сервиса.", retryable=True)
                     if time.monotonic() - started > self.settings.job_timeout:
                         raise BridgeError("timeout", "Превышено время получения ответа.", retryable=True)
                     size += len(chunk)
@@ -151,6 +162,10 @@ class Transport:
                     if time.monotonic() - last_update >= 0.5:
                         self.progress(f"Получено {size / 1024 / 1024:.1f} MiB / лимит {max_mb} MiB")
                         last_update = time.monotonic()
+        except requests.exceptions.Timeout:
+            if created:
+                path.unlink(missing_ok=True)
+            raise BridgeError("timeout", "Сетевой тайм-аут при получении ответа.", retryable=True) from None
         except requests.exceptions.RequestException:
             if created:
                 path.unlink(missing_ok=True)
@@ -165,7 +180,9 @@ class Transport:
                              "requested_method": method, "requested_url": safe_url(requested_url),
                              "redirects": [{"method": item.request.method, "url": safe_url(item.url), "status": item.status_code} for item in response.history],
                              "received_at": utcnow(), "content_type": response.headers.get("Content-Type", ""),
-                             "file": path.name, "bytes": path.stat().st_size, "sha256": sha256_file(path)})
+                             "file": path.name if path is not None else None,
+                             "bytes": path.stat().st_size if path is not None else None,
+                             "sha256": sha256_file(path) if path is not None else None})
 
     def download(self, url, filename, max_mb, headers=None):
         response = self._open("GET", url, headers=headers)

@@ -2,6 +2,7 @@ import socket
 import socketserver
 import select
 import threading
+import time
 
 import pytest
 
@@ -61,7 +62,44 @@ def test_retry_after_and_redirect_use_transport(tmp_path, server):
     t = Transport(Settings(proxy_mode="direct", min_interval=0), tmp_path)
     assert t.request("GET", base + "/retry").content == b"ok"
     assert server[2]["polls"] == 2
+    assert [record["status"] for record in t.records] == [429, 200]
+    assert t.records[0]["file"] is None
+    assert (tmp_path / t.records[1]["file"]).read_bytes() == b"ok"
     assert t.request("GET", base + "/redirect").content == b"FITS-like-test-content"
+    t.close()
+
+
+def test_expired_deadline_prevents_network_request(tmp_path, server):
+    t = Transport(Settings(proxy_mode="direct", min_interval=0), tmp_path)
+    try:
+        with pytest.raises(BridgeError) as caught:
+            t.request("GET", server[0] + "/file", deadline=time.monotonic() - 0.01)
+        assert caught.value.code == "timeout"
+        assert caught.value.retryable
+        assert not server[1]
+    finally:
+        t.close()
+
+
+@pytest.mark.parametrize("download", [False, True])
+def test_http_error_records_safe_metadata(tmp_path, server, download):
+    t = Transport(Settings(proxy_mode="direct", min_interval=0, retries=0), tmp_path)
+    url = server[0] + "/missing?token=PRIVATE"
+    try:
+        with pytest.raises(BridgeError) as caught:
+            if download:
+                t.download(url, "download.bin", 1)
+            else:
+                t.request("GET", url)
+        assert caught.value.code == "http"
+        assert not caught.value.retryable
+        assert len(t.records) == 1
+        assert t.records[0]["status"] == 404
+        assert t.records[0]["file"] is None
+        assert "PRIVATE" not in dumps(t.records)
+        assert not list(tmp_path.iterdir())
+    finally:
+        t.close()
 
 
 def test_socks5h_dns_at_proxy(tmp_path, server, monkeypatch):
@@ -123,4 +161,3 @@ def test_socks5h_dns_at_proxy(tmp_path, server, monkeypatch):
         proxy.shutdown()
         proxy.server_close()
         thread.join(3)
-

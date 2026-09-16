@@ -76,6 +76,9 @@ def server():
             calls.append(("POST", self.path, data, dict(self.headers)))
             path = urlsplit(self.path).path
             if path == "/tap/sync":
+                if state.get("http_error"):
+                    self.reply(b"invalid query", state["http_error"])
+                    return
                 vot = VOTABLE
                 if state["overflow"]:
                     vot = vot.replace(b"</RESOURCE>", b'<INFO name="QUERY_STATUS" value="OVERFLOW"/></RESOURCE>')

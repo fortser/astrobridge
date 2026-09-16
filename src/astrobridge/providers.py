@@ -4,7 +4,7 @@ from io import StringIO
 import csv
 import json
 import os
-from pathlib import Path
+from pathlib import PurePosixPath
 import re
 import threading
 import time
@@ -127,7 +127,8 @@ def mast(service, operation, p, limit, transport):
     request = {"service": name, "params": args, "format": "json", "pagesize": limit, "page": p.get("page", 1)}
     deadline = time.monotonic() + transport.settings.job_timeout
     while True:
-        response = transport.request("POST", service["url"], data={"request": json.dumps(request)}, retry_read=True)
+        response = transport.request("POST", service["url"], data={"request": json.dumps(request)}, retry_read=True,
+                                     deadline=deadline)
         data = response.json()
         status = data.get("status", "").upper()
         if status == "EXECUTING":
@@ -165,9 +166,9 @@ def horizons(service, operation, p, limit, transport):
     response = transport.request("GET", service["url"], params={"format": "json", **{k: f"'{v}'" for k, v in params.items()}})
     data = response.json()
     text = data.get("result", "")
+    (transport.run_dir / "horizons.txt").write_text(text, encoding="utf-8")
     if data.get("error") or "$$SOE" not in text or "$$EOE" not in text:
         raise BridgeError("query", "Horizons не вернул эфемериды. Проверьте target/center/время; ответ сохранён.")
-    (transport.run_dir / "horizons.txt").write_text(text, encoding="utf-8")
     before, body = text.split("$$SOE", 1)
     body = body.split("$$EOE", 1)[0].strip()
     lines = list(csv.reader(StringIO(body), skipinitialspace=True))
@@ -240,9 +241,9 @@ def vo_search(service, operation, p, limit, transport):
 
 def download(service, operation, p, limit, transport):
     url = p["url"]
+    filename = p.get("filename") or PurePosixPath(urlsplit(url).path).name or "download.bin"
     if url.startswith("mast:"):
         url = "https://mast.stsci.edu/api/v0.1/Download/file?" + urlencode({"uri": url})
-    filename = p.get("filename") or Path(urlsplit(url).path).name or "download.bin"
     reserved = {".", "..", "request.json", "manifest.json", "manifest.tmp", "table.ecsv", "remote-job.json", "query.adql", "horizons.txt"}
     windows_device = re.match(r"^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(?:\.|$)", filename, re.I)
     if filename in reserved or windows_device or not re.fullmatch(r"[\w. -]+", filename) or filename.startswith("raw-") or filename.endswith((".", " ")):
